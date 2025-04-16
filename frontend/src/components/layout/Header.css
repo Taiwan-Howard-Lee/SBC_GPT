@@ -41,7 +41,7 @@
   gap: 0.75rem;
 }
 
-.share-button, .logout-button {
+.admin-button, .logout-button {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -53,19 +53,26 @@
   font-size: 0.875rem;
 }
 
-.share-button {
+.admin-button {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.admin-button:hover {
+  opacity: 1;
 }
 
 .logout-button {
-  background-color: rgba(0, 0, 0, 0.05);
-  color: var(--text-color);
-  transition: background-color 0.2s;
+  background-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  opacity: 0.8 !important;
+  transition: opacity 0.2s !important;
 }
 
 .logout-button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 1 !important;
 }
 
 .menu-button {

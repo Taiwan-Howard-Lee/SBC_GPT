@@ -1,0 +1,27 @@
+.deleted-chats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rating {
+  white-space: nowrap;
+}
+
+.star {
+  color: #ddd;
+  font-size: 1.25rem;
+}
+
+.star.filled {
+  color: #ffc107;
+}
+
+.feedback {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #666;
+  font-style: italic;
+}

@@ -1,23 +1,13 @@
-const { v4: uuidv4 } = require('uuid');
 const { processMessage } = require('../services/geminiService');
-
-// In-memory chat storage
-const chats = new Map();
+const chatRepo = require('../repositories/chatRepository');
 
 /**
  * Get all chats
  */
 const getAllChats = (req, res) => {
   try {
-    const chatList = Array.from(chats.values()).map(chat => ({
-      id: chat.id,
-      title: chat.title,
-      createdAt: chat.createdAt,
-      updatedAt: chat.updatedAt,
-      messageCount: chat.messages.length
-    }));
-
-    res.json(chatList);
+    const chats = chatRepo.getAllChats();
+    res.json(chats);
   } catch (error) {
     console.error('Error getting chats:', error);
     res.status(500).json({ message: 'Error retrieving chats', error: error.message });
@@ -29,22 +19,18 @@ const getAllChats = (req, res) => {
  */
 const createChat = (req, res) => {
   try {
-    const chatId = uuidv4();
-    const newChat = {
-      id: chatId,
-      title: req.body.title || 'New Conversation',
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      messages: [
-        {
-          role: 'system',
-          content: 'You are a helpful assistant that provides accurate, informative responses. You can access various tools and agents to help answer questions.',
-          timestamp: new Date()
-        }
-      ]
-    };
+    const title = req.body.title || 'New Conversation';
+    const systemMessage = 'You are a helpful assistant that provides accurate, informative responses. You can access various tools and agents to help answer questions.';
 
-    chats.set(chatId, newChat);
+    // Create chat in database
+    const newChat = chatRepo.createChat(title);
+
+    // Add system message
+    const message = chatRepo.addSystemMessage(newChat.id, systemMessage);
+
+    // Add message to response
+    newChat.messages = [message];
+
     res.status(201).json(newChat);
   } catch (error) {
     console.error('Error creating chat:', error);
@@ -57,7 +43,7 @@ const createChat = (req, res) => {
  */
 const getChatById = (req, res) => {
   try {
-    const chat = chats.get(req.params.id);
+    const chat = chatRepo.getChatById(req.params.id);
 
     if (!chat) {
       return res.status(404).json({ message: 'Chat not found' });
@@ -75,11 +61,21 @@ const getChatById = (req, res) => {
  */
 const deleteChat = (req, res) => {
   try {
-    if (!chats.has(req.params.id)) {
+    const chatId = req.params.id;
+
+    // Check if chat exists
+    const chat = chatRepo.getChatById(chatId);
+    if (!chat) {
       return res.status(404).json({ message: 'Chat not found' });
     }
 
-    chats.delete(req.params.id);
+    // Delete chat from database
+    const result = chatRepo.deleteChat(chatId);
+
+    if (result.changes === 0) {
+      return res.status(404).json({ message: 'Chat not found' });
+    }
+
     res.status(204).send();
   } catch (error) {
     console.error('Error deleting chat:', error);
@@ -93,8 +89,9 @@ const deleteChat = (req, res) => {
 const addMessage = async (req, res) => {
   try {
     const chatId = req.params.id;
-    const chat = chats.get(chatId);
 
+    // Check if chat exists
+    const chat = chatRepo.getChatById(chatId);
     if (!chat) {
       return res.status(404).json({ message: 'Chat not found' });
     }
@@ -105,33 +102,33 @@ const addMessage = async (req, res) => {
       return res.status(400).json({ message: 'Message content is required' });
     }
 
-    // Add user message
-    const userMessage = {
-      role: 'user',
-      content,
-      timestamp: new Date()
-    };
-
-    chat.messages.push(userMessage);
+    // Add user message to database
+    const userMessage = chatRepo.addMessage(chatId, 'user', content);
 
     try {
       // Process with Gemini
-      const response = await processMessage(chat.messages);
+      const messages = chat.messages.map(msg => ({
+        role: msg.role,
+        content: msg.content
+      }));
 
-      // Add assistant message
-      const assistantMessage = {
-        role: 'assistant',
-        content: response.content,
-        timestamp: new Date(),
-        model: response.model
-      };
+      // Add the new user message
+      messages.push({ role: 'user', content });
 
-      chat.messages.push(assistantMessage);
-      chat.updatedAt = new Date();
+      // Get AI response
+      const response = await processMessage(messages);
+
+      // Add assistant message to database
+      const assistantMessage = chatRepo.addMessage(
+        chatId,
+        'assistant',
+        response.content,
+        response.model
+      );
 
       // Update chat title if it's the first user message
-      if (chat.messages.filter(m => m.role === 'user').length === 1) {
-        chat.title = content.substring(0, 30) + (content.length > 30 ? '...' : '');
+      if (chat.messages.filter(m => m.role === 'user').length === 0) {
+        chatRepo.updateChatTitle(chatId, content.substring(0, 30) + (content.length > 30 ? '...' : ''));
       }
 
       res.json({
@@ -140,9 +137,6 @@ const addMessage = async (req, res) => {
       });
     } catch (error) {
       console.error('Error processing message:', error);
-
-      // Remove the user message since processing failed
-      chat.messages.pop();
 
       res.status(500).json({
         message: 'Error processing message with AI model',
@@ -155,10 +149,37 @@ const addMessage = async (req, res) => {
   }
 };
 
+/**
+ * Update chat title
+ */
+const updateChatTitle = (req, res) => {
+  try {
+    const chatId = req.params.id;
+    const { title } = req.body;
+
+    if (!title || title.trim() === '') {
+      return res.status(400).json({ message: 'Chat title cannot be empty' });
+    }
+
+    // Update the chat title in database
+    const updatedChat = chatRepo.updateChatTitle(chatId, title.trim());
+
+    if (!updatedChat) {
+      return res.status(404).json({ message: 'Chat not found' });
+    }
+
+    res.json(updatedChat);
+  } catch (error) {
+    console.error('Error updating chat title:', error);
+    res.status(500).json({ message: 'Error updating chat title', error: error.message });
+  }
+};
+
 module.exports = {
   getAllChats,
   createChat,
   getChatById,
   deleteChat,
-  addMessage
+  addMessage,
+  updateChatTitle
 };

@@ -94,6 +94,7 @@
   font-size: 0.75rem;
 }
 
+.edit-chat-button,
 .delete-chat-button {
   background: none;
   border: none;
@@ -105,12 +106,35 @@
   transition: opacity 0.2s, color 0.2s;
 }
 
+.chat-item:hover .edit-chat-button,
 .chat-item:hover .delete-chat-button {
   opacity: 1;
 }
 
+.edit-chat-button:hover,
 .delete-chat-button:hover {
   color: rgba(255, 255, 255, 0.9);
+}
+
+.edit-title-container {
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.edit-title-input {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  color: white;
+  font-family: var(--secondary-font);
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+}
+
+.edit-title-input:focus {
+  border-color: var(--primary-color);
 }
 
 .delete-confirmation {

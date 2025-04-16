@@ -44,10 +44,10 @@ interface ChatProviderProps {
 export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
   // State for all chats
   const [chats, setChats] = useState<Chat[]>([]);
-  
+
   // State for the current active chat
   const [currentChatId, setCurrentChatId] = useState<string>('');
-  
+
   // Loading state
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
@@ -57,7 +57,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
       try {
         setIsLoading(true);
         const chatData = await api.getChats();
-        
+
         if (chatData && chatData.length > 0) {
           const convertedChats = chatData.map(api.convertChat);
           setChats(convertedChats);
@@ -85,7 +85,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
       setIsLoading(true);
       const newChat = await api.createChat();
       const convertedChat = api.convertChat(newChat);
-      
+
       setChats(prevChats => [convertedChat, ...prevChats]);
       setCurrentChatId(convertedChat.id);
     } catch (error) {
@@ -102,14 +102,14 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
       // Fetch the full chat with messages
       const chatData = await api.getChatById(chatId);
       const convertedChat = api.convertChat(chatData);
-      
+
       // Update the chat in the state
-      setChats(prevChats => 
-        prevChats.map(chat => 
+      setChats(prevChats =>
+        prevChats.map(chat =>
           chat.id === chatId ? convertedChat : chat
         )
       );
-      
+
       setCurrentChatId(chatId);
     } catch (error) {
       console.error('Error switching chat:', error);
@@ -121,7 +121,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
   // Send a message and get a response
   const sendMessage = useCallback(async (content: string) => {
     if (!currentChatId || !content.trim()) return;
-    
+
     try {
       // Add optimistic user message
       const userMessage: MessageItemProps = {
@@ -129,10 +129,10 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
         content,
         timestamp: new Date()
       };
-      
-      setChats(prevChats => 
-        prevChats.map(chat => 
-          chat.id === currentChatId 
+
+      setChats(prevChats =>
+        prevChats.map(chat =>
+          chat.id === currentChatId
             ? {
                 ...chat,
                 messages: [...chat.messages, userMessage],
@@ -142,17 +142,17 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
             : chat
         )
       );
-      
+
       // Send message to API
       const response = await api.sendMessage(currentChatId, content);
-      
+
       // Convert the response messages
       const assistantMessage = api.convertMessage(response.assistantMessage);
-      
+
       // Update chat with assistant message
-      setChats(prevChats => 
-        prevChats.map(chat => 
-          chat.id === currentChatId 
+      setChats(prevChats =>
+        prevChats.map(chat =>
+          chat.id === currentChatId
             ? {
                 ...chat,
                 messages: [...chat.messages, assistantMessage],
@@ -169,9 +169,9 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
     } catch (error) {
       console.error('Error sending message:', error);
       // Remove the optimistic user message if there was an error
-      setChats(prevChats => 
-        prevChats.map(chat => 
-          chat.id === currentChatId 
+      setChats(prevChats =>
+        prevChats.map(chat =>
+          chat.id === currentChatId
             ? {
                 ...chat,
                 messages: chat.messages.slice(0, -1),
@@ -192,10 +192,10 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
 
     try {
       await api.deleteChat(chatId);
-      
+
       // Remove the chat from state
       setChats(prevChats => prevChats.filter(chat => chat.id !== chatId));
-      
+
       // If the deleted chat was the current one, switch to the first available chat
       if (chatId === currentChatId) {
         const remainingChats = chats.filter(chat => chat.id !== chatId);
@@ -217,15 +217,26 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
   }, [chats, currentChatId]);
 
   // Update a chat's title
-  const updateChatTitle = useCallback((chatId: string, title: string) => {
-    setChats(prevChats => 
-      prevChats.map(chat => 
-        chat.id === chatId 
-          ? { ...chat, title }
-          : chat
-      )
-    );
-    // Note: We're not implementing this on the backend yet
+  const updateChatTitle = useCallback(async (chatId: string, title: string) => {
+    try {
+      setIsLoading(true);
+
+      // Call the API to update the title
+      await api.updateChatTitle(chatId, title);
+
+      // Update the chat in the state
+      setChats(prevChats =>
+        prevChats.map(chat =>
+          chat.id === chatId
+            ? { ...chat, title, lastUpdated: new Date() }
+            : chat
+        )
+      );
+    } catch (error) {
+      console.error('Error updating chat title:', error);
+    } finally {
+      setIsLoading(false);
+    }
   }, []);
 
   // Context value

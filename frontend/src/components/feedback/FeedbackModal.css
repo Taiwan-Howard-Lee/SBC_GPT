@@ -1,0 +1,138 @@
+.feedback-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.feedback-modal {
+  background-color: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-modal-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.feedback-modal-header h2 {
+  margin: 0;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.feedback-modal-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feedback-modal-body p {
+  margin: 0;
+  color: #666;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.star-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star-button.active {
+  color: #ffc107;
+}
+
+.rating-label {
+  font-size: 0.875rem;
+  color: #666;
+  height: 1.25rem;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.comments-container label {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.comments-container textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: var(--secondary-font);
+}
+
+.feedback-error {
+  padding: 0.75rem;
+  background-color: #ffebee;
+  color: #d32f2f;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.feedback-modal-footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.skip-button {
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  color: #666;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--secondary-font);
+}
+
+.submit-button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--secondary-font);
+}
+
+.submit-button:disabled,
+.skip-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

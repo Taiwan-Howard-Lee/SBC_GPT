@@ -70,16 +70,20 @@ app.get('/api/auth/validate', (req, res) => {
   });
 });
 
-// Import chat routes
+// Import routes
 const chatRoutes = require('./routes/chat');
+const adminRoutes = require('./routes/admin');
+const feedbackRoutes = require('./routes/feedback');
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Server is running' });
 });
 
-// Use chat routes
+// Use routes
 app.use('/api/chats', chatRoutes);
+app.use('/api/admin', adminRoutes);
+app.use('/api/feedback', feedbackRoutes);
 
 // Start server
 const PORT = process.env.PORT || 3001;

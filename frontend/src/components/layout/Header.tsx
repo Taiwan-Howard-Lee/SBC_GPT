@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { AgentSelector, AgentId } from '../agents';
 import { Modal } from '../common';
 import { availableAgents } from '../../data/agents';
@@ -11,11 +12,16 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ onOpenAgentSelector }) => {
   const { logout } = useAuthContext();
+  const navigate = useNavigate();
 
   const handleLogout = () => {
     if (window.confirm('Are you sure you want to log out?')) {
       logout();
     }
+  };
+
+  const handleAdminEntry = () => {
+    navigate('/admin-login');
   };
 
   return (
@@ -31,13 +37,13 @@ const Header: React.FC<HeaderProps> = ({ onOpenAgentSelector }) => {
         </div>
       </div>
       <div className="header-right">
-        <button className="share-button">
+        <button className="admin-button" onClick={handleAdminEntry} title="Admin Access">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 12V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M16 6L12 2L8 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M12 2V15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M12 16V12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M12 8H12.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          <span>Share</span>
+          <span>Elites Entry</span>
         </button>
         <button className="logout-button" onClick={handleLogout} title="Logout">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

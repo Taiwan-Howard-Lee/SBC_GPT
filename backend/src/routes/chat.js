@@ -5,7 +5,8 @@ const {
   createChat,
   getChatById,
   deleteChat,
-  addMessage
+  addMessage,
+  updateChatTitle
 } = require('../controllers/chatController');
 
 const router = express.Router();
@@ -19,5 +20,6 @@ router.post('/', createChat);
 router.get('/:id', getChatById);
 router.delete('/:id', deleteChat);
 router.post('/:id/messages', addMessage);
+router.put('/:id/title', updateChatTitle);
 
 module.exports = router;
