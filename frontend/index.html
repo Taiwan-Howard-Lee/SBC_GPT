@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SBC GPT - Multi-Agent Chat Interface</title>
+    <!-- Google Fonts: Teko for headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Script -->
+    <script src="https://kit.fontawesome.com/ec27db2507.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div style="padding: 20px; font-family: Arial, sans-serif;">
+        <h2 style="color: #39908b;">Loading SBC GPT...</h2>
+        <p>If this message doesn't disappear, there might be an issue with the application.</p>
+        <div id="error-display" style="color: red; margin-top: 20px; padding: 10px; border: 1px solid #ffcccc; background-color: #fff8f8; display: none;"></div>
+      </div>
+    </div>
+    <script>
+      window.addEventListener('error', function(e) {
+        var errorDisplay = document.getElementById('error-display');
+        if (errorDisplay) {
+          errorDisplay.style.display = 'block';
+          errorDisplay.innerHTML += '<p><strong>Error:</strong> ' + e.message + '</p>';
+        }
+        console.error('Caught error:', e);
+      });
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
