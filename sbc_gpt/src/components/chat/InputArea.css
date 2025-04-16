@@ -1,0 +1,99 @@
+.input-area-container {
+  border-top: 1px solid var(--border-color);
+  background-color: var(--secondary-color);
+  padding: 0.75rem 1rem;
+  position: relative;
+}
+
+.input-area {
+  display: flex;
+  align-items: flex-end;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.textarea-container {
+  flex: 1;
+  min-height: 24px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.input-textarea {
+  width: 100%;
+  border: none;
+  background: transparent;
+  resize: none;
+  padding: 0.5rem;
+  font-family: var(--secondary-font);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  outline: none;
+  color: var(--text-color);
+}
+
+.input-textarea::placeholder {
+  color: #aaa;
+}
+
+.input-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.input-button {
+  background: none;
+  border: none;
+  color: #888;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.input-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--primary-color);
+}
+
+.send-button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.send-button:hover {
+  transform: scale(1.05);
+}
+
+.send-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.input-footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.footer-text {
+  font-size: 0.75rem;
+  color: #888;
+}

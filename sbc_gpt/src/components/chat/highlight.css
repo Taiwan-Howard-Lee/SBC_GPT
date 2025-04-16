@@ -1,0 +1,165 @@
+/* highlight.js github theme */
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/* Dark theme for user messages */
+.message-user .hljs {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f8f8f8;
+}
+
+.message-user .hljs-comment,
+.message-user .hljs-quote {
+  color: #ccc;
+}
+
+.message-user .hljs-keyword,
+.message-user .hljs-selector-tag,
+.message-user .hljs-subst {
+  color: #f8f8f8;
+  font-weight: bold;
+}
+
+.message-user .hljs-number,
+.message-user .hljs-literal,
+.message-user .hljs-variable,
+.message-user .hljs-template-variable,
+.message-user .hljs-tag .hljs-attr {
+  color: #b0e0e0;
+}
+
+.message-user .hljs-string,
+.message-user .hljs-doctag {
+  color: #f9a1bc;
+}
+
+.message-user .hljs-title,
+.message-user .hljs-section,
+.message-user .hljs-selector-id {
+  color: #ffc0cb;
+  font-weight: bold;
+}
+
+.message-user .hljs-type,
+.message-user .hljs-class .hljs-title {
+  color: #b0c4de;
+  font-weight: bold;
+}
+
+.message-user .hljs-tag,
+.message-user .hljs-name,
+.message-user .hljs-attribute {
+  color: #add8e6;
+  font-weight: normal;
+}
+
+.message-user .hljs-regexp,
+.message-user .hljs-link {
+  color: #7fff00;
+}
+
+.message-user .hljs-symbol,
+.message-user .hljs-bullet {
+  color: #ffb6c1;
+}
+
+.message-user .hljs-built_in,
+.message-user .hljs-builtin-name {
+  color: #87cefa;
+}
+
+.message-user .hljs-meta {
+  color: #ccc;
+  font-weight: bold;
+}

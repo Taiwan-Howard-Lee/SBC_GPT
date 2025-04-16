@@ -1,0 +1,72 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--secondary-color);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-title span {
+  font-family: var(--primary-font);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.share-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  cursor: pointer;
+  font-family: var(--secondary-font);
+  font-size: 0.875rem;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  padding: 0.25rem;
+}
+
+.menu-button svg {
+  width: 20px;
+  height: 20px;
+}
