@@ -12,7 +12,7 @@
   border: 1px solid var(--border-color);
   border-radius: 0.75rem;
   padding: 0.5rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px var(--shadow-color);
 }
 
 .textarea-container {
@@ -20,6 +20,13 @@
   min-height: 24px;
   max-height: 200px;
   overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.textarea-container::-webkit-scrollbar {
+  display: none;
 }
 
 .input-textarea {
@@ -33,10 +40,22 @@
   line-height: 1.5;
   outline: none;
   color: var(--text-color);
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.input-textarea::-webkit-scrollbar {
+  display: none;
+}
+
+body.dark-mode .input-textarea {
+  color: white; /* Ensure input text is white in dark mode */
 }
 
 .input-textarea::placeholder {
-  color: #aaa;
+  color: var(--border-color);
 }
 
 .input-actions {
@@ -48,7 +67,7 @@
 .input-button {
   background: none;
   border: none;
-  color: #888;
+  color: var(--text-color);
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -60,7 +79,7 @@
 }
 
 .input-button:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--hover-color);
   color: var(--primary-color);
 }
 
@@ -87,6 +106,8 @@
   cursor: not-allowed;
 }
 
+
+
 .input-footer {
   display: flex;
   justify-content: center;
@@ -95,5 +116,5 @@
 
 .footer-text {
   font-size: 0.75rem;
-  color: #888;
+  color: var(--text-color);
 }

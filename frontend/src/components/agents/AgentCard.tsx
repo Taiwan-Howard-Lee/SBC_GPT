@@ -9,9 +9,9 @@ interface AgentCardProps {
 }
 
 const AgentCard: React.FC<AgentCardProps> = ({ agent, isSelected, onSelect }) => {
-  // Check if this is the Central Router (always selected and can't be deselected)
-  const isCentralRouter = agent.id === 'central-router';
-  const isDisabled = isCentralRouter && isSelected;
+  // Both agents are essential and can't be deselected
+  const isEssentialAgent = agent.id === 'central-router' || agent.id === 'notion-agent';
+  const isDisabled = isEssentialAgent && isSelected;
 
   return (
     <div

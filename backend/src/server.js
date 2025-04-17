@@ -74,6 +74,10 @@ app.get('/api/auth/validate', (req, res) => {
 const chatRoutes = require('./routes/chat');
 const adminRoutes = require('./routes/admin');
 const feedbackRoutes = require('./routes/feedback');
+const agentRoutes = require('./routes/agents');
+
+// Initialize agents system
+require('./agents');
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
@@ -84,6 +88,7 @@ app.get('/api/health', (req, res) => {
 app.use('/api/chats', chatRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/feedback', feedbackRoutes);
+app.use('/api/agents', agentRoutes);
 
 // Start server
 const PORT = process.env.PORT || 3001;

@@ -126,60 +126,61 @@ const Sidebar: React.FC = () => {
         <h3 className="section-title">Library</h3>
         <div className="chat-history">
           {chats.map(chat => (
-            <div
-              key={chat.id}
-              className={`chat-item ${chat.id === currentChatId ? 'active' : ''}`}
-              onClick={() => handleChatClick(chat.id)}
-            >
-              {editingChatId === chat.id ? (
-                <div className="edit-title-container" onClick={(e) => e.stopPropagation()}>
-                  <input
-                    type="text"
-                    value={editedTitle}
-                    onChange={handleTitleChange}
-                    onKeyDown={handleTitleKeyPress}
-                    onBlur={saveTitle}
-                    autoFocus
-                    className="edit-title-input"
-                  />
-                </div>
-              ) : (
-                <span className="chat-title">{chat.title}</span>
-              )}
-              <div className="chat-item-actions">
-                <span className="chat-count">{chat.messageCount}</span>
-                {/* Edit button */}
-                <button
-                  className="edit-chat-button"
-                  onClick={(e) => handleEditClick(e, chat.id, chat.title)}
-                  title="Edit chat title"
-                >
-                  <i className="fas fa-edit"></i>
-                </button>
-                {/* Only show delete button if we have more than one chat */}
-                {chats.length > 1 && (
-                  <button
-                    className="delete-chat-button"
-                    onClick={(e) => handleDeleteClick(e, chat.id)}
-                    title="Delete chat"
-                  >
-                    <i className="fas fa-trash"></i>
-                  </button>
+            <React.Fragment key={chat.id}>
+              <div
+                className={`chat-item ${chat.id === currentChatId ? 'active' : ''}`}
+                onClick={() => handleChatClick(chat.id)}
+              >
+                {editingChatId === chat.id ? (
+                  <div className="edit-title-container" onClick={(e) => e.stopPropagation()}>
+                    <input
+                      type="text"
+                      value={editedTitle}
+                      onChange={handleTitleChange}
+                      onKeyDown={handleTitleKeyPress}
+                      onBlur={saveTitle}
+                      autoFocus
+                      className="edit-title-input"
+                    />
+                  </div>
+                ) : (
+                  <span className="chat-title">{chat.title}</span>
                 )}
+                <div className="chat-item-actions">
+                  <span className="chat-count">{chat.messageCount}</span>
+                  {/* Edit button */}
+                  <button
+                    className="edit-chat-button"
+                    onClick={(e) => handleEditClick(e, chat.id, chat.title)}
+                    title="Edit chat title"
+                  >
+                    <i className="fas fa-edit"></i>
+                  </button>
+                  {/* Only show delete button if we have more than one chat */}
+                  {chats.length > 1 && (
+                    <button
+                      className="delete-chat-button"
+                      onClick={(e) => handleDeleteClick(e, chat.id)}
+                      title="Delete chat"
+                    >
+                      <i className="fas fa-trash"></i>
+                    </button>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
 
-          {/* Delete confirmation dialog */}
-          {chatToDelete && (
-            <div className="delete-confirmation">
-              <p>Delete this chat?</p>
-              <div className="confirmation-buttons">
-                <button onClick={confirmDelete} className="confirm-button">Delete</button>
-                <button onClick={cancelDelete} className="cancel-button">Cancel</button>
-              </div>
-            </div>
-          )}
+              {/* Inline delete confirmation */}
+              {chatToDelete === chat.id && (
+                <div className="delete-confirmation inline-delete-confirmation">
+                  <p>Delete this chat?</p>
+                  <div className="confirmation-buttons">
+                    <button onClick={confirmDelete} className="confirm-button">Delete</button>
+                    <button onClick={cancelDelete} className="cancel-button">Cancel</button>
+                  </div>
+                </div>
+              )}
+            </React.Fragment>
+          ))}
         </div>
       </div>
 
@@ -195,7 +196,6 @@ const Sidebar: React.FC = () => {
       {/* Feedback Modal */}
       {showFeedbackModal && feedbackChatId && (
         <FeedbackModal
-          chatId={feedbackChatId}
           onSubmit={handleFeedbackSubmit}
           onSkip={handleFeedbackSkip}
         />

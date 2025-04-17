@@ -1,0 +1,65 @@
+:root {
+  /* Light mode (default) */
+  --primary-color: #39908b; /* Teal */
+  --secondary-color: white;
+  --text-color: #333;
+  --background-color: #f5f5f5;
+  --card-background: white;
+  --border-color: #e0e0e0;
+  --hover-color: rgba(57, 144, 139, 0.1);
+  --active-color: rgba(57, 144, 139, 0.2);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --input-background: white;
+  --sidebar-background: var(--primary-color); /* Use primary color for sidebar */
+  --header-background: white;
+  --message-user-bg: #f0f0f0;
+  --message-assistant-bg: rgba(57, 144, 139, 0.1);
+  --scrollbar-thumb: #c1c1c1;
+  --scrollbar-track: #f1f1f1;
+}
+
+/* Dark mode */
+body.dark-mode {
+  --primary-color: #4db6b0; /* Lighter teal for better contrast */
+  --secondary-color: #30454A; /* Cybrus color */
+  --text-color: #ffffff; /* Pure white for maximum contrast */
+  --background-color: #1a2327; /* Dark background */
+  --card-background: #30454A; /* Cybrus color for cards */
+  --border-color: #3d5761; /* Subtle border color */
+  --hover-color: rgba(77, 182, 176, 0.15); /* Lighter hover effect */
+  --active-color: rgba(77, 182, 176, 0.25); /* Lighter active effect */
+  --shadow-color: rgba(0, 0, 0, 0.3); /* Shadow color */
+  --input-background: #253238; /* Slightly lighter than background */
+  --sidebar-background: #253238; /* Darker than card background for contrast */
+  --header-background: #30454A; /* Cybrus color for header */
+  --message-user-bg: #3d5761; /* User message background */
+  --message-assistant-bg: rgba(77, 182, 176, 0.15); /* Assistant message background */
+  --scrollbar-thumb: #4d6772; /* Scrollbar thumb */
+  --scrollbar-track: #253238; /* Scrollbar track */
+}
+
+/* Apply theme to body */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}

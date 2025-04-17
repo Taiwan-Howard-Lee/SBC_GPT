@@ -3,14 +3,46 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: var(--primary-color);
+  background-color: var(--sidebar-background, var(--primary-color));
   color: var(--secondary-color);
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid var(--border-color);
+}
+
+body.dark-mode .sidebar {
+  color: white; /* Ensure text is white in dark mode */
+}
+
+body.dark-mode .section-title,
+body.dark-mode .chat-title,
+body.dark-mode .chat-count,
+body.dark-mode .username,
+body.dark-mode .delete-confirmation p,
+body.dark-mode .new-chat-button {
+  color: white !important; /* Force white text in dark mode */
+}
+
+body.dark-mode .edit-chat-button,
+body.dark-mode .delete-chat-button {
+  color: rgba(255, 255, 255, 0.7) !important; /* Slightly transparent white for icons */
+}
+
+body.dark-mode .edit-chat-button:hover,
+body.dark-mode .delete-chat-button:hover {
+  color: white !important; /* Full white on hover */
+}
+
+body.dark-mode .new-chat-button {
+  background-color: rgba(77, 182, 176, 0.2); /* Lighter teal background */
+  border: 1px solid rgba(77, 182, 176, 0.4); /* Lighter teal border */
+}
+
+body.dark-mode .new-chat-button:hover {
+  background-color: rgba(77, 182, 176, 0.3); /* Slightly brighter on hover */
 }
 
 .sidebar-header {
   padding: 1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .new-chat-button {
@@ -20,9 +52,9 @@
   width: 100%;
   padding: 0.75rem;
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--hover-color);
   color: var(--secondary-color);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--border-color);
   cursor: pointer;
   font-family: var(--secondary-font);
   font-size: 0.875rem;
@@ -30,7 +62,7 @@
 }
 
 .new-chat-button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--active-color);
 }
 
 .sidebar-section {
@@ -64,11 +96,11 @@
 }
 
 .chat-item:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--hover-color);
 }
 
 .chat-item.active {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: var(--active-color);
 }
 
 .chat-title {
@@ -142,8 +174,15 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
   padding: 0.75rem;
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
   text-align: center;
+}
+
+.inline-delete-confirmation {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: relative;
 }
 
 .delete-confirmation p {
@@ -178,7 +217,7 @@
 
 .sidebar-footer {
   padding: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid var(--border-color);
 }
 
 .user-profile {

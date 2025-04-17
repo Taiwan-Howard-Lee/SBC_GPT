@@ -5,6 +5,36 @@
   padding: 0;
 }
 
+/* Loading styles */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.loading-container p {
+  margin-top: 1rem;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(57, 144, 139, 0.2);
+  border-radius: 50%;
+  border-top-color: var(--primary-color);
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
 .chat-container {
   display: flex;
   flex-direction: column;

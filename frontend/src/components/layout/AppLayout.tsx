@@ -19,8 +19,6 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
     selectedAgentIds,
     handleAgentSelect,
     handleAgentDeselect,
-    handleSelectAllAgents,
-    handleDeselectAllAgents,
     toggleAgentSelector
   } = useAgentContext();
 
@@ -43,8 +41,6 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
           selectedAgents={selectedAgentIds}
           onAgentSelect={handleAgentSelect}
           onAgentDeselect={handleAgentDeselect}
-          onSelectAll={handleSelectAllAgents}
-          onDeselectAll={handleDeselectAllAgents}
         />
       </Modal>
     </div>

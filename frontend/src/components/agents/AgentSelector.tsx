@@ -8,17 +8,13 @@ interface AgentSelectorProps {
   selectedAgents: AgentId[];
   onAgentSelect: (agentId: AgentId) => void;
   onAgentDeselect: (agentId: AgentId) => void;
-  onSelectAll: () => void;
-  onDeselectAll: () => void;
 }
 
 const AgentSelector: React.FC<AgentSelectorProps> = ({
   agents,
   selectedAgents,
   onAgentSelect,
-  onAgentDeselect,
-  onSelectAll,
-  onDeselectAll
+  onAgentDeselect
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -39,20 +35,9 @@ const AgentSelector: React.FC<AgentSelectorProps> = ({
   return (
     <div className="agent-selector">
       <div className="agent-selector-header">
-        <h2>Select Agents</h2>
-        <div className="agent-selector-actions">
-          <button
-            className="selector-action-button"
-            onClick={onSelectAll}
-          >
-            Select All
-          </button>
-          <button
-            className="selector-action-button"
-            onClick={onDeselectAll}
-          >
-            Deselect All
-          </button>
+        <h2>Active Agents</h2>
+        <div className="agent-selector-info">
+          <p>These essential agents are always active</p>
         </div>
       </div>
 
@@ -95,7 +80,7 @@ const AgentSelector: React.FC<AgentSelectorProps> = ({
 
       <div className="agent-selector-footer">
         <div className="selected-count">
-          {selectedAgents.length} of {agents.length} agents selected
+          Both essential agents are always active
         </div>
       </div>
     </div>

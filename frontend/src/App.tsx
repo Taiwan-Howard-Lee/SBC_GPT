@@ -6,7 +6,9 @@ import LoginPage from './components/auth/LoginPage';
 import AdminLogin from './pages/admin/AdminLogin';
 import AdminDashboard from './pages/admin/AdminDashboard';
 import { useAuthContext } from './contexts/AuthContext';
+import { ThemeProvider } from './contexts/ThemeContext';
 import './App.css';
+import './styles/theme.css';
 
 // Admin route guard component
 const AdminRoute = ({ children }: { children: React.ReactNode }) => {
@@ -19,16 +21,7 @@ const AdminRoute = ({ children }: { children: React.ReactNode }) => {
   return <>{children}</>;
 };
 
-// Protected route component
-const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
-  const { isAuthenticated } = useAuthContext();
 
-  if (!isAuthenticated) {
-    return <Navigate to="/" replace />;
-  }
-
-  return <>{children}</>;
-};
 
 const App: React.FC = () => {
   const { isAuthenticated, isLoading } = useAuthContext();
@@ -44,26 +37,28 @@ const App: React.FC = () => {
   }
 
   return (
-    <BrowserRouter>
-      <Routes>
-        {/* Main app route */}
-        <Route
-          path="/"
-          element={isAuthenticated ? <AppLayout><ChatContainer /></AppLayout> : <LoginPage />}
-        />
+    <ThemeProvider>
+      <BrowserRouter>
+        <Routes>
+          {/* Main app route */}
+          <Route
+            path="/"
+            element={isAuthenticated ? <AppLayout><ChatContainer /></AppLayout> : <LoginPage />}
+          />
 
-        {/* Admin routes */}
-        <Route path="/admin-login" element={<AdminLogin />} />
-        <Route
-          path="/admin/*"
-          element={
-            <AdminRoute>
-              <AdminDashboard />
-            </AdminRoute>
-          }
-        />
-      </Routes>
-    </BrowserRouter>
+          {/* Admin routes */}
+          <Route path="/admin-login" element={<AdminLogin />} />
+          <Route
+            path="/admin/*"
+            element={
+              <AdminRoute>
+                <AdminDashboard />
+              </AdminRoute>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 };
 

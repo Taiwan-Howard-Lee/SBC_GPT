@@ -7,7 +7,7 @@ import './ChatContainer.css';
 
 const ChatContainer: React.FC = () => {
   // Get agent context
-  const { agents, selectedAgentIds, updateAgentStatus, resetAgentStatuses } = useAgentContext();
+  const { updateAgentStatus, resetAgentStatuses } = useAgentContext();
 
   // Get chat context
   const { getCurrentChat, sendMessage, isLoading: chatIsLoading } = useChatContext();
@@ -29,21 +29,21 @@ const ChatContainer: React.FC = () => {
   // Handle sending a message
   const handleSendMessage = async (content: string) => {
     if (!content.trim()) return;
-    
+
     setIsLoading(true);
-    
-    // Get the active selected agents
-    const activeAgentIds = selectedAgentIds.filter(id =>
-      agents.find(agent => agent.id === id && agent.isActive)
-    );
-    
+
+    // Note: We're not currently using the active agent IDs, but keeping the code for reference
+    // const activeAgentIds = selectedAgentIds.filter(id =>
+    //   agents.find(agent => agent.id === id && agent.isActive)
+    // );
+
     // Set central router to processing status
     updateAgentStatus('central-router', 'processing');
-    
+
     try {
       // Send message to backend
       await sendMessage(content);
-      
+
       // Set central router back to idle
       updateAgentStatus('central-router', 'idle');
     } catch (error) {

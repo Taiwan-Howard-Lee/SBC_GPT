@@ -1,0 +1,26 @@
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--primary-color); /* Use primary color (teal) in light mode */
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s, transform 0.3s;
+  opacity: 0.8;
+}
+
+.theme-toggle:hover {
+  opacity: 1;
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Dark mode styles */
+.dark-mode .theme-toggle {
+  color: white;
+}

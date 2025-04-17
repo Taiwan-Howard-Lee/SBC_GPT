@@ -1,5 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import MessageItem, { MessageItemProps } from './MessageItem';
+import { LoadingIndicator } from '../common';
+import { useChatContext } from '../../contexts/ChatContext';
 import './MessageList.css';
 
 interface MessageListProps {
@@ -8,6 +10,7 @@ interface MessageListProps {
 
 const MessageList: React.FC<MessageListProps> = ({ messages }) => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const { isLoading } = useChatContext();
 
   // Auto-scroll to bottom when messages change
   useEffect(() => {
@@ -37,6 +40,16 @@ const MessageList: React.FC<MessageListProps> = ({ messages }) => {
             agentAvatar={message.agentAvatar}
           />
         ))
+      )}
+      {isLoading && messages.length > 0 && (
+        <div className="message-item assistant-message loading-message">
+          <div className="message-avatar">
+            <i className="fas fa-robot"></i>
+          </div>
+          <div className="message-content">
+            <LoadingIndicator />
+          </div>
+        </div>
       )}
       <div ref={messagesEndRef} />
     </div>

@@ -123,6 +123,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
     if (!currentChatId || !content.trim()) return;
 
     try {
+      setIsLoading(true);
       // Add optimistic user message
       const userMessage: MessageItemProps = {
         type: 'user',
@@ -166,6 +167,9 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
             : chat
         )
       );
+
+      // Set loading to false after response is received
+      setIsLoading(false);
     } catch (error) {
       console.error('Error sending message:', error);
       // Remove the optimistic user message if there was an error
@@ -180,6 +184,9 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
             : chat
         )
       );
+
+      // Set loading to false after error handling
+      setIsLoading(false);
     }
   }, [currentChatId]);
 

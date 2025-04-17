@@ -1,4 +1,5 @@
 const { processMessage } = require('../services/geminiService');
+const agentService = require('../services/agentService');
 const chatRepo = require('../repositories/chatRepository');
 
 /**
@@ -106,17 +107,48 @@ const addMessage = async (req, res) => {
     const userMessage = chatRepo.addMessage(chatId, 'user', content);
 
     try {
-      // Process with Gemini
-      const messages = chat.messages.map(msg => ({
-        role: msg.role,
-        content: msg.content
-      }));
+      // First, check if we should route to an agent
+      let response;
 
-      // Add the new user message
-      messages.push({ role: 'user', content });
+      // Try to route through the agent service first
+      try {
+        console.log(`Attempting to route query to agents: "${content}"`);
+        const agentResponse = await agentService.routeQuery(content);
 
-      // Get AI response
-      const response = await processMessage(messages);
+        if (agentResponse && agentResponse.success) {
+          console.log('Query successfully handled by agent');
+          response = {
+            content: agentResponse.message,
+            model: 'agent-' + (agentResponse.source || 'router')
+          };
+        } else {
+          console.log('No agent could handle the query, falling back to Gemini');
+          // If no agent could handle it, fall back to Gemini
+          const messages = chat.messages.map(msg => ({
+            role: msg.role,
+            content: msg.content
+          }));
+
+          // Add the new user message
+          messages.push({ role: 'user', content });
+
+          // Get AI response from Gemini
+          response = await processMessage(messages);
+        }
+      } catch (agentError) {
+        console.error('Error routing through agents:', agentError);
+        // Fall back to Gemini on agent error
+        const messages = chat.messages.map(msg => ({
+          role: msg.role,
+          content: msg.content
+        }));
+
+        // Add the new user message
+        messages.push({ role: 'user', content });
+
+        // Get AI response from Gemini
+        response = await processMessage(messages);
+      }
 
       // Add assistant message to database
       const assistantMessage = chatRepo.addMessage(

@@ -13,13 +13,13 @@
   justify-content: center;
   height: 100%;
   text-align: center;
-  color: #888;
+  color: var(--text-color);
   padding: 2rem;
 }
 
 .empty-icon {
   font-size: 3rem;
-  color: #ccc;
+  color: var(--border-color);
   margin-bottom: 1rem;
 }
 
@@ -33,4 +33,14 @@
 .empty-messages p {
   font-size: 0.9375rem;
   max-width: 300px;
+}
+
+.loading-message .message-content {
+  background-color: transparent;
+  border: none;
+  padding: 8px 12px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }

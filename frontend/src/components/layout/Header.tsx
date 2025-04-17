@@ -1,8 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AgentSelector, AgentId } from '../agents';
-import { Modal } from '../common';
-import { availableAgents } from '../../data/agents';
+import ThemeToggle from '../theme/ThemeToggle';
 import { useAuthContext } from '../../contexts/AuthContext';
 import './Header.css';
 
@@ -28,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenAgentSelector }) => {
     <header className="app-header">
       <div className="header-left">
         <div className="header-title">
-          <span>SBC Agents</span>
+          <span>SBC Notion Agent</span>
           <button className="dropdown-button" onClick={onOpenAgentSelector}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M6 9L12 15L18 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -53,13 +51,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenAgentSelector }) => {
           </svg>
           <span>Logout</span>
         </button>
-        <button className="menu-button">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="1" fill="currentColor" />
-            <circle cx="12" cy="6" r="1" fill="currentColor" />
-            <circle cx="12" cy="18" r="1" fill="currentColor" />
-          </svg>
-        </button>
+        <ThemeToggle />
       </div>
     </header>
   );

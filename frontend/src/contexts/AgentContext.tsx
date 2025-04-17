@@ -35,7 +35,8 @@ export const AgentProvider: React.FC<AgentProviderProps> = ({ children }) => {
   // State for agents with their statuses
   const [agents, setAgents] = useState([...initialAgents]);
 
-  // Always include central-router in the initial selection
+  // Always include central-router and notion-agent in the selection
+  // These are the only two agents available now
   const [selectedAgentIds, setSelectedAgentIds] = useState<AgentId[]>(['central-router', 'notion-agent']);
   const [isAgentSelectorOpen, setIsAgentSelectorOpen] = useState(false);
 
@@ -62,8 +63,8 @@ export const AgentProvider: React.FC<AgentProviderProps> = ({ children }) => {
   };
 
   const handleAgentDeselect = (agentId: AgentId) => {
-    // Prevent deselecting the Central Router
-    if (agentId === 'central-router') return;
+    // Prevent deselecting either agent since we only have two essential agents
+    if (agentId === 'central-router' || agentId === 'notion-agent') return;
 
     setSelectedAgentIds(prev => prev.filter(id => id !== agentId));
   };
@@ -73,8 +74,8 @@ export const AgentProvider: React.FC<AgentProviderProps> = ({ children }) => {
   };
 
   const handleDeselectAllAgents = () => {
-    // Always keep the Central Router selected
-    setSelectedAgentIds(['central-router']);
+    // Always keep both agents selected since we only have two
+    setSelectedAgentIds(['central-router', 'notion-agent']);
   };
 
   const toggleAgentSelector = () => {

@@ -41,18 +41,31 @@
   gap: 0.75rem;
 }
 
-.share-button {
+.share-button, .logout-button {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0.75rem;
   border-radius: 4px;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
   border: none;
   cursor: pointer;
   font-family: var(--secondary-font);
   font-size: 0.875rem;
+}
+
+.share-button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.logout-button {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--text-color);
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .menu-button {

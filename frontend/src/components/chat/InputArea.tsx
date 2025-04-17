@@ -45,6 +45,8 @@ const InputArea: React.FC<InputAreaProps> = ({
     }
   };
 
+
+
   return (
     <div className="input-area-container">
       <form className="input-area" onSubmit={handleSubmit}>
@@ -86,13 +88,7 @@ const InputArea: React.FC<InputAreaProps> = ({
             <i className="fas fa-ellipsis-h"></i>
           </button>
 
-          <button
-            type="button"
-            className="input-button"
-            title="Voice input"
-          >
-            <i className="fas fa-microphone"></i>
-          </button>
+
 
           <button
             type="submit"

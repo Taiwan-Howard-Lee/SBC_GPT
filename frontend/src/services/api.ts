@@ -27,7 +27,8 @@ const getAdminHeaders = (): HeadersInit => {
   const adminToken = localStorage.getItem('adminToken');
 
   if (adminToken) {
-    headers['Authorization'] = adminToken;
+    // Use type assertion to fix the TypeScript error
+    (headers as Record<string, string>)['Authorization'] = adminToken;
   }
 
   return headers;

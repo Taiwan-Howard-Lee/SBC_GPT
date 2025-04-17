@@ -1,0 +1,111 @@
+.rich-text-editor {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  font-family: var(--secondary-font);
+}
+
+.editor-container {
+  position: relative;
+}
+
+.editor-inner {
+  position: relative;
+  padding: 10px;
+  min-height: 60px;
+}
+
+.editor-input {
+  min-height: 60px;
+  resize: none;
+  font-size: 0.9375rem;
+  caret-color: var(--primary-color);
+  position: relative;
+  tab-size: 1;
+  outline: 0;
+  padding: 10px 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.editor-placeholder {
+  color: #999;
+  overflow: hidden;
+  position: absolute;
+  text-overflow: ellipsis;
+  top: 20px;
+  left: 10px;
+  font-size: 0.9375rem;
+  user-select: none;
+  display: inline-block;
+  pointer-events: none;
+}
+
+.editor-text-bold {
+  font-weight: bold;
+}
+
+.editor-text-italic {
+  font-style: italic;
+}
+
+.editor-text-code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.editor-toolbar {
+  display: flex;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #f8f8f8;
+}
+
+.toolbar-button {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-right: 4px;
+  transition: background-color 0.2s;
+}
+
+.toolbar-button:hover {
+  background-color: #e1e1e1;
+}
+
+.toolbar-button.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Message display styles */
+.formatted-message {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.formatted-message .bold {
+  font-weight: bold;
+}
+
+.formatted-message .italic {
+  font-style: italic;
+}
+
+.formatted-message .code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+/* Dark theme for user messages */
+.message-user .formatted-message .code {
+  background-color: rgba(255, 255, 255, 0.1);
+}
