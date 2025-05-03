@@ -3,10 +3,13 @@
  *
  * This service acts as a central router for agent-based queries.
  * It determines which agent should handle a query and routes accordingly.
+ * It also processes agent responses through the central chatbot before returning to the user.
  */
 
 // Import the Gemini service for LLM-based decisions
 const { processMessage } = require('./geminiService');
+// Import the central chatbot service
+const { processAgentResponse } = require('./centralChatbotService');
 
 class AgentService {
   constructor() {
@@ -39,35 +42,75 @@ class AgentService {
    * Route a query to the appropriate agent
    * @param {string} query - The user's query
    * @param {Object} context - Additional context
-   * @returns {Promise<Object>} - The response from the agent
+   * @returns {Promise<Object>} - The response from the agent processed through the central chatbot
    */
   async routeQuery(query, context = {}) {
     try {
+      let agentResponse;
+      let agentSource;
+
       // If specific agent is requested, use it directly
       if (context.agentId && this.agents.has(context.agentId)) {
         const agent = this.agents.get(context.agentId);
+        agentSource = agent.name;
+
         if (agent.isActive) {
-          return await agent.processQuery(query, context);
+          // For Notion agent, we can process even with an empty query
+          // This allows automatic triggering when the agent is selected
+          if (agent.id === 'notion' && (!query || query.trim() === '')) {
+            // Use a default query for the Notion agent when no query is provided
+            const defaultQuery = 'Show me available information in Notion';
+            console.log(`Using default query for Notion agent: "${defaultQuery}"`);
+            agentResponse = await agent.processQuery(defaultQuery, context);
+          } else {
+            agentResponse = await agent.processQuery(query, context);
+          }
         } else {
-          return {
+          agentResponse = {
             success: false,
             message: `Agent ${agent.name} is not active`
           };
         }
+      } else {
+        // Find the best agent for this query
+        const bestAgent = await this.findBestAgent(query, context);
+
+        if (!bestAgent) {
+          agentResponse = {
+            success: false,
+            message: "I couldn't find an agent to handle your query."
+          };
+        } else {
+          // Process the query with the selected agent
+          agentSource = bestAgent.name;
+          agentResponse = await bestAgent.processQuery(query, context);
+        }
       }
 
-      // Find the best agent for this query
-      const bestAgent = await this.findBestAgent(query, context);
-
-      if (!bestAgent) {
-        return {
-          success: false,
-          message: "I couldn't find an agent to handle your query."
-        };
+      // Add source information to the agent response
+      if (!agentResponse.source && agentSource) {
+        agentResponse.source = agentSource;
       }
 
-      // Process the query with the selected agent
-      return await bestAgent.processQuery(query, context);
+      // Process the agent response through the central chatbot
+      console.log('Processing agent response through central chatbot');
+      const chatbotResponse = await processAgentResponse(
+        query,
+        agentResponse,
+        context.conversationHistory || []
+      );
+
+      // Return the processed response
+      return {
+        success: agentResponse.success,
+        message: chatbotResponse.content,
+        source: agentResponse.source,
+        model: chatbotResponse.model,
+        metadata: {
+          originalAgentResponse: agentResponse.message,
+          agentSource: agentResponse.source
+        }
+      };
     } catch (error) {
       console.error('Error routing query:', error);
       return {

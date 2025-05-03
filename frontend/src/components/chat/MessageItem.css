@@ -1,7 +1,7 @@
 .message-item {
   display: flex;
   margin-bottom: 1.5rem;
-  max-width: 80%;
+  max-width: 90%;
 }
 
 .message-user {
@@ -65,6 +65,7 @@
   position: relative;
   max-width: 100%;
   word-wrap: break-word;
+  width: 100%;
 }
 
 .message-user .message-bubble {

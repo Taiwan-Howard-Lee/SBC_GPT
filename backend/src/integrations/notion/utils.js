@@ -1,6 +1,6 @@
 /**
  * Notion Utilities
- * 
+ *
  * Helper functions for working with Notion API responses.
  * These functions help extract and format content from Notion.
  */
@@ -14,7 +14,7 @@ const extractTextFromRichText = (richText = []) => {
   if (!richText || !Array.isArray(richText)) {
     return '';
   }
-  
+
   return richText.map(text => text.plain_text || '').join('');
 };
 
@@ -25,7 +25,7 @@ const extractTextFromRichText = (richText = []) => {
  */
 const getPageTitle = (page) => {
   if (!page) return 'Untitled';
-  
+
   // Handle different page structures
   if (page.properties && page.properties.title) {
     // Database item
@@ -37,7 +37,7 @@ const getPageTitle = (page) => {
     // Regular page
     return extractTextFromRichText(page.title);
   }
-  
+
   return 'Untitled';
 };
 
@@ -48,10 +48,10 @@ const getPageTitle = (page) => {
  */
 const extractTextFromBlock = (block) => {
   if (!block) return '';
-  
+
   const blockType = block.type;
   if (!blockType || !block[blockType]) return '';
-  
+
   // Handle different block types
   switch (blockType) {
     case 'paragraph':
@@ -91,7 +91,7 @@ const extractTextFromBlocks = (blocks = []) => {
   if (!blocks || !Array.isArray(blocks)) {
     return '';
   }
-  
+
   return blocks.map(block => extractTextFromBlock(block)).filter(text => text).join('\n');
 };
 
@@ -104,7 +104,7 @@ const formatSearchResults = (searchResponse) => {
   if (!searchResponse || !searchResponse.results) {
     return [];
   }
-  
+
   return searchResponse.results.map(result => {
     const common = {
       id: result.id,
@@ -112,7 +112,7 @@ const formatSearchResults = (searchResponse) => {
       createdTime: result.created_time,
       lastEditedTime: result.last_edited_time
     };
-    
+
     if (result.object === 'page') {
       return {
         ...common,
@@ -130,7 +130,7 @@ const formatSearchResults = (searchResponse) => {
         properties: Object.keys(result.properties || {})
       };
     }
-    
+
     return {
       ...common,
       type: result.object
@@ -147,7 +147,7 @@ const formatDatabaseItems = (queryResponse) => {
   if (!queryResponse || !queryResponse.results) {
     return [];
   }
-  
+
   return queryResponse.results.map(page => {
     const result = {
       id: page.id,
@@ -157,7 +157,7 @@ const formatDatabaseItems = (queryResponse) => {
       title: getPageTitle(page),
       properties: {}
     };
-    
+
     // Extract property values
     if (page.properties) {
       Object.entries(page.properties).forEach(([key, property]) => {
@@ -182,15 +182,41 @@ const formatDatabaseItems = (queryResponse) => {
         } else if (property.type === 'phone_number') {
           result.properties[key] = property.phone_number;
         } else if (property.type === 'formula') {
-          result.properties[key] = property.formula.string || 
-                                  property.formula.number || 
+          result.properties[key] = property.formula.string ||
+                                  property.formula.number ||
                                   property.formula.boolean;
         }
       });
     }
-    
+
     return result;
   });
+};
+
+/**
+ * Extract text from a title object
+ * @param {Object} title - Notion title object
+ * @returns {string} - Plain text title
+ */
+const extractTextFromTitle = (title) => {
+  if (!title) return '';
+
+  // Handle different title structures
+  if (Array.isArray(title)) {
+    // Title is an array of rich text objects
+    return extractTextFromRichText(title);
+  } else if (title.title && Array.isArray(title.title)) {
+    // Title is an object with a title property that's an array
+    return extractTextFromRichText(title.title);
+  } else if (title.plain_text) {
+    // Title is a single rich text object
+    return title.plain_text;
+  } else if (typeof title === 'string') {
+    // Title is already a string
+    return title;
+  }
+
+  return '';
 };
 
 module.exports = {
@@ -199,5 +225,6 @@ module.exports = {
   extractTextFromBlock,
   extractTextFromBlocks,
   formatSearchResults,
-  formatDatabaseItems
+  formatDatabaseItems,
+  extractTextFromTitle
 };

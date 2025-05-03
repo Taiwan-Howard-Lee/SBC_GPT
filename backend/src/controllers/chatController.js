@@ -97,10 +97,10 @@ const addMessage = async (req, res) => {
       return res.status(404).json({ message: 'Chat not found' });
     }
 
-    const { content } = req.body;
+    const { content, agentId } = req.body;
 
-    if (!content) {
-      return res.status(400).json({ message: 'Message content is required' });
+    if (!content && !agentId) {
+      return res.status(400).json({ message: 'Message content or agent ID is required' });
     }
 
     // Add user message to database
@@ -113,7 +113,20 @@ const addMessage = async (req, res) => {
       // Try to route through the agent service first
       try {
         console.log(`Attempting to route query to agents: "${content}"`);
-        const agentResponse = await agentService.routeQuery(content);
+
+        // Get conversation history for context
+        const conversationHistory = chat.messages.map(msg => ({
+          role: msg.role,
+          content: msg.content
+        }));
+
+        // If a specific agent ID is provided, use it
+        const context = {
+          ...(agentId ? { agentId } : {}),
+          conversationHistory
+        };
+
+        const agentResponse = await agentService.routeQuery(content, context);
 
         if (agentResponse && agentResponse.success) {
           console.log('Query successfully handled by agent');

@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode, useCallback } from 'react';
 import { MessageItemProps } from '../components/chat/MessageItem';
 import * as api from '../services/api';
+import { useAgentContext } from './AgentContext';
 
 // Define the structure of a chat
 export interface Chat {
@@ -42,6 +43,9 @@ interface ChatProviderProps {
 }
 
 export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
+  // Get the agent context to access selected agents
+  const { selectedAgentIds } = useAgentContext();
+
   // State for all chats
   const [chats, setChats] = useState<Chat[]>([]);
 
@@ -120,32 +124,44 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
 
   // Send a message and get a response
   const sendMessage = useCallback(async (content: string) => {
-    if (!currentChatId || !content.trim()) return;
+    if (!currentChatId) return;
+
+    // Check if we should use an empty query for the Notion agent
+    const useNotionAgent = selectedAgentIds.includes('notion-agent');
+    const finalContent = content.trim() || (useNotionAgent ? '' : null);
+
+    // If no content and not using Notion agent, return
+    if (!finalContent) return;
 
     try {
       setIsLoading(true);
-      // Add optimistic user message
-      const userMessage: MessageItemProps = {
-        type: 'user',
-        content,
-        timestamp: new Date()
-      };
+      // Add optimistic user message (only if there's actual content)
+      if (content.trim()) {
+        const userMessage: MessageItemProps = {
+          type: 'user',
+          content,
+          timestamp: new Date()
+        };
 
-      setChats(prevChats =>
-        prevChats.map(chat =>
-          chat.id === currentChatId
-            ? {
-                ...chat,
-                messages: [...chat.messages, userMessage],
-                messageCount: chat.messageCount + 1,
-                lastUpdated: new Date()
-              }
-            : chat
-        )
-      );
+        setChats(prevChats =>
+          prevChats.map(chat =>
+            chat.id === currentChatId
+              ? {
+                  ...chat,
+                  messages: [...chat.messages, userMessage],
+                  messageCount: chat.messageCount + 1,
+                  lastUpdated: new Date()
+                }
+              : chat
+          )
+        );
+      }
 
-      // Send message to API
-      const response = await api.sendMessage(currentChatId, content);
+      // Determine which agent to use
+      const agentId = useNotionAgent ? 'notion-agent' : undefined;
+
+      // Send message to API with the agent ID
+      const response = await api.sendMessage(currentChatId, finalContent, agentId);
 
       // Convert the response messages
       const assistantMessage = api.convertMessage(response.assistantMessage);
@@ -188,7 +204,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
       // Set loading to false after error handling
       setIsLoading(false);
     }
-  }, [currentChatId]);
+  }, [currentChatId, selectedAgentIds]);
 
   // Delete a chat
   const deleteChat = useCallback(async (chatId: string) => {

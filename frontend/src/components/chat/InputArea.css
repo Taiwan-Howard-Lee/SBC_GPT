@@ -8,11 +8,19 @@
 .input-area {
   display: flex;
   align-items: flex-end;
-  background-color: var(--secondary-color);
+  background-color: var(--input-area-background);
   border: 1px solid var(--border-color);
   border-radius: 0.75rem;
   padding: 0.5rem;
   box-shadow: 0 2px 6px var(--shadow-color);
+  position: relative;
+  z-index: 1; /* Ensure the input area is above other elements */
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-area:focus-within {
+  border-color: var(--primary-color);
+  box-shadow: 0 2px 8px rgba(57, 144, 139, 0.2);
 }
 
 .textarea-container {
@@ -43,6 +51,7 @@
   overflow-y: auto;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
+  backdrop-filter: blur(5px); /* Add slight blur effect for better contrast */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

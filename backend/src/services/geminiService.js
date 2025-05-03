@@ -1,80 +1,114 @@
-const { proModel, flashModel } = require('../config/gemini');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
+require('dotenv').config();
+
+// Initialize the Google Generative AI with API key
+const apiKey = process.env.GEMINI_API_KEY;
+const genAI = new GoogleGenerativeAI(apiKey);
+const modelName = "gemini-2.0-flash";
 
 /**
- * Determine which model to use based on the conversation context
+ * Process a message with the Gemini model
  * @param {Array} messages - The conversation history
- * @returns {Object} - The appropriate Gemini model
- */
-const determineModel = (messages) => {
-  // Check if this is a routing decision or complex query
-  const lastUserMessage = [...messages].reverse().find(msg => msg.role === 'user');
-
-  if (!lastUserMessage) {
-    return proModel; // Default to pro model if no user message
-  }
-
-  const content = lastUserMessage.content.toLowerCase();
-
-  // Use pro model for complex queries, routing, or thinking tasks
-  if (
-    content.includes('analyze') ||
-    content.includes('explain') ||
-    content.includes('compare') ||
-    content.includes('summarize') ||
-    content.length > 200 // Longer messages might need more complex reasoning
-  ) {
-    console.log('Using pro model for complex query');
-    return proModel;
-  }
-
-  // Use flash model for simpler, conversational responses
-  console.log('Using flash model for standard response');
-  return flashModel;
-};
-
-/**
- * Process a message with the appropriate Gemini model
- * @param {Array} messages - The conversation history
- * @returns {Promise<string>} - The AI response
+ * @returns {Promise<Object>} - The AI response
  */
 const processMessage = async (messages) => {
   try {
     // Check if we have a valid API key
-    const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey || apiKey === 'YOUR_GEMINI_API_KEY_HERE') {
       console.log('Using mock response because no valid API key is provided');
       return provideMockResponse(messages);
     }
 
-    const model = determineModel(messages);
+    // Define the system prompt
+    const systemPromptContent = `You are a professional, efficient executive assistant named SBC Assistant working at SBC Australia.
 
-    // Format messages for Gemini - filter out system messages
-    const formattedMessages = messages
-      .filter(msg => msg.role !== 'system')
-      .map(msg => ({
-        role: msg.role === 'assistant' ? 'model' : msg.role,
-        parts: [{ text: msg.content }]
-      }));
+      IDENTITY:
+      - You ARE an employee of SBC Australia
+      - You are speaking as a representative of SBC Australia
+      - You should use "we", "our", and "us" when referring to SBC Australia
+      - You have been with the company for several years and are knowledgeable about its operations
+      - You are proud to be part of the SBC Australia team
 
-    // If there are no messages after filtering, return a mock response
-    if (formattedMessages.length === 0) {
-      console.log('No valid messages to send to Gemini after filtering system messages');
-      return provideMockResponse(messages);
-    }
+      COMPANY INFORMATION:
+      - SBC Australia is NOT the same as SBS (Special Broadcasting Service)
+      - SBC Australia is a global leading startup accelerator
+      - We help startups scale globally through mentorship, funding, and strategic connections
+      - If you receive information about SBS Australia (broadcasting), IGNORE it completely
+      - If asked about our vision and mission, our vision is to be the world's premier startup accelerator
+      - Our mission is to empower innovative startups to transform industries and create global impact
+
+      TONE AND STYLE:
+      - Professional and confident
+      - Concise and direct
+      - Structured and organized
+      - Helpful and service-oriented
+      - Warm but not overly casual
+
+      IMPORTANT RULES:
+      - Always respond as if you are part of SBC Australia ("we", "our", "us")
+      - Never use phrases like "Based on the information available" or "I can tell you that"
+      - Never repeat information
+      - Never use nested bullet points
+      - Never use exclamation marks
+      - Keep total response under 100 words whenever possible
+      - Start with a direct answer in 1 sentence
+      - If asked about vision, mission, or company information, respond as a knowledgeable insider
+      - NEVER confuse SBC Australia with SBS (Special Broadcasting Service)`;
 
     try {
-      // Generate response
-      const result = await model.generateContent({
-        contents: formattedMessages,
+      // Get the model
+      const model = genAI.getGenerativeModel({ model: modelName });
+
+      // Format the conversation history for Gemini
+      const formattedMessages = [];
+
+      // Add system message first if it's not already in the messages
+      const hasSystemMessage = messages.some(msg => msg.role === 'system');
+
+      if (!hasSystemMessage) {
+        formattedMessages.push({
+          role: "user",
+          parts: [{ text: systemPromptContent }],
+        });
+
+        formattedMessages.push({
+          role: "model",
+          parts: [{ text: "I understand my role as SBC Assistant. I'll follow these guidelines in our conversation." }],
+        });
+      }
+
+      // Add the rest of the messages
+      for (const msg of messages) {
+        if (msg.role === 'system') continue; // Skip system messages as we've handled them
+
+        formattedMessages.push({
+          role: msg.role === 'assistant' ? 'model' : 'user',
+          parts: [{ text: msg.content }]
+        });
+      }
+
+      // If there are no messages after filtering, return a mock response
+      if (formattedMessages.length === 0) {
+        console.log('No valid messages to send to Gemini');
+        return provideMockResponse(messages);
+      }
+
+      // Create a chat session
+      const chat = model.startChat({
         generationConfig: {
           temperature: 0.0,
           maxOutputTokens: 2048,
-        }
+        },
+        history: formattedMessages.slice(0, -1), // All messages except the last one
       });
+
+      // Send the last message to get a response
+      const lastMessage = formattedMessages[formattedMessages.length - 1];
+      const result = await chat.sendMessage(lastMessage.parts[0].text);
 
       return {
         content: result.response.text(),
-        model: model === proModel ? 'gemini-2.5-pro-preview-03-25' : 'gemini-2.0-flash'
+        model: modelName
       };
     } catch (apiError) {
       console.error('Error calling Gemini API:', apiError);
@@ -101,15 +135,15 @@ const provideMockResponse = (messages) => {
   let response;
 
   if (userContent.toLowerCase().includes('weather')) {
-    response = "I don't have access to real-time weather data. To get accurate weather information, you could check a weather service like Weather.com or AccuWeather, or use a weather app on your device.";
+    response = 'No access to weather data. Check Weather.com, your device\'s weather app, or ask a virtual assistant.';
   } else if (userContent.toLowerCase().includes('hello') || userContent.toLowerCase().includes('hi')) {
-    response = "Hello! I'm a simulated AI assistant. How can I help you today?";
+    response = 'Hello. I\'m SBC Assistant. How can I help you?';
   } else if (userContent.toLowerCase().includes('help')) {
-    response = "I'm here to help answer your questions. You can ask me about a wide range of topics, and I'll do my best to provide useful information.";
+    response = 'I can help with company information, knowledge base queries, and basic tasks. What do you need?';
   } else if (userContent.toLowerCase().includes('thank')) {
-    response = "You're welcome! If you have any other questions, feel free to ask.";
+    response = 'You\'re welcome.';
   } else {
-    response = "I'm currently running in simulation mode without access to the Gemini API. To use the full capabilities, please add a valid Gemini API key to your .env file. In the meantime, I can still help with basic conversations.";
+    response = 'Running in simulation mode. Add a Gemini API key to your .env file and restart for full functionality.';
   }
 
   return {
@@ -119,5 +153,7 @@ const provideMockResponse = (messages) => {
 };
 
 module.exports = {
-  processMessage
+  processMessage,
+  genAI,
+  modelName
 };

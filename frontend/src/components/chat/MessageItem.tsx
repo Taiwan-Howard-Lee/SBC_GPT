@@ -1,5 +1,10 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+import rehypeSanitize from 'rehype-sanitize';
+import remarkGfm from 'remark-gfm';
 import './MessageItem.css';
+import './markdown.css';
 
 export type MessageType = 'user' | 'agent';
 
@@ -41,7 +46,14 @@ const MessageItem: React.FC<MessageItemProps> = ({
           </div>
         )}
         <div className="message-bubble">
-          {content}
+          <div className="markdown-content">
+            <ReactMarkdown
+              rehypePlugins={[rehypeRaw, rehypeSanitize]}
+              remarkPlugins={[remarkGfm]}
+            >
+              {content}
+            </ReactMarkdown>
+          </div>
         </div>
         <div className="message-timestamp">
           {formattedTime}

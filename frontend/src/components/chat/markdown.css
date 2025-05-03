@@ -38,12 +38,23 @@
 
 /* Paragraphs and spacing */
 .markdown-content p {
-  margin-bottom: 0.75em;
+  margin-bottom: 1em;
   margin-top: 0;
 }
 
 .markdown-content p:last-child {
   margin-bottom: 0;
+}
+
+/* Bold text */
+.markdown-content strong {
+  font-weight: 600;
+}
+
+/* Add more space after paragraphs with bold text */
+.markdown-content p strong {
+  display: inline-block;
+  margin-bottom: 0.25em;
 }
 
 /* Lists */
@@ -55,12 +66,18 @@
 }
 
 .markdown-content li {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
 }
 
 .markdown-content li > ul,
 .markdown-content li > ol {
-  margin-top: 0.25em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Add more space between list items with bold headers */
+.markdown-content li strong {
+  display: inline-block;
   margin-bottom: 0.25em;
 }
 

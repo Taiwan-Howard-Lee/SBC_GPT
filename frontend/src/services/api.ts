@@ -168,12 +168,15 @@ export const updateChatTitle = async (chatId: string, title: string) => {
 };
 
 // Send a message
-export const sendMessage = async (chatId: string, content: string) => {
+export const sendMessage = async (chatId: string, content: string, agentId?: string) => {
   try {
     const response = await fetch(`${API_URL}/chats/${chatId}/messages`, {
       method: 'POST',
       headers: getHeaders(),
-      body: JSON.stringify({ content }),
+      body: JSON.stringify({
+        content,
+        agentId // Include the agent ID if provided
+      }),
     });
 
     if (!response.ok) {

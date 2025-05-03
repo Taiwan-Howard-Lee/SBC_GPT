@@ -76,12 +76,69 @@ const adminRoutes = require('./routes/admin');
 const feedbackRoutes = require('./routes/feedback');
 const agentRoutes = require('./routes/agents');
 
+// Import Notion cache
+const notionCache = require('./integrations/notion/cache');
+
 // Initialize agents system
 require('./agents');
+
+// Initialize Notion cache at server startup with a delay to ensure server is fully started
+setTimeout(() => {
+  console.log('Starting Notion cache initialization (delayed start)...');
+  notionCache.initialize()
+    .then(success => {
+      if (success) {
+        console.log('✅ Notion cache initialized successfully at server startup');
+      } else {
+        console.log('ℹ️ Server will use direct API calls until cache is ready');
+      }
+    })
+    .catch(error => {
+      console.error('❌ Error initializing Notion cache at server startup:', error);
+      console.log('ℹ️ Server will continue to function using direct API calls');
+    });
+}, 3000); // 3 second delay
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Server is running' });
+});
+
+// Notion cache status endpoint
+app.get('/api/notion/cache/status', (req, res) => {
+  const cacheStatus = {
+    initialized: notionCache.isInitialized,
+    loading: notionCache.isLoading,
+    lastRefreshTime: notionCache.lastRefreshTime,
+    memoryUsage: notionCache.getMemoryUsage()
+  };
+
+  res.json(cacheStatus);
+});
+
+// Manually refresh Notion cache
+app.post('/api/notion/cache/refresh', (req, res) => {
+  if (notionCache.isLoading) {
+    return res.status(409).json({
+      success: false,
+      message: 'Cache refresh already in progress'
+    });
+  }
+
+  notionCache.refresh()
+    .then(success => {
+      res.json({
+        success,
+        message: success ? 'Cache refreshed successfully' : 'Failed to refresh cache'
+      });
+    })
+    .catch(error => {
+      res.status(500).json({
+        success: false,
+        message: 'Error refreshing cache',
+        error: error.message
+      });
+    });
 });
 
 // Use routes
