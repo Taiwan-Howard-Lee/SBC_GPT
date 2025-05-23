@@ -7,6 +7,7 @@ import AdminLogin from './pages/admin/AdminLogin';
 import AdminDashboard from './pages/admin/AdminDashboard';
 import { useAuthContext } from './contexts/AuthContext';
 import { ThemeProvider } from './contexts/ThemeContext';
+import { TTSProvider } from './contexts/TTSContext';
 import './App.css';
 import './styles/theme.css';
 
@@ -38,26 +39,28 @@ const App: React.FC = () => {
 
   return (
     <ThemeProvider>
-      <BrowserRouter>
-        <Routes>
-          {/* Main app route */}
-          <Route
-            path="/"
-            element={isAuthenticated ? <AppLayout><ChatContainer /></AppLayout> : <LoginPage />}
-          />
+      <TTSProvider>
+        <BrowserRouter>
+          <Routes>
+            {/* Main app route */}
+            <Route
+              path="/"
+              element={isAuthenticated ? <AppLayout><ChatContainer /></AppLayout> : <LoginPage />}
+            />
 
-          {/* Admin routes */}
-          <Route path="/admin-login" element={<AdminLogin />} />
-          <Route
-            path="/admin/*"
-            element={
-              <AdminRoute>
-                <AdminDashboard />
-              </AdminRoute>
-            }
-          />
-        </Routes>
-      </BrowserRouter>
+            {/* Admin routes */}
+            <Route path="/admin-login" element={<AdminLogin />} />
+            <Route
+              path="/admin/*"
+              element={
+                <AdminRoute>
+                  <AdminDashboard />
+                </AdminRoute>
+              }
+            />
+          </Routes>
+        </BrowserRouter>
+      </TTSProvider>
     </ThemeProvider>
   );
 };

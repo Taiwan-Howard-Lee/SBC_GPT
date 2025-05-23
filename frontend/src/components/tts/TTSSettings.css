@@ -1,0 +1,208 @@
+.tts-settings-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.tts-settings-modal {
+  background-color: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 400px;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: modal-appear 0.3s ease-out;
+}
+
+@keyframes modal-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tts-settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tts-settings-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.close-button:hover {
+  background-color: var(--hover-color);
+}
+
+.tts-settings-content {
+  padding: 20px;
+}
+
+.tts-not-supported {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  color: #e74c3c;
+}
+
+.tts-not-supported i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.settings-group {
+  margin-bottom: 20px;
+}
+
+.settings-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.settings-group select,
+.settings-group input[type="range"] {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  background-color: var(--input-background);
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+.settings-group select {
+  height: 40px;
+}
+
+.settings-group input[type="range"] {
+  padding: 0;
+  height: 6px;
+  -webkit-appearance: none;
+  background: var(--border-color);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.settings-group input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.settings-group input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: pointer;
+  border: none;
+}
+
+.settings-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.test-button,
+.save-button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.test-button i,
+.save-button i {
+  margin-right: 8px;
+}
+
+.test-button {
+  background-color: var(--hover-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+.test-button:hover {
+  background-color: var(--hover-color-dark);
+}
+
+.save-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.save-button:hover {
+  background-color: var(--primary-color-dark);
+  transform: translateY(-1px);
+}
+
+.save-button:active {
+  transform: translateY(0);
+}
+
+/* Dark mode adjustments */
+body.dark-mode .tts-settings-modal {
+  background-color: var(--background-color-dark);
+}
+
+body.dark-mode .settings-group select,
+body.dark-mode .settings-group input[type="range"] {
+  background-color: var(--input-background-dark);
+  border-color: var(--border-color-dark);
+}
+
+body.dark-mode .test-button {
+  background-color: var(--hover-color-dark);
+  border-color: var(--border-color-dark);
+}
+
+body.dark-mode .test-button:hover {
+  background-color: var(--hover-color);
+}

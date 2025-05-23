@@ -61,9 +61,9 @@ class AgentService {
             // Use a default query for the Notion agent when no query is provided
             const defaultQuery = 'Show me available information in Notion';
             console.log(`Using default query for Notion agent: "${defaultQuery}"`);
-            agentResponse = await agent.processQuery(defaultQuery, context);
+            agentResponse = await agent.processQuery(defaultQuery);
           } else {
-            agentResponse = await agent.processQuery(query, context);
+            agentResponse = await agent.processQuery(query);
           }
         } else {
           agentResponse = {
@@ -73,9 +73,10 @@ class AgentService {
         }
       } else {
         // Find the best agent for this query
-        const bestAgent = await this.findBestAgent(query, context);
+        const bestAgent = await this.findBestAgent(query);
 
         if (!bestAgent) {
+          console.log('No agent could handle the query, falling back to Gemini');
           agentResponse = {
             success: false,
             message: "I couldn't find an agent to handle your query."
@@ -84,6 +85,11 @@ class AgentService {
           // Process the query with the selected agent
           agentSource = bestAgent.name;
           agentResponse = await bestAgent.processQuery(query, context);
+
+          // Check if the agent was able to handle the query
+          if (!agentResponse.success) {
+            console.log('No agent could handle the query, falling back to Gemini');
+          }
         }
       }
 
@@ -123,10 +129,9 @@ class AgentService {
   /**
    * Find the best agent to handle a query
    * @param {string} query - The user's query
-   * @param {Object} context - Additional context
    * @returns {Promise<BaseAgent|null>} - The best agent or null if none found
    */
-  async findBestAgent(query, context = {}) {
+  async findBestAgent(query) {
     // Get all active agents
     const activeAgents = Array.from(this.agents.values()).filter(agent => agent.isActive);
 

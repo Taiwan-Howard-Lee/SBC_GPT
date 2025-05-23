@@ -1,0 +1,849 @@
+{
+  "page": {
+    "object": "page",
+    "id": "e2f3f017-d5f4-4793-b152-3127ce634994",
+    "created_time": "2024-02-29T07:34:00.000Z",
+    "last_edited_time": "2025-05-15T04:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://images.unsplash.com/photo-1605184861755-8f190fea96a5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/square-alternate_pink.svg"
+      }
+    },
+    "parent": {
+      "type": "block_id",
+      "block_id": "1b22dbc5-4786-80a6-81de-f80efb7425d6"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2024-02-29T07:34:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-05-15T04:44:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Portfolio Management",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Portfolio Management",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "2999458a-cf78-4a08-9af6-c1e435804ea1",
+            "name": "Richard Celm",
+            "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLiX_U-B8YfdpNfmvmdlYykuzLW6wpdS5iR5C06HisOlQ=s100",
+            "type": "person",
+            "person": {
+              "email": "rich@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Portfolio-Management-e2f3f017d5f44793b1523127ce634994",
+    "public_url": null
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1412dbc5-4786-80cc-ac37-eb678835b8c3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-11-17T04:01:00.000Z",
+      "last_edited_time": "2025-05-12T00:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Jai Felinski - Portfolio Management Handover Process"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e706fc2e-3269-43d3-872f-2bf52e19a24c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-06-30T09:10:00.000Z",
+      "last_edited_time": "2024-07-02T01:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "About the Portfolio Manager Role ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "About the Portfolio Manager Role ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "db7778e2-a5f2-4465-84dc-eedb13f49ee3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-07-03T09:06:00.000Z",
+      "last_edited_time": "2024-08-28T05:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Portfolio Management position is crucial to SBC, as effectively conveying information to our executives, broader team and investors is vital for maintaining strong relationships with our key stakeholders. Investors are essential to the continuation of our programs and our executives need to know updated information about our alumni at all times. This role strikes a fine balance between keeping our program alumni engaged with our community, helping them post-program, and sharing their successes with the broader SBC network.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Portfolio Management position is crucial to SBC, as effectively conveying information to our executives, broader team and investors is vital for maintaining strong relationships with our key stakeholders. Investors are essential to the continuation of our programs and our executives need to know updated information about our alumni at all times. This role strikes a fine balance between keeping our program alumni engaged with our community, helping them post-program, and sharing their successes with the broader SBC network.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "562184ce-6f90-432a-aa7c-868e21e7e6fd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-07-03T09:03:00.000Z",
+      "last_edited_time": "2024-07-03T09:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Learn more about the Portfolio Management Role Below",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Learn more about the Portfolio Management Role Below",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a6194a14-0174-414d-8054-eacac9853042",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-07-02T01:42:00.000Z",
+      "last_edited_time": "2024-12-08T21:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The key function of the Portfolio Management team includes startup due diligence, term sheets and investment agreements, investment payments, alumni management and producing external or internal investor reports. Find information on each function here:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The key function of the Portfolio Management team includes startup due diligence, term sheets and investment agreements, investment payments, alumni management and producing external or internal investor reports. Find information on each function here:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a23821da-c1ca-4481-8602-901a6667d2a1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-08-28T05:36:00.000Z",
+      "last_edited_time": "2024-08-28T05:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f32dbc5-4786-807f-88cf-e4cc925b4e57",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2025-05-14T02:30:00.000Z",
+      "last_edited_time": "2025-05-14T02:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "PM - Onboarding"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7f9ba56e-d47c-42ff-868e-ca51fdb7df68",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-06-25T06:31:00.000Z",
+      "last_edited_time": "2025-05-12T00:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "PM - Due Diligence"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bace094d-b1d1-4348-a0f3-bef79a2aee35",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-08-28T05:44:00.000Z",
+      "last_edited_time": "2025-05-14T06:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "PM - Investment Agreements & Payments "
+      }
+    },
+    {
+      "object": "block",
+      "id": "1b0b3d04-e890-4cff-b52e-56462867db42",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-06-21T07:18:00.000Z",
+      "last_edited_time": "2025-05-12T00:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "PM - Alumni Management"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fd46d966-ec0f-4a9b-9510-2760a0b8200f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-06-21T07:21:00.000Z",
+      "last_edited_time": "2025-05-15T04:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "PM - External Portfolio Reports "
+      }
+    },
+    {
+      "object": "block",
+      "id": "24f24edf-c53c-4467-a1c8-7df554d192fe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-07-01T06:38:00.000Z",
+      "last_edited_time": "2025-05-08T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "PM - Internal Portfolio Updates"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1542dbc5-4786-809b-b891-c60e074c3398",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-12-06T00:15:00.000Z",
+      "last_edited_time": "2025-05-08T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "PM - Portfolio Reporting & Updates"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f8eaf53d-a150-47d7-8bac-e6b545dfb8c3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-06-21T08:57:00.000Z",
+      "last_edited_time": "2024-12-02T04:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Portfolio Mgmt AAR"
+      }
+    },
+    {
+      "object": "block",
+      "id": "02c958ba-e6a2-4990-8bed-d22df787d5c6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-08-28T05:36:00.000Z",
+      "last_edited_time": "2024-08-28T05:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2c9cae4e-24d6-458b-a43a-7bb2743f4c38",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-07-03T09:07:00.000Z",
+      "last_edited_time": "2024-07-03T09:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "553987bc-a51a-49b1-8fe8-dd31e0857cd6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-07-03T09:07:00.000Z",
+      "last_edited_time": "2024-08-28T05:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Interning for the Portfolio Management Team ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Interning for the Portfolio Management Team ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "837031ea-fadc-489e-a466-b64a3af34d89",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-07-03T09:07:00.000Z",
+      "last_edited_time": "2024-08-28T05:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Read the below portfolio management intern page to see how to get started, skills you can learn, and get an understanding for the role. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Read the below portfolio management intern page to see how to get started, skills you can learn, and get an understanding for the role. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "17f99366-b3f6-42be-b8e1-ab6bbe69f276",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-08-28T05:35:00.000Z",
+      "last_edited_time": "2024-08-28T05:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Know that the more you put in the more you get out. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Know that the more you put in the more you get out. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "20679d6d-8336-4fb0-a2b0-21a3670adb13",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-08-28T05:35:00.000Z",
+      "last_edited_time": "2024-08-28T05:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "As we continue to build our documentation this will become crucial in your understanding of the role and being able participate in more advanced aspects of the position:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "As we continue to build our documentation this will become crucial in your understanding of the role and being able participate in more advanced aspects of the position:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bf1f9164-c1d3-4e2f-9eed-5afcb1797164",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-08-28T05:38:00.000Z",
+      "last_edited_time": "2024-08-28T05:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a40ec0e2-7212-4a4c-9241-157a4d759d3a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2024-05-09T22:50:00.000Z",
+      "last_edited_time": "2025-02-20T23:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "7326cfb5-2b3b-46d1-8455-52a0061dd092"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Portfolio Mgmt Intern"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f42dbc5-4786-80d4-aeea-e0a476f61c35",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2025-05-15T04:44:00.000Z",
+      "last_edited_time": "2025-05-15T04:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "1f42dbc5-4786-80d6-b586-d4443809ce9a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "e2f3f017-d5f4-4793-b152-3127ce634994"
+      },
+      "created_time": "2025-05-15T04:44:00.000Z",
+      "last_edited_time": "2025-05-15T04:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ]
+}

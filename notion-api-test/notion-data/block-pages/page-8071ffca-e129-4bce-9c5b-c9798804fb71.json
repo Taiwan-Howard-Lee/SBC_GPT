@@ -1,0 +1,538 @@
+{
+  "page": {
+    "object": "page",
+    "id": "8071ffca-e129-4bce-9c5b-c9798804fb71",
+    "created_time": "2024-02-29T07:34:00.000Z",
+    "last_edited_time": "2025-05-06T00:56:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "cover": null,
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/square-alternate_blue.svg"
+      }
+    },
+    "parent": {
+      "type": "block_id",
+      "block_id": "1b22dbc5-4786-80a6-81de-f80efb7425d6"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2024-02-29T07:34:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-05-06T00:56:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Design Lead",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Design Lead",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "2999458a-cf78-4a08-9af6-c1e435804ea1",
+            "name": "Richard Celm",
+            "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLiX_U-B8YfdpNfmvmdlYykuzLW6wpdS5iR5C06HisOlQ=s100",
+            "type": "person",
+            "person": {
+              "email": "rich@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Design-Lead-8071ffcae1294bce9c5bc9798804fb71",
+    "public_url": null
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "af2ff8d9-13dc-4222-b48b-99c06948a01b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-07-02T04:10:00.000Z",
+      "last_edited_time": "2024-07-02T04:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "About the Role ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "About the Role ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f753d50d-0080-44f5-9a23-2c05ad6a6c00",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2025-04-11T03:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1acd872b-594c-81ea-a235-00026ba2a5c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The design team is responsible for all design needs within SBC Australia. Design excellence is defined by stakeholder satisfaction and consistent branding",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The design team is responsible for all design needs within SBC Australia. Design excellence is defined by stakeholder satisfaction and consistent branding",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "aefd1358-721d-44ed-a330-6f66a872e647",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-07-02T04:10:00.000Z",
+      "last_edited_time": "2024-07-02T04:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9316c849-e035-4c37-bb54-fc2bef0c0d16",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-07-02T04:10:00.000Z",
+      "last_edited_time": "2024-07-02T04:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6408bad5-f5ff-40fd-b211-953fc8e80804",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2024-02-29T07:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "ee4c07b9-52eb-4ce3-9070-5f040c0d75e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-03-01T02:31:00.000Z",
+      "last_edited_time": "2024-07-02T04:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "775b6019-1dc3-4026-b65b-eff2477c95d6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Expectations and Procedures ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Expectations and Procedures ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a5dd2dda-423c-4464-a3c2-12cc003ec2ae",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-03-01T02:44:00.000Z",
+      "last_edited_time": "2024-07-02T04:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "775b6019-1dc3-4026-b65b-eff2477c95d6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "990be18c-61e0-457b-8d26-9f61bcd4824b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-07-02T04:13:00.000Z",
+      "last_edited_time": "2024-10-16T00:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "5607a525-aac4-4649-8544-2ecfe4f1c81e"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Brand Guidelines  - Startupbootcamp’s ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Brand Guidelines  - Startupbootcamp’s ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Brand Book is here",
+              "link": {
+                "url": "https://docs.google.com/presentation/d/1XqQleVUY6G97ZDrM1VlskYrJWPHIJbqwycnl42kzDy4/edit#slide=id.p"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "Brand Book is here",
+            "href": "https://docs.google.com/presentation/d/1XqQleVUY6G97ZDrM1VlskYrJWPHIJbqwycnl42kzDy4/edit#slide=id.p"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "253090a6-0453-43e7-a2a0-46066f927280",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-07-02T04:13:00.000Z",
+      "last_edited_time": "2025-03-04T00:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ac2dbc5-4786-8039-ae66-fb49b7b53a83",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2025-03-04T00:18:00.000Z",
+      "last_edited_time": "2025-04-29T02:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Design - Applications"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7f554a6b-752a-4059-91fd-328fedce13d7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2025-05-09T00:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Design - Equity Program"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1d82dbc5-4786-8023-99dc-dfee1847a1ec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2025-04-17T05:13:00.000Z",
+      "last_edited_time": "2025-04-29T04:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Design - Corporate Services"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1e42dbc5-4786-806e-96bf-cd59da500677",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2025-04-29T04:53:00.000Z",
+      "last_edited_time": "2025-05-06T00:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Design - Proposals / Bids / Funds"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1d62dbc5-4786-801b-9455-efed6458f6b8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8071ffca-e129-4bce-9c5b-c9798804fb71"
+      },
+      "created_time": "2025-04-15T00:07:00.000Z",
+      "last_edited_time": "2025-05-01T00:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Design - Portfolio Reports"
+      }
+    }
+  ]
+}

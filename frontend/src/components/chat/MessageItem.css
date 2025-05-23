@@ -85,15 +85,76 @@ body.dark-mode .message-agent .message-bubble {
   color: white; /* Ensure text is white in dark mode */
 }
 
+/* Message footer styles */
+.message-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 4px;
+  gap: 8px;
+}
+
+.message-user .message-footer {
+  justify-content: flex-start;
+}
+
+/* Text-to-Speech button styles */
+.tts-button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(57, 144, 139, 0.1);
+  border: none;
+  color: var(--text-color);
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.2s, color 0.2s, transform 0.2s, background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: 0.9rem;
+}
+
+.message-user .tts-button {
+  color: var(--secondary-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.tts-button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  background: rgba(57, 144, 139, 0.2);
+}
+
+.tts-button.speaking {
+  opacity: 1;
+  color: var(--primary-color);
+  background: rgba(57, 144, 139, 0.15);
+  animation: pulse-speaker 1.5s infinite;
+}
+
+.message-user .tts-button.speaking {
+  color: var(--secondary-color);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes pulse-speaker {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .message-timestamp {
   font-size: 0.75rem;
   color: var(--text-color);
-  margin-top: 4px;
-  align-self: flex-end;
-}
-
-.message-user .message-timestamp {
-  align-self: flex-start;
+  opacity: 0.8;
 }
 
 .message-actions {

@@ -1,0 +1,26 @@
+{
+  "object": "block",
+  "id": "1b22dbc5-4786-8043-b467-c959883fa08c",
+  "parent": {
+    "type": "block_id",
+    "block_id": "1b22dbc5-4786-80cb-8099-dc4c3f76d894"
+  },
+  "created_time": "2025-03-10T06:33:00.000Z",
+  "last_edited_time": "2025-05-13T00:27:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+  },
+  "has_children": true,
+  "archived": false,
+  "in_trash": false,
+  "type": "column",
+  "column": {
+    "width_ratio": 0.3333333333333333
+  },
+  "request_id": "f35070ba-a51d-4c95-a0f0-573e23630e55"
+}

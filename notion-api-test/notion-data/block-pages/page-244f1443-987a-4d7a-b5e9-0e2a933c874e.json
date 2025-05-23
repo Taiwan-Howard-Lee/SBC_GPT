@@ -1,0 +1,315 @@
+{
+  "page": {
+    "object": "page",
+    "id": "244f1443-987a-4d7a-b5e9-0e2a933c874e",
+    "created_time": "2024-02-29T07:34:00.000Z",
+    "last_edited_time": "2025-05-05T00:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://images.unsplash.com/photo-1597787427732-52c37d4f5767?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/square-alternate_brown.svg"
+      }
+    },
+    "parent": {
+      "type": "block_id",
+      "block_id": "1b22dbc5-4786-80d4-b542-fb5af01b83a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2024-02-29T07:34:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-05-05T00:53:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Operations",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Operations",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "2999458a-cf78-4a08-9af6-c1e435804ea1",
+            "name": "Richard Celm",
+            "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLiX_U-B8YfdpNfmvmdlYykuzLW6wpdS5iR5C06HisOlQ=s100",
+            "type": "person",
+            "person": {
+              "email": "rich@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Operations-244f1443987a4d7ab5e90e2a933c874e",
+    "public_url": null
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "39808ec3-b8ed-46df-84bd-a5476b755b10",
+      "parent": {
+        "type": "page_id",
+        "page_id": "244f1443-987a-4d7a-b5e9-0e2a933c874e"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2024-02-29T07:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Operations Management ensures that SBC processes are constantly improving. The tasks of an Operations Manager at SBC Australia include updating confluence, setting OKRs, managing interns, conducting AARs, maintaining the organisation of Hubspot, and leading projects with a\nclear objective.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Operations Management ensures that SBC processes are constantly improving. The tasks of an Operations Manager at SBC Australia include updating confluence, setting OKRs, managing interns, conducting AARs, maintaining the organisation of Hubspot, and leading projects with a\nclear objective.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "dacee87a-a716-4405-a360-d59740edaff9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "244f1443-987a-4d7a-b5e9-0e2a933c874e"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2024-02-29T07:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fec1819d-003a-4b00-b0b2-af3fc0d42459",
+      "parent": {
+        "type": "page_id",
+        "page_id": "244f1443-987a-4d7a-b5e9-0e2a933c874e"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2024-02-29T07:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d5111fbb-fc16-4983-9cba-f25398a75e4b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "244f1443-987a-4d7a-b5e9-0e2a933c874e"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2025-02-14T01:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Ops - HubSpot Maintenance"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ec93ca3a-1bef-41b6-b350-e8b42f620a24",
+      "parent": {
+        "type": "page_id",
+        "page_id": "244f1443-987a-4d7a-b5e9-0e2a933c874e"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2025-02-03T00:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Ops - Notion Management"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18f2dbc5-4786-80aa-ba75-e8d312eb53a1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "244f1443-987a-4d7a-b5e9-0e2a933c874e"
+      },
+      "created_time": "2025-02-03T00:06:00.000Z",
+      "last_edited_time": "2025-03-18T00:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Ops - Project Management"
+      }
+    },
+    {
+      "object": "block",
+      "id": "12ab6ae7-edf9-4175-adc8-46522891f82f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "244f1443-987a-4d7a-b5e9-0e2a933c874e"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2025-05-15T00:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Ops - Intern Management"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d4a89135-550f-4844-9808-04b8bb4c5f98",
+      "parent": {
+        "type": "page_id",
+        "page_id": "244f1443-987a-4d7a-b5e9-0e2a933c874e"
+      },
+      "created_time": "2024-07-03T09:17:00.000Z",
+      "last_edited_time": "2025-03-10T05:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Ops - Intern"
+      }
+    }
+  ]
+}

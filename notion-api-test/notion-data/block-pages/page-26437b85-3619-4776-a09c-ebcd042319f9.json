@@ -1,0 +1,2048 @@
+{
+  "page": {
+    "object": "page",
+    "id": "26437b85-3619-4776-a09c-ebcd042319f9",
+    "created_time": "2024-09-10T04:07:00.000Z",
+    "last_edited_time": "2025-05-05T00:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "cover": null,
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/square-alternate_yellow.svg"
+      }
+    },
+    "parent": {
+      "type": "block_id",
+      "block_id": "1b22dbc5-4786-80d4-b542-fb5af01b83a4"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2024-09-10T04:07:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-05-05T00:53:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Accounting / Finance",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Accounting / Finance",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "61eb104f-6c00-4c20-9f42-965590430dfb",
+            "name": "Trevor",
+            "avatar_url": null,
+            "type": "person",
+            "person": {
+              "email": "trevor@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Accounting-Finance-26437b8536194776a09cebcd042319f9",
+    "public_url": null
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "3b86ed56-0aeb-4977-9e32-1d0191ae42ff",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T05:10:00.000Z",
+      "last_edited_time": "2024-09-10T05:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This document outlines the processes for handling budgets, expense cards, supplier invoices, payments, and coordination between SBC Australia, Greenwave Accountants, and the SBC Global Accounting Team.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This document outlines the processes for handling budgets, expense cards, supplier invoices, payments, and coordination between SBC Australia, Greenwave Accountants, and the SBC Global Accounting Team.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1062dbc5-4786-80e3-8d34-f01ef47be8a3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-19T01:13:00.000Z",
+      "last_edited_time": "2024-09-26T20:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "NB",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NB",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Greenwave will check the accounting inbox on Tue & Thu for action.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Greenwave will check the accounting inbox on Tue & Thu for action.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-80e7-9fb7-cd1e3fe141db",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:53:00.000Z",
+      "last_edited_time": "2024-09-26T21:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "NB:  ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NB:  ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Ad hoc tasks will be managed via a google space called ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ad hoc tasks will be managed via a google space called ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Accounting and Finance ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Accounting and Finance ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-80da-b981-e0ef056c531a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T21:04:00.000Z",
+      "last_edited_time": "2024-09-26T21:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This can be access from google mail or the link below:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This can be access from google mail or the link below:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-804b-aed4-fa601c19f3ca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:58:00.000Z",
+      "last_edited_time": "2024-09-26T21:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "link_mention",
+              "link_mention": {
+                "href": "https://chat.google.com/room/AAAAQi_kvGU?cls=7",
+                "title": "chat.google.com"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://chat.google.com/room/AAAAQi_kvGU?cls=7",
+            "href": "https://chat.google.com/room/AAAAQi_kvGU?cls=7"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "06be994c-726e-43e3-816c-3af229fef4a9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T05:10:00.000Z",
+      "last_edited_time": "2024-09-10T05:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Key Audiences:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Key Audiences:",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b26de5a8-7531-4813-81e2-2659116c64db",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T05:10:00.000Z",
+      "last_edited_time": "2024-09-10T05:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SBC Australia staff with budget responsibilities or expense card usage",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SBC Australia staff with budget responsibilities or expense card usage",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "abfac46d-b289-4181-9e38-70820a3e93d7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T05:10:00.000Z",
+      "last_edited_time": "2024-09-26T21:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Greenwave Accountants (SBC Australia's Bookkeeper and Accountant)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Greenwave Accountants (SBC Australia's Bookkeeper and Accountant)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9e827f7c-ac5a-407e-87f1-a9b60821d208",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T05:10:00.000Z",
+      "last_edited_time": "2024-09-10T05:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SBC Global Accounting Team",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SBC Global Accounting Team",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ae24c585-8166-4ab2-a017-45d368c2358a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T09:58:00.000Z",
+      "last_edited_time": "2024-09-10T09:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "cf764007-baf6-41eb-8ea6-88c82f140d25",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T09:58:00.000Z",
+      "last_edited_time": "2024-09-26T21:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Key Terms",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Key Terms",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d4d478d3-5231-442e-8c34-c38a8ff3bc6f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T09:58:00.000Z",
+      "last_edited_time": "2024-09-26T20:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bookkeeper",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "Bookkeeper",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": " -",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " Refers to Greenwave Accounting ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " Refers to Greenwave Accounting ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "greenwave@startupbootcamp.com.au",
+              "link": {
+                "url": "mailto:greenwave@startupbootcamp.com.au"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "greenwave@startupbootcamp.com.au",
+            "href": "mailto:greenwave@startupbootcamp.com.au"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " or accounts@startupbootcamp.com.au",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " or accounts@startupbootcamp.com.au",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-80fe-9e1b-e62e31f6fab5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:27:00.000Z",
+      "last_edited_time": "2024-09-26T20:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-8057-99a8-c3d35aa758c8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:27:00.000Z",
+      "last_edited_time": "2024-09-26T20:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "CEO",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "CEO",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": " - ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Refers to Trevor Townsend trevor@startupbootcamp.com.au",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Refers to Trevor Townsend trevor@startupbootcamp.com.au",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-806d-8e83-c0db35d38e07",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:28:00.000Z",
+      "last_edited_time": "2024-09-26T20:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-8032-abe3-f6c1210c3dfc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:27:00.000Z",
+      "last_edited_time": "2024-09-26T20:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Executive Program Director [EPD]",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "Executive Program Director [EPD]",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": " ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "- Refers to Richard Celm rich@startupbootcamp.com.au",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "- Refers to Richard Celm rich@startupbootcamp.com.au",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-801c-a6ad-d8afdf83f553",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:27:00.000Z",
+      "last_edited_time": "2024-09-26T20:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-8089-812a-dd10ace29d8f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:27:00.000Z",
+      "last_edited_time": "2024-09-26T20:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GL Code: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "GL Code: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "This identifies which business unit the revenue from clients is attributed to, and for expenses, which expense category the expense should be recorded under.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This identifies which business unit the revenue from clients is attributed to, and for expenses, which expense category the expense should be recorded under.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-8006-adff-c77a5a14e088",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:28:00.000Z",
+      "last_edited_time": "2024-09-26T20:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-8032-aece-f7e11fa4b5e0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:25:00.000Z",
+      "last_edited_time": "2024-09-26T20:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Job Code:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "Job Code:",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Identifies the project within the business unit and is used to allocate costs and revenue to match against budgets. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Identifies the project within the business unit and is used to allocate costs and revenue to match against budgets. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-80f2-82de-cb219882f251",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:28:00.000Z",
+      "last_edited_time": "2024-09-26T20:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-80a2-a6fc-d589f4976c78",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:25:00.000Z",
+      "last_edited_time": "2024-09-26T20:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SBC Contractor ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "SBC Contractor ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "-",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "-",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " someone who has a direct ongoing contractor agreement with SBC",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " someone who has a direct ongoing contractor agreement with SBC",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-806e-813b-e13d7b8606b5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:26:00.000Z",
+      "last_edited_time": "2024-09-26T20:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a2ad543b-97d1-4ee1-ad1c-f2b01c9cef1d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T09:58:00.000Z",
+      "last_edited_time": "2024-09-26T20:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Supplier ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "Supplier ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "—",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "—",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "any company that supplies us with products or services. Individual contractors who deliver short amounts of work are considered suppliers.  When discussing payment terms with potential suppliers, please review the Supplier and Contractors page below and the Supplier Payment Run Schedule before agreeing on payment terms. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "any company that supplies us with products or services. Individual contractors who deliver short amounts of work are considered suppliers.  When discussing payment terms with potential suppliers, please review the Supplier and Contractors page below and the Supplier Payment Run Schedule before agreeing on payment terms. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-808f-b9ba-d6f303b1b0e1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:26:00.000Z",
+      "last_edited_time": "2024-09-26T20:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2a8d9d0a-3477-4675-8c38-e73047ca7baf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:39:00.000Z",
+      "last_edited_time": "2024-09-10T10:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GL Name and Job Code are documented in this spreadsheet: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GL Name and Job Code are documented in this spreadsheet: ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "159f31af-b632-4319-b289-6bac8f1c3ae2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:35:00.000Z",
+      "last_edited_time": "2024-09-26T20:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "link_preview",
+              "link_preview": {
+                "url": "https://docs.google.com/spreadsheets/d/1AjNZYx_8Jy7LR8KxfG9VixiRGg_p1zjcbcSVju3qvGA/edit?gid=0#gid=0"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "https://docs.google.com/spreadsheets/d/1AjNZYx_8Jy7LR8KxfG9VixiRGg_p1zjcbcSVju3qvGA/edit?gid=0#gid=0",
+            "href": "https://docs.google.com/spreadsheets/d/1AjNZYx_8Jy7LR8KxfG9VixiRGg_p1zjcbcSVju3qvGA/edit?gid=0#gid=0"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-80e0-bb46-f489e7e62240",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T21:46:00.000Z",
+      "last_edited_time": "2024-09-26T21:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ea37ee45-31a0-42cb-9c90-6710739823a1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-11T03:07:00.000Z",
+      "last_edited_time": "2024-09-26T21:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "18f0c017-47b8-445b-aac8-7a1959da6b97"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Accounting and Finance Processes",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Accounting and Finance Processes",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e7616399-d421-4983-a603-d9a3cffac747",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T05:10:00.000Z",
+      "last_edited_time": "2024-09-10T05:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "281b8caf-c8c1-4788-9577-facf7ca3590f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T11:05:00.000Z",
+      "last_edited_time": "2025-03-04T10:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Company Information"
+      }
+    },
+    {
+      "object": "block",
+      "id": "94d39060-5af7-4cc5-a689-8e25de89aac0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T11:00:00.000Z",
+      "last_edited_time": "2025-03-04T11:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Bank Accounts"
+      }
+    },
+    {
+      "object": "block",
+      "id": "76a1d7e3-666f-44af-8b0b-47daf136fa55",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T11:02:00.000Z",
+      "last_edited_time": "2025-03-04T11:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Insurance"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d005827f-0509-497b-bb00-5a47b3ae0aca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:58:00.000Z",
+      "last_edited_time": "2025-03-04T11:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Compliance "
+      }
+    },
+    {
+      "object": "block",
+      "id": "1102dbc5-4786-8051-98dc-cc193ae3a978",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-29T04:16:00.000Z",
+      "last_edited_time": "2025-03-04T11:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Australian Financial Services License"
+      }
+    },
+    {
+      "object": "block",
+      "id": "867f009f-3a1f-4bea-b9c9-e7373ac5ae62",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:58:00.000Z",
+      "last_edited_time": "2025-03-04T11:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Investment Trusts and Funds "
+      }
+    },
+    {
+      "object": "block",
+      "id": "1102dbc5-4786-8007-b9b2-e1b2f254eb77",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-29T04:32:00.000Z",
+      "last_edited_time": "2025-03-04T11:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Startup Valuation Policy"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1072dbc5-4786-8068-9f1d-daefa4cb02c0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-20T00:26:00.000Z",
+      "last_edited_time": "2025-03-04T11:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Fund Management"
+      }
+    },
+    {
+      "object": "block",
+      "id": "02e2113c-933c-4276-96e3-b462649ca23b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:52:00.000Z",
+      "last_edited_time": "2025-03-04T10:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Startup Investment Payments"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8a55fe04-ff3d-4b74-bf35-9332b0aba675",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:50:00.000Z",
+      "last_edited_time": "2025-04-04T00:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Supplier and Contractors"
+      }
+    },
+    {
+      "object": "block",
+      "id": "3cd030e2-90ea-4397-972b-116532f41095",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:53:00.000Z",
+      "last_edited_time": "2025-03-04T11:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Client Contracts and Invoicing"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9cad2a8e-5706-4246-b060-5f7c82d64211",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:56:00.000Z",
+      "last_edited_time": "2025-03-04T06:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Payroll"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2f2c768a-898a-4e13-befb-31e3a699ad33",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:57:00.000Z",
+      "last_edited_time": "2025-03-04T11:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Staff Expense Management and Reimbursements"
+      }
+    },
+    {
+      "object": "block",
+      "id": "de525b74-20d2-4f7d-b70d-00ca983f735e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-10T10:58:00.000Z",
+      "last_edited_time": "2025-03-04T06:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "End-of-Month Process and Reporting"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-80cd-a6b9-e872955eddb2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:00:00.000Z",
+      "last_edited_time": "2025-03-04T11:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Grant Tracking and Acquittals"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10d2dbc5-4786-80d4-b3d3-ec09253d2339",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-26T20:45:00.000Z",
+      "last_edited_time": "2024-09-26T20:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "10d2dbc5-4786-8097-8d68-f1e35ff519ae"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Untitled",
+            "href": "https://www.notion.so/10d2dbc5478680978d68f1e35ff519ae"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1102dbc5-4786-80b2-83b5-f340ea1411a2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-09-29T04:18:00.000Z",
+      "last_edited_time": "2024-09-29T04:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ff94468e-bd2a-4b51-a437-84d1004c22a1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "26437b85-3619-4776-a09c-ebcd042319f9"
+      },
+      "created_time": "2024-08-05T07:13:00.000Z",
+      "last_edited_time": "2025-04-16T04:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Sales - Startup Terms"
+      }
+    }
+  ]
+}

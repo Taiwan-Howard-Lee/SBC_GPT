@@ -1,0 +1,2259 @@
+{
+  "page": {
+    "object": "page",
+    "id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8",
+    "created_time": "2024-06-21T09:03:00.000Z",
+    "last_edited_time": "2025-05-15T09:43:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "cover": null,
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/football_green.svg"
+      }
+    },
+    "parent": {
+      "type": "page_id",
+      "page_id": "5776814a-6bc9-4b41-80e5-1ce8ea882555"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2024-06-21T09:03:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-05-15T09:43:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "PC - Program Kick Off",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "PC - Program Kick Off",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1",
+            "name": "Madison",
+            "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/efa6c44c-7066-429f-b427-2b5c23016b5a/Profile.png",
+            "type": "person",
+            "person": {
+              "email": "madison@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/PC-Program-Kick-Off-a7dafba4b109409a94a6ce0a0e9e5cb8",
+    "public_url": null,
+    "request_id": "ab14db97-0305-462d-abe9-9b80636084ed"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "338c2bb7-35ce-4edc-966e-3ac677f45abf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-06-29T15:00:00.000Z",
+      "last_edited_time": "2025-05-07T08:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "PC: Review Previous AARs"
+      },
+      "children": [
+        {
+          "object": "block",
+          "id": "1402dbc5-4786-803b-beaf-c8a9c1258d2b",
+          "parent": {
+            "type": "page_id",
+            "page_id": "338c2bb7-35ce-4edc-966e-3ac677f45abf"
+          },
+          "created_time": "2024-11-16T23:28:00.000Z",
+          "last_edited_time": "2025-05-07T07:19:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Go to ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Go to ",
+                "href": null
+              },
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "1fcc2b4f-b59b-40b3-a973-457c013966a5"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "PC AARs",
+                "href": "https://www.notion.so/1fcc2b4fb59b40b3a973457c013966a5"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "41fb170f-54e8-48e4-a7cf-ad23c720fca2",
+          "parent": {
+            "type": "page_id",
+            "page_id": "338c2bb7-35ce-4edc-966e-3ac677f45abf"
+          },
+          "created_time": "2024-07-31T09:14:00.000Z",
+          "last_edited_time": "2025-05-07T07:19:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Look through Previous Selection Days AARs Ensure Documentation is up to date and steps were followed to ensure our process is constantly improving ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Look through Previous Selection Days AARs Ensure Documentation is up to date and steps were followed to ensure our process is constantly improving ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "83725e37-f6d0-4ac9-b8fe-15257f5b0e55",
+          "parent": {
+            "type": "page_id",
+            "page_id": "338c2bb7-35ce-4edc-966e-3ac677f45abf"
+          },
+          "created_time": "2024-07-31T09:16:00.000Z",
+          "last_edited_time": "2024-07-31T09:16:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "8bcb643d-e0ea-4903-b230-b1327e950f2c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-06-29T14:59:00.000Z",
+      "last_edited_time": "2025-05-07T08:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "PC: Kick Off Meeting"
+      },
+      "children": [
+        {
+          "object": "block",
+          "id": "ff9e8c28-765b-4c07-b275-b80df41a04e3",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T10:49:00.000Z",
+          "last_edited_time": "2024-08-07T10:49:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "table_of_contents",
+          "table_of_contents": {
+            "color": "gray"
+          }
+        },
+        {
+          "object": "block",
+          "id": "bbefa886-d357-45f8-84af-0e3170e8167b",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T11:11:00.000Z",
+          "last_edited_time": "2024-08-15T07:13:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "divider",
+          "divider": {}
+        },
+        {
+          "object": "block",
+          "id": "a14090f9-bb8e-46c2-ac2a-626fe1b833b0",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-15T07:13:00.000Z",
+          "last_edited_time": "2025-05-07T07:19:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "\nPC - Admin Tasks: Confirm Roles and Responsibilities",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "\nPC - Admin Tasks: Confirm Roles and Responsibilities",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "96466479-3693-4acf-b6fd-4ad8b469a88e",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:24:00.000Z",
+          "last_edited_time": "2025-05-07T08:26:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Initial Setup",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Initial Setup",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "b9575885-f066-4c51-950c-f0efd16d2618",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:17:00.000Z",
+          "last_edited_time": "2025-05-07T08:26:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Selection Week Prep",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Selection Week Prep",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "677448a6-9d4b-4190-8ca3-a47132ecc98a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:24:00.000Z",
+          "last_edited_time": "2025-01-22T05:43:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Mentor Acquisition ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Mentor Acquisition ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2aed5d6e-8097-476f-bc1e-590c78c4fbb3",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:25:00.000Z",
+          "last_edited_time": "2025-05-07T08:26:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Startup Prep",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Startup Prep",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1832dbc5-4786-805c-a4b5-c02768681e83",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2025-01-22T05:44:00.000Z",
+          "last_edited_time": "2025-05-07T08:26:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Selection Week",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Selection Week",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1ec2dbc5-4786-8034-9a8d-ff8868d739ae",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2025-05-07T08:26:00.000Z",
+          "last_edited_time": "2025-05-07T08:27:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Post ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Post ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "5d3057d5-11d4-464b-99ca-7ba0ab02287e",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:26:00.000Z",
+          "last_edited_time": "2024-09-05T02:26:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "43b0d6bd-61bd-4df2-89a3-06866f995564",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T10:49:00.000Z",
+          "last_edited_time": "2024-11-07T21:38:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "PC - Admin Tasks: General Program Information ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "PC - Admin Tasks: General Program Information ",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "237dabd3-04f1-4459-aae9-6205bd87e09c",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T10:51:00.000Z",
+          "last_edited_time": "2024-11-12T08:20:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Confirm Themes: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Confirm Themes: ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "3df6f7c1-1d45-4df9-8b93-c4896f7288b6",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T10:51:00.000Z",
+          "last_edited_time": "2024-11-12T08:20:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Confirm Key Words: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Confirm Key Words: ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "063b4bce-1f2f-4ba3-882c-2affe1640c6d",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T10:51:00.000Z",
+          "last_edited_time": "2024-11-12T08:20:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Confirm Program Description:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Confirm Program Description:",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "7e606d38-fe1e-4724-a620-9a5d5b237895",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T11:24:00.000Z",
+          "last_edited_time": "2024-11-12T08:20:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Confirm Partners for Program: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Confirm Partners for Program: ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "c45ca23b-6980-4d1f-ad8a-c2c290f9b685",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T10:53:00.000Z",
+          "last_edited_time": "2024-08-07T10:53:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "73e01733-2cf0-4cb6-86f1-3123c96aa36d",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T10:49:00.000Z",
+          "last_edited_time": "2024-11-07T21:38:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "PC - Admin Tasks: Website ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "PC - Admin Tasks: Website ",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "35385012-c000-421d-9f7c-ca00dc639afd",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:19:00.000Z",
+          "last_edited_time": "2024-09-05T02:21:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Navigate to ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Navigate to ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Sanity",
+                  "link": {
+                    "url": "https://sbcaus.sanity.studio/desk/program"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Sanity",
+                "href": "https://sbcaus.sanity.studio/desk/program"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " > Go through Contents of program page ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " > Go through Contents of program page ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "0d853dc0-001b-4540-a0ac-1b14a44ddc78",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-19T06:14:00.000Z",
+          "last_edited_time": "2024-09-05T02:21:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Confirm Microsite for Investor Sneak Peek / Industry Sneak peek / Demo Day",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Confirm Microsite for Investor Sneak Peek / Industry Sneak peek / Demo Day",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "41f5d139-8601-4738-ae67-21d78d9bb8c7",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-22T01:14:00.000Z",
+          "last_edited_time": "2024-09-05T02:21:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Confirm Contents of Typeform application ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Confirm Contents of Typeform application ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "c691a98b-47cf-440b-ba96-4f40414b666b",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-22T05:20:00.000Z",
+          "last_edited_time": "2024-08-22T05:20:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "ca540b04-e891-423d-b8a2-1aa8cefadcfb",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T10:48:00.000Z",
+          "last_edited_time": "2025-01-22T05:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "PC - Admin Tasks: Program Key Dates",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "PC - Admin Tasks: Program Key Dates",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1ab424f7-7772-4e04-a9dd-1bd42acb3869",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:07:00.000Z",
+          "last_edited_time": "2025-01-22T05:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Confirm there are no events that interfere or we can piggyback on",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Confirm there are no events that interfere or we can piggyback on",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "50bf82e1-72b4-461f-8f1b-c1afb3b7c75d",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:23:00.000Z",
+          "last_edited_time": "2025-01-22T05:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Selection Days Prep : Dates / Times ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Selection Days Prep : Dates / Times ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "d5285e81-520a-4bb9-9e8a-8d3d8d15cba4",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:23:00.000Z",
+          "last_edited_time": "2025-01-22T05:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Selection Days : Dates / Times ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Selection Days : Dates / Times ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "fa0dfc19-f3e3-4d3c-8413-f906bdbb0f3b",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:23:00.000Z",
+          "last_edited_time": "2025-01-22T05:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Mentor Matching: Dates / Times ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Mentor Matching: Dates / Times ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "44116282-09bf-4a37-91ff-a87636582f6b",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:23:00.000Z",
+          "last_edited_time": "2025-01-22T05:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Industry Sneak Peek: Dates / Times ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Industry Sneak Peek: Dates / Times ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "d5736142-5682-47ee-9577-2d0cb2f523f8",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:23:00.000Z",
+          "last_edited_time": "2025-01-22T05:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Investor Sneak Peek: Dates / Times",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Investor Sneak Peek: Dates / Times",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "29e3602d-4fad-4345-8cef-6f5cbfd61f73",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:23:00.000Z",
+          "last_edited_time": "2025-01-22T05:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Meet the Press: Dates/Times",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Meet the Press: Dates/Times",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "f0236ceb-00df-4312-8a89-ff805f6756d6",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:23:00.000Z",
+          "last_edited_time": "2025-01-22T05:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Demo Day: Dates / Times ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Demo Day: Dates / Times ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "6aa324eb-e5e4-4479-9004-15e19c416c07",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:23:00.000Z",
+          "last_edited_time": "2025-01-22T05:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Program Start Date",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Program Start Date",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "f84cc4c7-8ccd-4b9c-a68d-7fc65f7bf237",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:23:00.000Z",
+          "last_edited_time": "2025-01-22T05:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Program End Date",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Program End Date",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "d8c16074-708b-477c-a940-fc7aea05d851",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:19:00.000Z",
+          "last_edited_time": "2024-09-05T02:22:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "19c8409f-8c9b-4bd6-9689-2e979dea5405",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-12T06:11:00.000Z",
+          "last_edited_time": "2024-08-12T06:11:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "66d2145c-77cc-4865-a7f1-bcf5df2e210a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-08-07T10:49:00.000Z",
+          "last_edited_time": "2024-11-07T21:38:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "heading_3",
+          "heading_3": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "PC - Admin Tasks: Scouting and Due Diligence ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "PC - Admin Tasks: Scouting and Due Diligence ",
+                "href": null
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1602dbc5-4786-80a2-86bc-f94de7622895",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-12-18T06:31:00.000Z",
+          "last_edited_time": "2024-12-18T06:32:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "How many startups in Cohort",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "How many startups in Cohort",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1602dbc5-4786-80eb-bbac-e441dc13a25f",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-12-18T06:30:00.000Z",
+          "last_edited_time": "2024-12-18T06:30:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Parameters for term sheet and Investment Agreement",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Parameters for term sheet and Investment Agreement",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1602dbc5-4786-8099-9228-c458d6bdb644",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-12-18T06:30:00.000Z",
+          "last_edited_time": "2024-12-18T06:31:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Will Hatcher invest in this cohort",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Will Hatcher invest in this cohort",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "1832dbc5-4786-80b7-80e9-d0d4e1079338",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2025-01-22T05:42:00.000Z",
+          "last_edited_time": "2025-01-22T05:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Themes / Key Words",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Themes / Key Words",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "d666c162-4438-46e0-9f64-88df301b7ce9",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-09-05T02:27:00.000Z",
+          "last_edited_time": "2024-09-05T02:27:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "13f2dbc5-4786-80cf-95cf-f117f91eb585",
+          "parent": {
+            "type": "page_id",
+            "page_id": "8bcb643d-e0ea-4903-b230-b1327e950f2c"
+          },
+          "created_time": "2024-11-15T07:28:00.000Z",
+          "last_edited_time": "2024-11-15T07:28:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "3423d639-2e99-4aa5-ac65-c48a3d7455dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-19T05:48:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "00468d5b-d54a-43b0-ab49-bd054e1f27fb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-15T07:13:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "724da574-d0a6-44b2-8579-097939676538",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-19T05:48:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ba2aece4-2ff1-4980-a69e-8cd3ff2397b5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-15T07:13:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0f1cbc45-4f19-404a-83c8-976fa6ec2d1f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-19T05:48:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "13fa4752-f95d-4464-9bc1-e066cca83b73",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-15T07:13:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "332a4caf-cc85-477f-ab10-e13800f7ee97",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-19T05:48:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "46b5b266-6b69-4f18-a7d5-c22d414ec392",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-15T07:13:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "14d9ee02-6ae6-46ec-9919-99540adfff4e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-19T05:48:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e9278332-984d-40dc-9818-33be6c3aed70",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-07-05T04:08:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e6b20dab-8a3d-47e0-8581-4f0944882a62",
+      "parent": {
+        "type": "page_id",
+        "page_id": "a7dafba4-b109-409a-94a6-ce0a0e9e5cb8"
+      },
+      "created_time": "2024-08-15T07:13:00.000Z",
+      "last_edited_time": "2025-01-25T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ]
+}

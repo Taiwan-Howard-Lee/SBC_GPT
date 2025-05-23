@@ -1,0 +1,912 @@
+{
+  "page": {
+    "object": "page",
+    "id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943",
+    "created_time": "2024-04-02T06:37:00.000Z",
+    "last_edited_time": "2025-05-09T05:00:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://images.unsplash.com/photo-1548504773-429e84f586d2?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/square-alternate_orange.svg"
+      }
+    },
+    "parent": {
+      "type": "block_id",
+      "block_id": "1b22dbc5-4786-80a6-81de-f80efb7425d6"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2024-04-02T06:37:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-05-09T05:00:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Relations",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Relations",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1",
+            "name": "Madison",
+            "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/efa6c44c-7066-429f-b427-2b5c23016b5a/Profile.png",
+            "type": "person",
+            "person": {
+              "email": "madison@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Relations-adc64d6f85c74f7b8cf3b5680bbdd943",
+    "public_url": null
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "ad56cbe6-2dbd-4df6-9fce-75627ef6dbb1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-17T01:13:00.000Z",
+      "last_edited_time": "2024-06-17T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "CONVERSATION | COMMUNITY | COLLABORATION",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "CONVERSATION | COMMUNITY | COLLABORATION",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "33a684e4-46b8-466a-b623-2f470a8bb8cb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-17T01:13:00.000Z",
+      "last_edited_time": "2024-06-17T01:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6d466892-952c-42bf-9e92-ed1ac187e8c3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:51:00.000Z",
+      "last_edited_time": "2024-06-18T00:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Role overview: Responsible for fostering quality relationships by providing exceptional SBC brand- experiences and communication via our website (Mentor EOI), direct referral  and social media touchpoints. You will support, educate and champion our Mentors’s voice within the business. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Role overview: Responsible for fostering quality relationships by providing exceptional SBC brand- experiences and communication via our website (Mentor EOI), direct referral  and social media touchpoints. You will support, educate and champion our Mentors’s voice within the business. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "478426eb-33f1-423b-a34f-425715a5c734",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:57:00.000Z",
+      "last_edited_time": "2024-06-11T05:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "de7faf7d-7912-489f-8a37-31ee4fd89845",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-07-19T01:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Being a primary contact with customers within community and customer care across email, phone, social, and other emerging/ relevant channels.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Being a primary contact with customers within community and customer care across email, phone, social, and other emerging/ relevant channels.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2f112ebf-519b-410f-b32c-258500c042d9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-06-11T05:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Help drive the vision for customer care in line with the brand mission, values, and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Help drive the vision for customer care in line with the brand mission, values, and ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "industry best practices,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "industry best practices,",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and help define how we interact with and delight customers.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and help define how we interact with and delight customers.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fa0020f4-befc-41c4-b794-391993490214",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-06-11T05:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Collaborate closely with the marketing team on strategy, guidelines, and execution.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Collaborate closely with the marketing team on strategy, guidelines, and execution.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b784ea58-7ef1-44dd-8837-0ac0440f35c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-06-18T00:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Help lead the social media community (Global mentor linkedin group and SBC AUS page) as the new frontier of customer service, understanding how to best handle thoughtful comments, DMs, tagged photos, etc for optimal growth and engagement.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Help lead the social media community (Global mentor linkedin group and SBC AUS page) as the new frontier of customer service, understanding how to best handle thoughtful comments, DMs, tagged photos, etc for optimal growth and engagement.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2ed01862-6f0f-412c-bd6a-e3f3bc34c9fb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-06-11T05:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Maintain a deep understanding and playbook library in hubspot to provide assistance, educate and facilitate Mentor interactions.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Maintain a deep understanding and playbook library in hubspot to provide assistance, educate and facilitate Mentor interactions.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c077a3a1-475f-4302-af8d-fe68731ecc53",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-06-11T05:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Assist with all customer inquiries and issues related to their Mentor xp.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Assist with all customer inquiries and issues related to their Mentor xp.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "598ebaed-ed74-4309-864c-ca237919e9fb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-06-11T05:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Track, analyse, and report on quantitative and qualitative customer satisfaction and feedback and recommending improvements.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Track, analyse, and report on quantitative and qualitative customer satisfaction and feedback and recommending improvements.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2faa842a-b652-4479-9f22-f0ff744f130b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-06-11T05:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Drive internal awareness of the customer service & competitive community landscape, sharing trends and opportunities for SBC",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Drive internal awareness of the customer service & competitive community landscape, sharing trends and opportunities for SBC",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ea8d6d35-3571-4c9a-ac20-9b4ccf6b991d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-06-21T04:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Maintain a library of mentors Q&A, complaints and other insights, competitor activity and to share with relevant teams each month or when necessary.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Maintain a library of mentors Q&A, complaints and other insights, competitor activity and to share with relevant teams each month or when necessary.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e8021668-2ff5-4d53-a41e-200b41575a81",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:53:00.000Z",
+      "last_edited_time": "2024-06-21T04:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Continuously seek opportunities and creative ideas to connect with our Mentor in a way that makes them feel like we went above and beyond to support their experience.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Continuously seek opportunities and creative ideas to connect with our Mentor in a way that makes them feel like we went above and beyond to support their experience.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c41e4a01-2ec7-4225-940b-ab88c184f819",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-06T00:39:00.000Z",
+      "last_edited_time": "2024-06-06T00:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ca01f81c-9ef3-4921-a125-effddb90a8f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-11T05:57:00.000Z",
+      "last_edited_time": "2024-06-17T04:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2afce7e0-2d6c-4eec-beaa-54b79a43dbae",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-06-20T00:18:00.000Z",
+      "last_edited_time": "2025-05-12T00:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Relations - Mentor"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1eb2dbc5-4786-804e-84ef-cac8bc39265b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2025-05-06T23:39:00.000Z",
+      "last_edited_time": "2025-05-12T00:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Relations - Startup Deal Kit Partners"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f7b2f19e-af1c-4aaa-9f63-f85140fc98c9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-05-27T05:34:00.000Z",
+      "last_edited_time": "2025-05-06T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Relations - Events"
+      }
+    },
+    {
+      "object": "block",
+      "id": "3f4644ef-19fb-40bd-b5e1-0d6a4ed3c86f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-08-02T01:44:00.000Z",
+      "last_edited_time": "2025-04-24T01:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2b0eea37-4511-48bb-9397-1bddc57ce005"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Relations Intern"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ac2dbc5-4786-80c2-9925-faad5def2221",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2025-03-04T06:22:00.000Z",
+      "last_edited_time": "2025-03-04T06:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Relations AARs"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ab056af7-7968-4f65-9dbe-d02c97a5d3ff",
+      "parent": {
+        "type": "page_id",
+        "page_id": "adc64d6f-85c7-4f7b-8cf3-b5680bbdd943"
+      },
+      "created_time": "2024-07-15T00:38:00.000Z",
+      "last_edited_time": "2024-07-15T00:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a3ff2476-ecd4-4dfa-b409-0ca0199abb4f"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ]
+}

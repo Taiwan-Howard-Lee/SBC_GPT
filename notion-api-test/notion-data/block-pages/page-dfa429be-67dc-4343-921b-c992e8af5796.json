@@ -1,0 +1,810 @@
+{
+  "page": {
+    "object": "page",
+    "id": "dfa429be-67dc-4343-921b-c992e8af5796",
+    "created_time": "2024-02-29T07:34:00.000Z",
+    "last_edited_time": "2025-05-15T09:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/images/page-cover/gradients_5.png"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/square-alternate_purple.svg"
+      }
+    },
+    "parent": {
+      "type": "block_id",
+      "block_id": "1b22dbc5-4786-8043-b467-c959883fa08c"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2024-02-29T07:34:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-05-15T09:35:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Scouting",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Scouting",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "2999458a-cf78-4a08-9af6-c1e435804ea1",
+            "name": "Richard Celm",
+            "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLiX_U-B8YfdpNfmvmdlYykuzLW6wpdS5iR5C06HisOlQ=s100",
+            "type": "person",
+            "person": {
+              "email": "rich@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Scouting-dfa429be67dc4343921bc992e8af5796",
+    "public_url": null
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1d0b4236-08fc-4b71-a214-87499c3de174",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-07-02T01:42:00.000Z",
+      "last_edited_time": "2024-07-02T01:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "About the Scouting Role",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "About the Scouting Role",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1dbffe92-4698-492c-8881-1025d8993cbd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2024-06-30T09:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Scouting team is responsible for finding startups around the world. Scouting is an extremely important function within SBC as our ability to find startups from around the world is extremely unique in the innovation ecosystem. We are different from our competitors (other accelerator programs) because we are able to find such high quality startups globally.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Scouting team is responsible for finding startups around the world. Scouting is an extremely important function within SBC as our ability to find startups from around the world is extremely unique in the innovation ecosystem. We are different from our competitors (other accelerator programs) because we are able to find such high quality startups globally.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a22dbc5-4786-8005-b9c0-ebeba6f49a7c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-02-22T12:14:00.000Z",
+      "last_edited_time": "2025-02-22T12:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a22dbc5-4786-80a4-9d61-f726ca30e69c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-02-22T12:14:00.000Z",
+      "last_edited_time": "2025-02-22T12:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Scouting for an Equity Program ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Scouting for an Equity Program ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a22dbc5-4786-8018-9f8c-dd8f8582ef52",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-02-22T12:15:00.000Z",
+      "last_edited_time": "2025-02-22T12:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SBC puts on accelerator programs for startups within different industry verticals (Fintech, food startups, etc.) It is the job of the scouting team to find the highest quality startups possible to join our program. Why? Because we want to find the best innovation to enter the market, and we also give them cash in return for equity in their company. When the startups do well, we do well as an organisation. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SBC puts on accelerator programs for startups within different industry verticals (Fintech, food startups, etc.) It is the job of the scouting team to find the highest quality startups possible to join our program. Why? Because we want to find the best innovation to enter the market, and we also give them cash in return for equity in their company. When the startups do well, we do well as an organisation. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a22dbc5-4786-8058-b65d-e2d8cc6dc65f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-02-22T12:16:00.000Z",
+      "last_edited_time": "2025-03-10T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "1ca2dbc5-4786-80ab-8f37-c083d4804708",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-04-03T23:57:00.000Z",
+      "last_edited_time": "2025-05-15T09:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: Internal Kickoff"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f22dbc5-4786-8094-9909-d9a4a0b9d856",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-05-13T08:32:00.000Z",
+      "last_edited_time": "2025-05-15T09:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: External Kickoff Meeting"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10c2dbc5-4786-8079-a838-c391c9ad57ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-09-25T03:22:00.000Z",
+      "last_edited_time": "2025-05-07T10:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: Initial Setup"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ec2dbc5-4786-80b3-bf4b-f9322c3bcc82",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-05-07T10:18:00.000Z",
+      "last_edited_time": "2025-05-07T10:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/95c65f9e-adc2-49e3-a64e-8ad2ac39429c/66587359-732b-489f-ad22-9fe478dbb3b1/Screenshot_2025-05-07_at_8.18.03_pm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667GY2PC6E%2F20250515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250515T113754Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHQaCXVzLXdlc3QtMiJIMEYCIQC%2FGBaJEWlhr1oaIZf6m%2FZJKagxwqGokXv%2Fl6mMfEB%2FlwIhAKGWY8ZW60UjMVrZXnmvNyypmqYWl7Xr1IEkEIa5BXw0Kv8DCC0QABoMNjM3NDIzMTgzODA1IgydOIld4OxhniAVz0sq3AMbvZE%2BcR3dUPVXqSOUOyMl8kVqOslhQkTJnSCv%2FwQP62Ku71y1iLlfi3d1r55x1mtjn3oXoQx%2Fvogec0FRRo9Ux9IDXcWEXIAc0sUB%2B9xLl1YgpdBkuSIUgbW%2FJ0bw0M1hQe4kgwrbxIIja97WTnXU47WcvLZaC58g64qfcawTslszXM%2Bx3hkZ1SPxbRYurfPLIFQpKvwavLabBiacbMDz3SqAlmzNgeWRdNOGwUE8LHTox5VpFg%2BsFGKeZF8kE6gOb8RPv74vNM4eVgbEgagRyh2DVu1a3hLsFAxyBj9GlLxHtgbjuJy%2BWNp%2B6oWmNY32%2B0jAiiLfzJB3cp%2B9qH4kDzvPRUANPHuRqqYgthxA5n59QQLH91kZ0zec8wHeIg9UIW2nXZSoYhrcpTm27hySN1sXLVCOjCdhsWD29dBbZO112UsONpRUCvhv9T0EdMg%2B%2F%2F6lhMpa7HkUO6IhJCMdYj96VeDegsEd5No7qE80ntTdrKS%2B5LvZJ16iS579qJbT5EktYoNDeQvlWGxy%2BPu0qPy8HAHOLso5sO7Lb1JaywlbNiNuxF%2B71yc9ynTL%2BP1h3vpQvjgxK27vFowl8zOTpr8yWLuasQRJD9ArvdMtQVbiH9y2hG3efs2wwDC0oJfBBjqkAd2unduMX3CobemIaDW8wJxj0Pq2zYZljEhRluUX1RXnDYDOYJi4XFXWGYcq8VVY8eLl2C443gqe6F0T7JoqKQdABOhRzAwhjsYzV2El7g9r1xupKxHSxhkb7ooL4LSkcRsWzdtfnZZ46kVdBah61drCWKyCJMoGEaRk8SK9u0A5wxzOKKBBd%2FLcSNqMSg0pvtX0PajfpgzPSgfMhSfzUY8y2Rpy&X-Amz-Signature=cc457de6bef2d53d562665b4abf52c5d46a8f005c73079d8053c6e21c25f0e3b&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-05-15T12:37:54.318Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ec2dbc5-4786-8045-94ee-de8bdf85d120",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-05-07T10:17:00.000Z",
+      "last_edited_time": "2025-05-07T10:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1e72dbc5-4786-8084-aa81-e9c6c31a27fe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-05-02T11:45:00.000Z",
+      "last_edited_time": "2025-05-07T10:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: Program Application"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ec2dbc5-4786-8004-84a9-f0d06559111d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-05-07T10:18:00.000Z",
+      "last_edited_time": "2025-05-08T02:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/95c65f9e-adc2-49e3-a64e-8ad2ac39429c/6a1ba238-e4eb-4d40-ad3e-4c77b2aaf4bf/Screenshot_2025-05-07_at_8.18.40_pm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667GY2PC6E%2F20250515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250515T113754Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHQaCXVzLXdlc3QtMiJIMEYCIQC%2FGBaJEWlhr1oaIZf6m%2FZJKagxwqGokXv%2Fl6mMfEB%2FlwIhAKGWY8ZW60UjMVrZXnmvNyypmqYWl7Xr1IEkEIa5BXw0Kv8DCC0QABoMNjM3NDIzMTgzODA1IgydOIld4OxhniAVz0sq3AMbvZE%2BcR3dUPVXqSOUOyMl8kVqOslhQkTJnSCv%2FwQP62Ku71y1iLlfi3d1r55x1mtjn3oXoQx%2Fvogec0FRRo9Ux9IDXcWEXIAc0sUB%2B9xLl1YgpdBkuSIUgbW%2FJ0bw0M1hQe4kgwrbxIIja97WTnXU47WcvLZaC58g64qfcawTslszXM%2Bx3hkZ1SPxbRYurfPLIFQpKvwavLabBiacbMDz3SqAlmzNgeWRdNOGwUE8LHTox5VpFg%2BsFGKeZF8kE6gOb8RPv74vNM4eVgbEgagRyh2DVu1a3hLsFAxyBj9GlLxHtgbjuJy%2BWNp%2B6oWmNY32%2B0jAiiLfzJB3cp%2B9qH4kDzvPRUANPHuRqqYgthxA5n59QQLH91kZ0zec8wHeIg9UIW2nXZSoYhrcpTm27hySN1sXLVCOjCdhsWD29dBbZO112UsONpRUCvhv9T0EdMg%2B%2F%2F6lhMpa7HkUO6IhJCMdYj96VeDegsEd5No7qE80ntTdrKS%2B5LvZJ16iS579qJbT5EktYoNDeQvlWGxy%2BPu0qPy8HAHOLso5sO7Lb1JaywlbNiNuxF%2B71yc9ynTL%2BP1h3vpQvjgxK27vFowl8zOTpr8yWLuasQRJD9ArvdMtQVbiH9y2hG3efs2wwDC0oJfBBjqkAd2unduMX3CobemIaDW8wJxj0Pq2zYZljEhRluUX1RXnDYDOYJi4XFXWGYcq8VVY8eLl2C443gqe6F0T7JoqKQdABOhRzAwhjsYzV2El7g9r1xupKxHSxhkb7ooL4LSkcRsWzdtfnZZ46kVdBah61drCWKyCJMoGEaRk8SK9u0A5wxzOKKBBd%2FLcSNqMSg0pvtX0PajfpgzPSgfMhSfzUY8y2Rpy&X-Amz-Signature=b9508d9b211ab97a95fbda26dd7604a6489a542a0263bf44f7496b547e3dd20a&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-05-15T12:37:54.322Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ec2dbc5-4786-80a1-8f6d-def8c5f6fa13",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-05-07T10:18:00.000Z",
+      "last_edited_time": "2025-05-07T10:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1e82dbc5-4786-80f4-a5bd-e214f5ba216d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-05-03T13:17:00.000Z",
+      "last_edited_time": "2025-05-12T23:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: Reengage previous Companies"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10c2dbc5-4786-801d-a955-e0044858add4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-09-25T03:30:00.000Z",
+      "last_edited_time": "2025-05-07T10:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: Finding Crunchbase Companies "
+      }
+    },
+    {
+      "object": "block",
+      "id": "10c2dbc5-4786-8076-a6a2-eeeb637f7420",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-09-25T04:07:00.000Z",
+      "last_edited_time": "2025-05-07T10:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: HubSpot Outreach"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10c2dbc5-4786-8009-b4c1-c4acf946ebc2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-09-25T03:37:00.000Z",
+      "last_edited_time": "2025-05-07T10:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: LinkedIn Outreach"
+      }
+    },
+    {
+      "object": "block",
+      "id": "81df929c-ae5a-4156-94ac-1cc3641cfbcc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-09-25T04:18:00.000Z",
+      "last_edited_time": "2025-05-07T10:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: Speaking to Startups"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ca2dbc5-4786-8054-b365-e999581b46c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2025-04-03T23:15:00.000Z",
+      "last_edited_time": "2025-05-07T02:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: Reporting"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a72187f9-c10e-4f5a-96cf-a284443484d5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-06-21T04:30:00.000Z",
+      "last_edited_time": "2025-05-15T00:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting: FastTrack "
+      }
+    },
+    {
+      "object": "block",
+      "id": "75946e02-3a55-4c01-9db6-1a9697ef800b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-03-17T08:56:00.000Z",
+      "last_edited_time": "2025-05-07T10:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting Intern"
+      }
+    },
+    {
+      "object": "block",
+      "id": "365a15e2-8530-4fbb-a73a-6b0a7979f5fd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-06-21T08:53:00.000Z",
+      "last_edited_time": "2025-05-13T09:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Scouting AARs"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a0bf07a7-2d6f-446a-81db-335a49475662",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-08-14T05:15:00.000Z",
+      "last_edited_time": "2025-02-22T12:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0bf1412d-aabb-43bc-a3c6-c576327020a8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "dfa429be-67dc-4343-921b-c992e8af5796"
+      },
+      "created_time": "2024-07-30T05:29:00.000Z",
+      "last_edited_time": "2024-07-30T05:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "c34092df-023b-418b-8a72-9c568678e4f1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "c34092df-023b-418b-8a72-9c568678e4f1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ]
+}

@@ -2,8 +2,35 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 
+// Colors for console output
+const colors = {
+  reset: '\x1b[0m',
+  red: '\x1b[31m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  blue: '\x1b[34m',
+  magenta: '\x1b[35m',
+  cyan: '\x1b[36m'
+};
+
 // Load environment variables
 dotenv.config();
+
+// Import API tests
+const runAllTests = async () => {
+  console.log(`${colors.magenta}Running API tests before starting server...${colors.reset}`);
+
+  try {
+    // Import and run tests
+    const { runAllTests } = require('./tests/api-test-module');
+    await runAllTests();
+    console.log(`${colors.green}All tests passed! Starting server...${colors.reset}`);
+    return true;
+  } catch (error) {
+    console.error(`${colors.red}Error running tests: ${error.message}${colors.reset}`);
+    return false;
+  }
+};
 
 // Create Express app
 const app = express();
@@ -76,27 +103,54 @@ const adminRoutes = require('./routes/admin');
 const feedbackRoutes = require('./routes/feedback');
 const agentRoutes = require('./routes/agents');
 
-// Import Notion cache
+// Import Notion components
 const notionCache = require('./integrations/notion/cache');
+const adaptiveStructure = require('./integrations/notion/adaptiveStructure');
+const twoStageRetrieval = require('./integrations/notion/twoStageRetrieval');
 
 // Initialize agents system
 require('./agents');
 
-// Initialize Notion cache at server startup with a delay to ensure server is fully started
-setTimeout(() => {
-  console.log('Starting Notion cache initialization (delayed start)...');
-  notionCache.initialize()
-    .then(success => {
-      if (success) {
-        console.log('✅ Notion cache initialized successfully at server startup');
-      } else {
-        console.log('ℹ️ Server will use direct API calls until cache is ready');
-      }
-    })
-    .catch(error => {
-      console.error('❌ Error initializing Notion cache at server startup:', error);
-      console.log('ℹ️ Server will continue to function using direct API calls');
-    });
+// Initialize Notion components at server startup with a delay to ensure server is fully started
+setTimeout(async () => {
+  console.log('Starting Notion components initialization (delayed start)...');
+
+  try {
+    // Step 1: Initialize Notion cache
+    console.log('Initializing Notion cache...');
+    const cacheSuccess = await notionCache.initialize();
+
+    if (cacheSuccess) {
+      console.log('✅ Notion cache initialized successfully');
+    } else {
+      console.log('ℹ️ Server will use direct API calls until cache is ready');
+    }
+
+    // Step 2: Initialize adaptive structure
+    console.log('Initializing adaptive structure...');
+    const adaptiveSuccess = await adaptiveStructure.initialize();
+
+    if (adaptiveSuccess) {
+      console.log('✅ Adaptive structure initialized successfully');
+    } else {
+      console.log('⚠️ Adaptive structure initialization failed');
+    }
+
+    // Step 3: Initialize two-stage retrieval
+    console.log('Initializing two-stage retrieval...');
+    const retrievalSuccess = await twoStageRetrieval.initialize();
+
+    if (retrievalSuccess) {
+      console.log('✅ Two-stage retrieval initialized successfully');
+    } else {
+      console.log('⚠️ Two-stage retrieval initialization failed');
+    }
+
+    console.log('✅ All Notion components initialized');
+  } catch (error) {
+    console.error('❌ Error initializing Notion components:', error);
+    console.log('ℹ️ Server will continue to function using direct API calls');
+  }
 }, 3000); // 3 second delay
 
 // Health check endpoint
@@ -147,10 +201,25 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/feedback', feedbackRoutes);
 app.use('/api/agents', agentRoutes);
 
-// Start server
-const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+// Start server with tests
+const startServer = async () => {
+  // Run tests first
+  const testsSucceeded = await runAllTests();
+
+  if (!testsSucceeded) {
+    console.log(`${colors.red}Tests failed. Fix issues before starting the server.${colors.reset}`);
+    process.exit(1);
+    return;
+  }
+
+  // Start server if tests pass
+  const PORT = process.env.PORT || 3001;
+  app.listen(PORT, () => {
+    console.log(`${colors.green}Server running on port ${PORT}${colors.reset}`);
+  });
+};
+
+// Start the server
+startServer();
 
 module.exports = app;

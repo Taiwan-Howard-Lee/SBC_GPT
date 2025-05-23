@@ -1,0 +1,1515 @@
+{
+  "page": {
+    "object": "page",
+    "id": "742d6140-cb39-4c0b-8319-504eb0d98502",
+    "created_time": "2024-09-11T01:22:00.000Z",
+    "last_edited_time": "2025-03-04T11:22:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "cover": null,
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/square-two-fourths_lightgray.svg"
+      }
+    },
+    "parent": {
+      "type": "block_id",
+      "block_id": "321fe6f8-e267-46ce-b37d-6d777916b305"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2024-09-11T01:22:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-03-04T11:22:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "New Contract Email Template",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "New Contract Email Template",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "61eb104f-6c00-4c20-9f42-965590430dfb",
+            "name": "Trevor",
+            "avatar_url": null,
+            "type": "person",
+            "person": {
+              "email": "trevor@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/New-Contract-Email-Template-742d6140cb394c0b8319504eb0d98502",
+    "public_url": null
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "b4ef59b1-1473-4124-a9be-28f88354b0ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:23:00.000Z",
+      "last_edited_time": "2024-09-11T01:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Leanne,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Leanne,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "31f80d1c-255c-4fbd-807d-cb6995b5feb5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:23:00.000Z",
+      "last_edited_time": "2024-09-11T01:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "39d735d1-80e4-4544-8c0a-b191967609d6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:23:00.000Z",
+      "last_edited_time": "2024-09-11T01:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I am attaching a new contract with XYZ Pty Ltd.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I am attaching a new contract with XYZ Pty Ltd.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "39b8b8b0-df56-49aa-bed3-731a3b758086",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:23:00.000Z",
+      "last_edited_time": "2024-09-11T01:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Please find the details below:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Please find the details below:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "34213628-e94c-49b8-bc41-a01ba2705ea3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:24:00.000Z",
+      "last_edited_time": "2024-09-11T01:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ed34959-c2b5-40c8-b893-cccfa51311e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:24:00.000Z",
+      "last_edited_time": "2024-09-11T01:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Client Name:  XYZ Pty Ltd",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Client Name:  XYZ Pty Ltd",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fb3d41e0-f0c7-486f-aa52-0ef63e5a9d0b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:24:00.000Z",
+      "last_edited_time": "2024-09-11T01:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ABN: XXX XXX XXX XXX",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ABN: XXX XXX XXX XXX",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7b188696-bd2f-464a-8a8d-466f6b0e3ea8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:24:00.000Z",
+      "last_edited_time": "2024-09-11T01:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Address:  124 Fake St, Fakeville, Vic 3000",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Address:  124 Fake St, Fakeville, Vic 3000",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bcae8bec-0900-4103-bf13-8329fe46b013",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:24:00.000Z",
+      "last_edited_time": "2024-09-11T01:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Invoicing Contact Name:  Fred Accounts",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Invoicing Contact Name:  Fred Accounts",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e5cd7cc5-1b7e-49a2-ac80-ce39518dde81",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:25:00.000Z",
+      "last_edited_time": "2024-09-11T01:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Invoice Contract Email:  fred@xyz.com.au",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Invoice Contract Email:  fred@xyz.com.au",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a2f0778f-eb87-4069-9455-60032be841a3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:26:00.000Z",
+      "last_edited_time": "2024-09-11T01:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Invoice CC:  Joe Smith",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Invoice CC:  Joe Smith",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "988f3521-cc4c-407b-9802-5fd93dd7db61",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:26:00.000Z",
+      "last_edited_time": "2024-09-11T01:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Invoice CC: joe.smith@xyz.com.au",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Invoice CC: joe.smith@xyz.com.au",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "325ed144-9303-45e5-8cd4-bd34fca1fdb7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:35:00.000Z",
+      "last_edited_time": "2024-09-11T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "633f21a1-7b46-4aaa-b6ed-8f7025218158",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:27:00.000Z",
+      "last_edited_time": "2024-09-11T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Total Contract Value:  ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Total Contract Value:  ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "US$30,000",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "US$30,000",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "57e39e31-815d-414f-a0e2-d39074def8dc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:35:00.000Z",
+      "last_edited_time": "2024-09-11T01:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Purchase Order Number:  122233333 [ leave blank if no PO]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Purchase Order Number:  122233333 [ leave blank if no PO]",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a9b906e1-e318-4c50-8db4-2f39e7afc877",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:40:00.000Z",
+      "last_edited_time": "2024-09-11T01:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2a03113c-b128-46b6-9002-4266018a7d08",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:27:00.000Z",
+      "last_edited_time": "2024-09-11T01:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Invoicing Schedule",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Invoicing Schedule",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "41e88cfb-6637-4ba9-8e86-505a58f06163",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:27:00.000Z",
+      "last_edited_time": "2024-09-11T01:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1/3/2024   Payment on Signing     ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1/3/2024   Payment on Signing     ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "US",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "US",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "$10,000.00",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "$10,000.00",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2af4d869-7737-4275-93b5-70e07368724c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:28:00.000Z",
+      "last_edited_time": "2024-09-11T01:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "30/5/2023   Phase 1   ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "30/5/2023   Phase 1   ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "US",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "US",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "$20,000.00",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "$20,000.00",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "aa5b8966-5658-4f3f-86dd-c126ea98adb8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:40:00.000Z",
+      "last_edited_time": "2024-09-11T01:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0a76028b-21ee-4546-b14f-5d1580559373",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:40:00.000Z",
+      "last_edited_time": "2024-09-11T01:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Payment Terms:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Payment Terms:",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 30 Days  [ use as default, unless contract states otherwise]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 30 Days  [ use as default, unless contract states otherwise]",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "873b1dea-28e7-4875-898d-738be7bfff93",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:29:00.000Z",
+      "last_edited_time": "2024-09-11T01:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a54a689f-e459-4981-b90f-3aa923a608e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:25:00.000Z",
+      "last_edited_time": "2024-09-11T01:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Special Conditions: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Special Conditions: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " Contract in USD., No GST, overseas client",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " Contract in USD., No GST, overseas client",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8d771232-bf5d-44a1-91aa-86ea4c711bf4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:29:00.000Z",
+      "last_edited_time": "2024-09-11T01:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1859d065-9dbc-468f-966f-e0037bcfcd95",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:29:00.000Z",
+      "last_edited_time": "2024-09-11T01:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Revenue Recognition:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Revenue Recognition:",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "83d5ce95-a822-464f-a11f-e1a66752a84b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:29:00.000Z",
+      "last_edited_time": "2024-09-11T01:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Contract Start Date:  1/3/2024",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Contract Start Date:  1/3/2024",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fbd480b4-6ab4-44da-8802-3c2b1cc546bc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:30:00.000Z",
+      "last_edited_time": "2024-09-11T01:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Contract End Date: 30/5/2023",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Contract End Date: 30/5/2023",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9cdc2ce3-2291-4ca4-bfbd-b7d87a72acaa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:25:00.000Z",
+      "last_edited_time": "2024-09-11T01:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Revenue Recognition Method:  Straight Line   [ or Custom - then please discuss with Trevor or Rich and provide a spreadsheet if complex]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Revenue Recognition Method:  Straight Line   [ or Custom - then please discuss with Trevor or Rich and provide a spreadsheet if complex]",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8afbe61a-e382-4fc0-a8d4-8bd54aec68be",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:32:00.000Z",
+      "last_edited_time": "2024-09-11T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1934b9fc-88c3-4613-ad9a-8eb945b898cc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:32:00.000Z",
+      "last_edited_time": "2024-09-11T01:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Project Code",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Project Code",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "07455a9b-b5c0-4274-a8b2-7745ad7abdd3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:32:00.000Z",
+      "last_edited_time": "2024-09-11T01:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GL Code : Energy Revenue 4-4551",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GL Code : Energy Revenue 4-4551",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4263a4bc-180e-4252-ab65-3db07e57015c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:32:00.000Z",
+      "last_edited_time": "2024-09-11T01:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Job Code:  Required: Please name  Energy-XYC-POC    ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Job Code:  Required: Please name  Energy-XYC-POC    ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "913b436a-26d1-49fd-82a8-e8b5bef985aa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "742d6140-cb39-4c0b-8319-504eb0d98502"
+      },
+      "created_time": "2024-09-11T01:32:00.000Z",
+      "last_edited_time": "2024-09-11T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "61eb104f-6c00-4c20-9f42-965590430dfb"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ]
+}

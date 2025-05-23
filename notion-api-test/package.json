@@ -1,0 +1,14 @@
+{
+  "name": "notion-api-test",
+  "version": "1.0.0",
+  "description": "Test script for Notion API",
+  "main": "test-notion.js",
+  "scripts": {
+    "test": "node test-notion.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@notionhq/client": "^2.3.0",
+    "dotenv": "^16.5.0"
+  }
+}

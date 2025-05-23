@@ -1,0 +1,301 @@
+{
+  "page": {
+    "object": "page",
+    "id": "fb0c145c-2f68-484d-a194-e66f2b340e02",
+    "created_time": "2024-02-29T07:34:00.000Z",
+    "last_edited_time": "2025-05-15T05:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+    },
+    "cover": null,
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/gear_gray.svg"
+      }
+    },
+    "parent": {
+      "type": "block_id",
+      "block_id": "cb971498-3ee7-4a36-b271-5dd5b6fb629e"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2024-02-29T07:34:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-05-15T05:47:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Standard Operating Procedures",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Standard Operating Procedures",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "2999458a-cf78-4a08-9af6-c1e435804ea1",
+            "name": "Richard Celm",
+            "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLiX_U-B8YfdpNfmvmdlYykuzLW6wpdS5iR5C06HisOlQ=s100",
+            "type": "person",
+            "person": {
+              "email": "rich@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Standard-Operating-Procedures-fb0c145c2f68484da194e66f2b340e02",
+    "public_url": null
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "757a7e67-3c06-4b59-9cd8-a9812334eea0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "fb0c145c-2f68-484d-a194-e66f2b340e02"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2024-07-10T07:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SBC Standard Operating Procedures is the centre for nearly all SBC processes. Here you will learn what the functional teams are and how they operate. This includes their tasks, processes, and goals. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SBC Standard Operating Procedures is the centre for nearly all SBC processes. Here you will learn what the functional teams are and how they operate. This includes their tasks, processes, and goals. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1821d2fb-40bd-4757-b6f7-d4dea5a63b65",
+      "parent": {
+        "type": "page_id",
+        "page_id": "fb0c145c-2f68-484d-a194-e66f2b340e02"
+      },
+      "created_time": "2024-07-10T07:46:00.000Z",
+      "last_edited_time": "2024-07-10T07:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "01030046-142c-425b-bcc0-c14eb6fc3314",
+      "parent": {
+        "type": "page_id",
+        "page_id": "fb0c145c-2f68-484d-a194-e66f2b340e02"
+      },
+      "created_time": "2024-07-10T07:46:00.000Z",
+      "last_edited_time": "2025-03-10T06:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Notion is a working doc. You will often notice many blank pages, or things that may appear out of date, but note we are working every week to add and update information. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Notion is a working doc. You will often notice many blank pages, or things that may appear out of date, but note we are working every week to add and update information. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "226504d3-f68c-4067-b5ad-1bb9c24519bd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "fb0c145c-2f68-484d-a194-e66f2b340e02"
+      },
+      "created_time": "2024-02-29T07:34:00.000Z",
+      "last_edited_time": "2024-02-29T07:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "2999458a-cf78-4a08-9af6-c1e435804ea1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "1b22dbc5-4786-80cb-8099-dc4c3f76d894",
+      "parent": {
+        "type": "page_id",
+        "page_id": "fb0c145c-2f68-484d-a194-e66f2b340e02"
+      },
+      "created_time": "2025-03-10T06:33:00.000Z",
+      "last_edited_time": "2025-03-10T06:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "column_list",
+      "column_list": {}
+    },
+    {
+      "object": "block",
+      "id": "1b22dbc5-4786-8085-93df-e354f587664c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "fb0c145c-2f68-484d-a194-e66f2b340e02"
+      },
+      "created_time": "2025-03-10T06:35:00.000Z",
+      "last_edited_time": "2025-03-10T06:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2dc12212-582a-4f26-91fc-356f2d4f5c3c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "fb0c145c-2f68-484d-a194-e66f2b340e02"
+      },
+      "created_time": "2024-03-19T03:19:00.000Z",
+      "last_edited_time": "2024-03-19T03:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "db4c6d48-8830-43ea-b62e-6d7919e86194"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "db4c6d48-8830-43ea-b62e-6d7919e86194"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ]
+}

@@ -29,6 +29,38 @@ const processAgentResponse = async (userQuery, agentResponse, conversationHistor
 
     console.log('Central chatbot processing agent response with Gemini Flash');
 
+    // If the agent response was not successful, handle it differently
+    if (!agentResponse.success) {
+      console.log('Agent response was not successful, using Gemini to generate a response');
+
+      // Use Gemini to generate a response based on the query
+      try {
+        const model = genAI.getGenerativeModel({ model: modelName });
+
+        const prompt = `You are a professional, efficient executive assistant named SBC Assistant working at SBC Australia.
+
+        The user has asked: "${userQuery}"
+
+        Unfortunately, I don't have specific information about this in our knowledge base. Please provide a polite, professional response explaining that we don't have this information, and offer to help with something else.
+
+        Keep your response concise, professional, and helpful. Don't apologize excessively.`;
+
+        const result = await model.generateContent(prompt);
+
+        return {
+          content: result.response.text(),
+          model: modelName,
+          originalAgentResponse: agentResponse // Keep the original response for debugging
+        };
+      } catch (error) {
+        console.error('Error generating fallback response:', error);
+        return {
+          content: "I don't have specific information about that in our knowledge base. Is there something else I can help you with?",
+          model: 'fallback-response'
+        };
+      }
+    }
+
     // Create the system prompt content
     const systemPromptContent = `You are a professional, efficient executive assistant named SBC Assistant working at SBC Australia.
 

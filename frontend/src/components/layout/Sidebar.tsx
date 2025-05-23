@@ -1,6 +1,7 @@
 import React from 'react';
 import { useChatContext } from '../../contexts/ChatContext';
 import FeedbackModal from '../feedback/FeedbackModal';
+import UserMenu from '../user/UserMenu';
 import * as api from '../../services/api';
 import './Sidebar.css';
 
@@ -185,12 +186,7 @@ const Sidebar: React.FC = () => {
       </div>
 
       <div className="sidebar-footer">
-        <div className="user-profile">
-          <div className="avatar">
-            <i className="fas fa-user"></i>
-          </div>
-          <span className="username">User</span>
-        </div>
+        <UserMenu />
       </div>
 
       {/* Feedback Modal */}

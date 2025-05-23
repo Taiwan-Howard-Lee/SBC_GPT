@@ -1,0 +1,946 @@
+{
+  "page": {
+    "object": "page",
+    "id": "1ee2dbc5-4786-808e-82da-d0a383d799c4",
+    "created_time": "2025-05-09T01:53:00.000Z",
+    "last_edited_time": "2025-05-13T23:55:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+    },
+    "cover": null,
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/signature-document_lightgray.svg"
+      }
+    },
+    "parent": {
+      "type": "block_id",
+      "block_id": "1f12dbc5-4786-8072-a6d5-e004dbd36318"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Properties": {
+        "id": "Bqvz",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Created time": {
+        "id": "D%3BBq",
+        "type": "created_time",
+        "created_time": "2025-05-09T01:53:00.000Z"
+      },
+      "Last edited time": {
+        "id": "fy%5Ei",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-05-13T23:55:00.000Z"
+      },
+      "Page": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Scouting: Fill Out Slide Deck Automation Form",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Scouting: Fill Out Slide Deck Automation Form",
+            "href": null
+          }
+        ]
+      },
+      "Owner": {
+        "id": "notion%3A%2F%2Fwiki%2Fowner_property",
+        "type": "people",
+        "people": [
+          {
+            "object": "user",
+            "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303",
+            "name": "Raymond Rodriguez",
+            "avatar_url": null,
+            "type": "person",
+            "person": {
+              "email": "raymond.rodriguez@startupbootcamp.com.au"
+            }
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Scouting-Fill-Out-Slide-Deck-Automation-Form-1ee2dbc54786808e82dad0a383d799c4",
+    "public_url": null
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1ee2dbc5-4786-8071-a006-f28a7cde3ad1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-09T01:54:00.000Z",
+      "last_edited_time": "2025-05-11T23:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Open the form link: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Open the form link: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "https://script.google.com/a/macros/startupbootcamp.com.au/s/AKfycbwQr_D7LI_itn1hL7d58c\nArAp1iIfi0cTMCUaiT4jv8udBum0hewE_YoVMamKtRpBUV/exec",
+              "link": {
+                "url": "https://script.google.com/a/macros/startupbootcamp.com.au/s/AKfycbwQr_D7LI_itn1hL7d58cArAp1iIfi0cTMCUaiT4jv8udBum0hewE_YoVMamKtRpBUV/exec"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://script.google.com/a/macros/startupbootcamp.com.au/s/AKfycbwQr_D7LI_itn1hL7d58c\nArAp1iIfi0cTMCUaiT4jv8udBum0hewE_YoVMamKtRpBUV/exec",
+            "href": "https://script.google.com/a/macros/startupbootcamp.com.au/s/AKfycbwQr_D7LI_itn1hL7d58cArAp1iIfi0cTMCUaiT4jv8udBum0hewE_YoVMamKtRpBUV/exec"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-8003-ba41-e2b61b06d6d1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:49:00.000Z",
+      "last_edited_time": "2025-05-11T23:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-80db-a363-c1fc3c67d173",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:35:00.000Z",
+      "last_edited_time": "2025-05-13T06:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The first time opening, give permission for the automation. Select ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The first time opening, give permission for the automation. Select ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "“Review Permissions”.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "“Review Permissions”.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ed2dbc5-4786-80f4-9e1f-dcb54dc77c18",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-08T01:50:00.000Z",
+      "last_edited_time": "2025-05-09T06:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "179d872b-594c-8163-8e40-00027db6374f"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/95c65f9e-adc2-49e3-a64e-8ad2ac39429c/682001ad-4ebe-4cbe-a930-db1631988078/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VV4ODAE2%2F20250515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250515T113755Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHQaCXVzLXdlc3QtMiJHMEUCIQC0Y1kZwdfvs03D%2BMKm4rQ1E3eeISwA0qIzk99Xp18mMgIgJssBMXNHFFzfFf9x5rfV6L6mVtGHePQOPgDLb1686xMq%2FwMILRAAGgw2Mzc0MjMxODM4MDUiDOTU%2BZX5CgeZBM3lRircA04l6aQ33I5Vp9ErW%2Fy3%2FmCki6x270chi6aS86d0f6fvpei0PcAvebEvxGvAEIjZLHR%2F5JdVfsfNn%2Fo6smuc7E%2FS6dhZsNK6mWELHNZV2ftmODRjaZn5NTHgqLvfipd69KbJmb3iGVvnkIBTbKTk2zBfgOsHQhnSmiBK7emnOL%2FF61pJ5TCcOY2OLt%2FOTa4jUBp3%2FIczxMXlEA9tInInj9OnIuRNeeH%2BPCCrYibHm5tAzDt9Tu2b5xPDQ8gn3DmjS8UrZR9Gc8Gk9n2f2F%2FY89zbEj4jA8KSHW9yf%2FnXmbl0VXOp2Po6ItuhLCcihR14WTTkdYdIdSL4lz5K9AXi2ea3ZludoAknGgqoSA5twHSGP1cChyGSICqrGtczDzzFAyslDAErvloBgrHjna9rn%2BOpZNXSxCYSFDW8SzloudImWxaJx%2F6SMlLBGIo0Q5WDQ4pz%2FAnFf%2Fv68jPYdRI4uwtFL500iCtrHgls2eW2mfYkoPkPGfaGd3eHdwMlvfmODu5LVH0KWn%2BfOkDDOb7nK6Na1USFEC%2F2sN%2BuWWiDpNScQHSsjLPf%2FDu9LMbZprdD0H9knt%2BENvUcizVJUHKdl5LwCP3KhpDNKnoC81cnWFXImk720QpJQGo6TrCtMLmgl8EGOqUBKYjCQgErBEF%2F0pxqnlHLXj9iexzo2fljnLar0E6q68xweLH8xgeoolRV1qTjmCJeEY5lDLP3z30VB2J3%2BQyWkj%2B4rrwwAxwBhk6eYddAcLfnEo6rEim%2Fj7S6MhRIF8L7%2BiDVb6LN22AbphL7hJ0HXwFi29jmS%2FXaa%2FjY2jZQ57cqmV26Vo9fDpDz3aCPRQBKK8PAcAhXNtRwiTQk0CDbYgjzVQmR&X-Amz-Signature=3e0f6b37a83134270fcc063f741ce1d1348672eb33e929e03f3c5dded90bbc82&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-05-15T12:37:55.086Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f22dbc5-4786-8089-b187-f46c879ae7f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-13T06:40:00.000Z",
+      "last_edited_time": "2025-05-13T06:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-8066-a961-e7e4139d7552",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:34:00.000Z",
+      "last_edited_time": "2025-05-11T23:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sign in and allow it to do access your google account",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sign in and allow it to do access your google account",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-80c3-bdf5-e55ea0e4e3f5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:35:00.000Z",
+      "last_edited_time": "2025-05-11T23:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/95c65f9e-adc2-49e3-a64e-8ad2ac39429c/1d8e562d-0e6e-4507-8cc1-00b2cb977a2b/image_%281%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VV4ODAE2%2F20250515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250515T113755Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHQaCXVzLXdlc3QtMiJHMEUCIQC0Y1kZwdfvs03D%2BMKm4rQ1E3eeISwA0qIzk99Xp18mMgIgJssBMXNHFFzfFf9x5rfV6L6mVtGHePQOPgDLb1686xMq%2FwMILRAAGgw2Mzc0MjMxODM4MDUiDOTU%2BZX5CgeZBM3lRircA04l6aQ33I5Vp9ErW%2Fy3%2FmCki6x270chi6aS86d0f6fvpei0PcAvebEvxGvAEIjZLHR%2F5JdVfsfNn%2Fo6smuc7E%2FS6dhZsNK6mWELHNZV2ftmODRjaZn5NTHgqLvfipd69KbJmb3iGVvnkIBTbKTk2zBfgOsHQhnSmiBK7emnOL%2FF61pJ5TCcOY2OLt%2FOTa4jUBp3%2FIczxMXlEA9tInInj9OnIuRNeeH%2BPCCrYibHm5tAzDt9Tu2b5xPDQ8gn3DmjS8UrZR9Gc8Gk9n2f2F%2FY89zbEj4jA8KSHW9yf%2FnXmbl0VXOp2Po6ItuhLCcihR14WTTkdYdIdSL4lz5K9AXi2ea3ZludoAknGgqoSA5twHSGP1cChyGSICqrGtczDzzFAyslDAErvloBgrHjna9rn%2BOpZNXSxCYSFDW8SzloudImWxaJx%2F6SMlLBGIo0Q5WDQ4pz%2FAnFf%2Fv68jPYdRI4uwtFL500iCtrHgls2eW2mfYkoPkPGfaGd3eHdwMlvfmODu5LVH0KWn%2BfOkDDOb7nK6Na1USFEC%2F2sN%2BuWWiDpNScQHSsjLPf%2FDu9LMbZprdD0H9knt%2BENvUcizVJUHKdl5LwCP3KhpDNKnoC81cnWFXImk720QpJQGo6TrCtMLmgl8EGOqUBKYjCQgErBEF%2F0pxqnlHLXj9iexzo2fljnLar0E6q68xweLH8xgeoolRV1qTjmCJeEY5lDLP3z30VB2J3%2BQyWkj%2B4rrwwAxwBhk6eYddAcLfnEo6rEim%2Fj7S6MhRIF8L7%2BiDVb6LN22AbphL7hJ0HXwFi29jmS%2FXaa%2FjY2jZQ57cqmV26Vo9fDpDz3aCPRQBKK8PAcAhXNtRwiTQk0CDbYgjzVQmR&X-Amz-Signature=3cffe55ea5894b191ae3f0e12b0d52c13035b4e17cb066d1f5ff59b7e6784719&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-05-15T12:37:55.092Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-80e1-b9b6-cddf31e17a8f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:49:00.000Z",
+      "last_edited_time": "2025-05-11T23:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-8020-b9e0-c187a8f3fca8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:37:00.000Z",
+      "last_edited_time": "2025-05-13T23:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Select a template to use (if not sure, click ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Select a template to use (if not sure, click ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "“View full template gallery”",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "“View full template gallery”",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ") ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ") ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f22dbc5-4786-8001-b525-c7a2fcfcc87c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-13T05:39:00.000Z",
+      "last_edited_time": "2025-05-13T05:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-8090-b4e7-df26e5692880",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:38:00.000Z",
+      "last_edited_time": "2025-05-11T23:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/95c65f9e-adc2-49e3-a64e-8ad2ac39429c/31ef864d-984d-4a3f-a26d-de14898c480f/Screenshot_2025-05-08_at_11.52.19.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VV4ODAE2%2F20250515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250515T113755Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHQaCXVzLXdlc3QtMiJHMEUCIQC0Y1kZwdfvs03D%2BMKm4rQ1E3eeISwA0qIzk99Xp18mMgIgJssBMXNHFFzfFf9x5rfV6L6mVtGHePQOPgDLb1686xMq%2FwMILRAAGgw2Mzc0MjMxODM4MDUiDOTU%2BZX5CgeZBM3lRircA04l6aQ33I5Vp9ErW%2Fy3%2FmCki6x270chi6aS86d0f6fvpei0PcAvebEvxGvAEIjZLHR%2F5JdVfsfNn%2Fo6smuc7E%2FS6dhZsNK6mWELHNZV2ftmODRjaZn5NTHgqLvfipd69KbJmb3iGVvnkIBTbKTk2zBfgOsHQhnSmiBK7emnOL%2FF61pJ5TCcOY2OLt%2FOTa4jUBp3%2FIczxMXlEA9tInInj9OnIuRNeeH%2BPCCrYibHm5tAzDt9Tu2b5xPDQ8gn3DmjS8UrZR9Gc8Gk9n2f2F%2FY89zbEj4jA8KSHW9yf%2FnXmbl0VXOp2Po6ItuhLCcihR14WTTkdYdIdSL4lz5K9AXi2ea3ZludoAknGgqoSA5twHSGP1cChyGSICqrGtczDzzFAyslDAErvloBgrHjna9rn%2BOpZNXSxCYSFDW8SzloudImWxaJx%2F6SMlLBGIo0Q5WDQ4pz%2FAnFf%2Fv68jPYdRI4uwtFL500iCtrHgls2eW2mfYkoPkPGfaGd3eHdwMlvfmODu5LVH0KWn%2BfOkDDOb7nK6Na1USFEC%2F2sN%2BuWWiDpNScQHSsjLPf%2FDu9LMbZprdD0H9knt%2BENvUcizVJUHKdl5LwCP3KhpDNKnoC81cnWFXImk720QpJQGo6TrCtMLmgl8EGOqUBKYjCQgErBEF%2F0pxqnlHLXj9iexzo2fljnLar0E6q68xweLH8xgeoolRV1qTjmCJeEY5lDLP3z30VB2J3%2BQyWkj%2B4rrwwAxwBhk6eYddAcLfnEo6rEim%2Fj7S6MhRIF8L7%2BiDVb6LN22AbphL7hJ0HXwFi29jmS%2FXaa%2FjY2jZQ57cqmV26Vo9fDpDz3aCPRQBKK8PAcAhXNtRwiTQk0CDbYgjzVQmR&X-Amz-Signature=45083efc462d972d7d8f171a7ef5044b0b9b890078bb0eba5110fd30f1f4206a&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-05-15T12:37:55.113Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-80c5-a750-e7d4a4455654",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:49:00.000Z",
+      "last_edited_time": "2025-05-11T23:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-8092-a9df-c0ce9fa77188",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:38:00.000Z",
+      "last_edited_time": "2025-05-13T06:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Paste Airtable base URL to “Airtable URL” on the form",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Paste Airtable base URL to “Airtable URL” on the form",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-80bc-9876-c23bce06a247",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:52:00.000Z",
+      "last_edited_time": "2025-05-11T23:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-8052-a219-e02ad4a8a0c9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:52:00.000Z",
+      "last_edited_time": "2025-05-13T23:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Enter Program or Service Details, e.g. Pepsi is innovating its product and looking for a healthy drink",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Enter Program or Service Details, e.g. Pepsi is innovating its product and looking for a healthy drink",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-8058-99f7-e8a88b3a3aad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:52:00.000Z",
+      "last_edited_time": "2025-05-11T23:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/95c65f9e-adc2-49e3-a64e-8ad2ac39429c/b7c6cd60-56b0-43c3-a528-b5ef0721e93f/Screenshot_2025-05-08_at_12.13.38.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VV4ODAE2%2F20250515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250515T113755Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHQaCXVzLXdlc3QtMiJHMEUCIQC0Y1kZwdfvs03D%2BMKm4rQ1E3eeISwA0qIzk99Xp18mMgIgJssBMXNHFFzfFf9x5rfV6L6mVtGHePQOPgDLb1686xMq%2FwMILRAAGgw2Mzc0MjMxODM4MDUiDOTU%2BZX5CgeZBM3lRircA04l6aQ33I5Vp9ErW%2Fy3%2FmCki6x270chi6aS86d0f6fvpei0PcAvebEvxGvAEIjZLHR%2F5JdVfsfNn%2Fo6smuc7E%2FS6dhZsNK6mWELHNZV2ftmODRjaZn5NTHgqLvfipd69KbJmb3iGVvnkIBTbKTk2zBfgOsHQhnSmiBK7emnOL%2FF61pJ5TCcOY2OLt%2FOTa4jUBp3%2FIczxMXlEA9tInInj9OnIuRNeeH%2BPCCrYibHm5tAzDt9Tu2b5xPDQ8gn3DmjS8UrZR9Gc8Gk9n2f2F%2FY89zbEj4jA8KSHW9yf%2FnXmbl0VXOp2Po6ItuhLCcihR14WTTkdYdIdSL4lz5K9AXi2ea3ZludoAknGgqoSA5twHSGP1cChyGSICqrGtczDzzFAyslDAErvloBgrHjna9rn%2BOpZNXSxCYSFDW8SzloudImWxaJx%2F6SMlLBGIo0Q5WDQ4pz%2FAnFf%2Fv68jPYdRI4uwtFL500iCtrHgls2eW2mfYkoPkPGfaGd3eHdwMlvfmODu5LVH0KWn%2BfOkDDOb7nK6Na1USFEC%2F2sN%2BuWWiDpNScQHSsjLPf%2FDu9LMbZprdD0H9knt%2BENvUcizVJUHKdl5LwCP3KhpDNKnoC81cnWFXImk720QpJQGo6TrCtMLmgl8EGOqUBKYjCQgErBEF%2F0pxqnlHLXj9iexzo2fljnLar0E6q68xweLH8xgeoolRV1qTjmCJeEY5lDLP3z30VB2J3%2BQyWkj%2B4rrwwAxwBhk6eYddAcLfnEo6rEim%2Fj7S6MhRIF8L7%2BiDVb6LN22AbphL7hJ0HXwFi29jmS%2FXaa%2FjY2jZQ57cqmV26Vo9fDpDz3aCPRQBKK8PAcAhXNtRwiTQk0CDbYgjzVQmR&X-Amz-Signature=591d99d1d2a2b0d0cd6b16d0242fd6ac229afa7e601e848803f6bf2f20d72fea&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-05-15T12:37:55.081Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f22dbc5-4786-80f4-a5cc-d1868a2ed2e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-13T05:41:00.000Z",
+      "last_edited_time": "2025-05-13T05:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-80a5-a03d-d3a5d784c493",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:52:00.000Z",
+      "last_edited_time": "2025-05-13T06:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f22dbc5-4786-80fa-8531-ff644692e3c6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-13T05:43:00.000Z",
+      "last_edited_time": "2025-05-13T23:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Paste slide deck URL to “Final Deck URL”",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Paste slide deck URL to “Final Deck URL”",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f02dbc5-4786-8079-9cb8-ffd1e7caa529",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-11T23:53:00.000Z",
+      "last_edited_time": "2025-05-13T05:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/95c65f9e-adc2-49e3-a64e-8ad2ac39429c/af6adb0d-2d56-4c3b-86c8-805a09ecf4f2/Screenshot_2025-05-08_at_12.21.16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VV4ODAE2%2F20250515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250515T113755Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHQaCXVzLXdlc3QtMiJHMEUCIQC0Y1kZwdfvs03D%2BMKm4rQ1E3eeISwA0qIzk99Xp18mMgIgJssBMXNHFFzfFf9x5rfV6L6mVtGHePQOPgDLb1686xMq%2FwMILRAAGgw2Mzc0MjMxODM4MDUiDOTU%2BZX5CgeZBM3lRircA04l6aQ33I5Vp9ErW%2Fy3%2FmCki6x270chi6aS86d0f6fvpei0PcAvebEvxGvAEIjZLHR%2F5JdVfsfNn%2Fo6smuc7E%2FS6dhZsNK6mWELHNZV2ftmODRjaZn5NTHgqLvfipd69KbJmb3iGVvnkIBTbKTk2zBfgOsHQhnSmiBK7emnOL%2FF61pJ5TCcOY2OLt%2FOTa4jUBp3%2FIczxMXlEA9tInInj9OnIuRNeeH%2BPCCrYibHm5tAzDt9Tu2b5xPDQ8gn3DmjS8UrZR9Gc8Gk9n2f2F%2FY89zbEj4jA8KSHW9yf%2FnXmbl0VXOp2Po6ItuhLCcihR14WTTkdYdIdSL4lz5K9AXi2ea3ZludoAknGgqoSA5twHSGP1cChyGSICqrGtczDzzFAyslDAErvloBgrHjna9rn%2BOpZNXSxCYSFDW8SzloudImWxaJx%2F6SMlLBGIo0Q5WDQ4pz%2FAnFf%2Fv68jPYdRI4uwtFL500iCtrHgls2eW2mfYkoPkPGfaGd3eHdwMlvfmODu5LVH0KWn%2BfOkDDOb7nK6Na1USFEC%2F2sN%2BuWWiDpNScQHSsjLPf%2FDu9LMbZprdD0H9knt%2BENvUcizVJUHKdl5LwCP3KhpDNKnoC81cnWFXImk720QpJQGo6TrCtMLmgl8EGOqUBKYjCQgErBEF%2F0pxqnlHLXj9iexzo2fljnLar0E6q68xweLH8xgeoolRV1qTjmCJeEY5lDLP3z30VB2J3%2BQyWkj%2B4rrwwAxwBhk6eYddAcLfnEo6rEim%2Fj7S6MhRIF8L7%2BiDVb6LN22AbphL7hJ0HXwFi29jmS%2FXaa%2FjY2jZQ57cqmV26Vo9fDpDz3aCPRQBKK8PAcAhXNtRwiTQk0CDbYgjzVQmR&X-Amz-Signature=552a569bace51452e83bac6d6ff7f53b363b237bf56d62cc7a65781def14f86e&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2025-05-15T12:37:55.109Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f22dbc5-4786-80d3-9711-d9eaecf787cc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-13T05:43:00.000Z",
+      "last_edited_time": "2025-05-13T05:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f22dbc5-4786-8075-bb65-e3ba6d42e0a3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1ee2dbc5-4786-808e-82da-d0a383d799c4"
+      },
+      "created_time": "2025-05-13T02:09:00.000Z",
+      "last_edited_time": "2025-05-13T23:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "1dfd872b-594c-81eb-b428-0002abc71c99"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Click",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Click",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " “Submit”",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " “Submit”",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " > Once complete, click ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " > Once complete, click ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "“OK”",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "“OK”",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ]
+}

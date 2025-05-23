@@ -80,18 +80,18 @@ class NotionCache {
         console.log('ℹ️ No specific database IDs configured, skipping database loading');
       }
 
-      // Perform a general search to find other pages
+      // Start loading pages in the background
       console.log('🔍 Loading all pages from Notion...');
       await this.loadAllPages();
 
-      // Mark as initialized
-      this.isInitialized = true;
-      this.lastRefreshTime = new Date();
-
-      console.log(`✅ Notion cache successfully initialized with ${this.pages.size} pages and ${this.databases.size} databases`);
+      // Note: loadAllPages now marks the cache as initialized and starts background loading
 
       // Schedule periodic refresh
       this.scheduleRefresh();
+
+      console.log('✅ Notion cache initialization started, server is ready to handle requests');
+      console.log('ℹ️ Pages will continue loading in the background');
+
       return true;
     } catch (error) {
       console.error('❌ Error initializing Notion cache:', error);
@@ -217,32 +217,93 @@ class NotionCache {
       const response = await notionApi.search('');
       const results = notionUtils.formatSearchResults(response);
 
-      let loadedCount = 0;
+      console.log(`📄 Found ${results.length} pages/databases in Notion`);
 
-      for (const result of results) {
+      // Mark cache as initialized even before loading all content
+      // This allows the server to start responding to requests
+      this.isInitialized = true;
+      this.lastRefreshTime = new Date();
+
+      // Load pages in the background
+      this.loadPagesInBackground(results);
+
+      return;
+    } catch (error) {
+      console.error('❌ Error loading all pages:', error);
+    }
+  }
+
+  /**
+   * Load pages in the background without blocking server startup
+   * @param {Array} results - Search results to load
+   */
+  loadPagesInBackground(results) {
+    console.log('🔄 Loading pages in the background...');
+
+    // Process pages in batches to avoid overwhelming the API
+    const batchSize = 5; // Reduced batch size for more frequent updates
+    const totalPages = results.length;
+    let processedCount = 0;
+    let loadedCount = 0;
+
+    // Log initial status
+    console.log(`📊 Cache status: Starting to load ${totalPages} pages in batches of ${batchSize}`);
+
+    const processBatch = async (startIndex) => {
+      console.log(`📊 Starting batch: Processing pages ${startIndex+1} to ${Math.min(startIndex+batchSize, totalPages)}`);
+
+      const endIndex = Math.min(startIndex + batchSize, totalPages);
+      const batch = results.slice(startIndex, endIndex);
+
+      for (const result of batch) {
+        console.log(`🔍 Processing ${result.type} ${result.id}: ${result.title || 'Untitled'}`);
+
         // Skip if we already have this page or database
         if (this.pages.has(result.id) || this.databases.has(result.id)) {
+          console.log(`⏩ Skipping ${result.id} - already cached`);
           continue;
         }
 
         // Index the title
         this.indexText('title', result.id, result.title);
+        console.log(`📝 Indexed title for ${result.id}`);
 
-        if (result.type === 'page') {
-          // Load and index the page content
-          await this.loadPageContent(result.id);
-          loadedCount++;
-        } else if (result.type === 'database' && !this.databases.has(result.id)) {
-          // Load the database if we haven't already
-          await this.loadDatabase(result.id);
-          loadedCount++;
+        try {
+          if (result.type === 'page') {
+            // Load and index the page content
+            console.log(`📄 Loading content for page ${result.id}`);
+            await this.loadPageContent(result.id);
+            loadedCount++;
+            console.log(`✅ Loaded page ${result.id}`);
+          } else if (result.type === 'database' && !this.databases.has(result.id)) {
+            // Load the database if we haven't already
+            console.log(`📊 Loading database ${result.id}`);
+            await this.loadDatabase(result.id);
+            loadedCount++;
+            console.log(`✅ Loaded database ${result.id}`);
+          }
+        } catch (error) {
+          console.error(`❌ Error loading ${result.type} ${result.id}:`, error);
         }
       }
 
-      console.log(`📄 Loaded ${loadedCount} additional pages/databases from Notion`);
-    } catch (error) {
-      console.error('❌ Error loading all pages:', error);
-    }
+      processedCount += batch.length;
+      console.log(`📈 Cache progress: ${processedCount}/${totalPages} pages processed, ${loadedCount} loaded`);
+
+      // Process next batch if there are more pages
+      if (endIndex < totalPages) {
+        console.log(`⏭️ Moving to next batch after ${batchSize} pages`);
+        // Add a small delay to avoid overwhelming the API
+        setTimeout(() => processBatch(endIndex), 2000); // Increased delay to 2 seconds
+      } else {
+        console.log(`🎉 Background loading complete: ${loadedCount} pages/databases loaded`);
+        console.log(`📚 Cache now contains ${this.pages.size} pages and ${this.databases.size} databases`);
+      }
+    };
+
+    // Start processing the first batch
+    console.log(`🚀 Starting first batch of ${batchSize} pages`);
+    processBatch(0);
   }
 
   /**
@@ -253,31 +314,44 @@ class NotionCache {
     try {
       // Skip if we already have this page
       if (this.pages.has(pageId)) {
+        console.log(`⏩ Page ${pageId} already in cache, skipping content load`);
         return;
       }
 
+      console.log(`🔍 Getting page data for ${pageId}`);
       // Get page data
       const page = await notionApi.getPage(pageId);
+      const pageTitle = page.properties?.title ? notionUtils.extractTextFromTitle(page.properties.title) : 'Untitled';
+      console.log(`📄 Retrieved page: ${pageTitle} (${pageId})`);
 
       // Get page content with deep traversal
-      const pageStructure = await this.traversePageContent(pageId, 0, 5); // Max depth of 5 levels
+      console.log(`🔍 Getting content structure for ${pageId}`);
+      const pageStructure = await this.traversePageContent(pageId, 0, 3); // Reduced max depth to 3 levels for faster loading
+      console.log(`📊 Retrieved structure with ${pageStructure.length} top-level blocks`);
 
       // Extract text content
+      console.log(`📝 Extracting text content for ${pageId}`);
       const content = this.extractContentFromStructure(pageStructure);
+      console.log(`📄 Extracted ${content.length} characters of content`);
 
       // Store the page
       this.pages.set(pageId, {
         id: pageId,
-        title: page.properties?.title ? notionUtils.extractTextFromTitle(page.properties.title) : '',
+        title: pageTitle,
         content,
-        structure: pageStructure,
         url: `https://notion.so/${pageId.replace(/-/g, '')}`
       });
+      console.log(`💾 Stored page ${pageTitle} (${pageId}) in cache`);
 
       // Index the content
+      console.log(`🔍 Indexing content for ${pageId}`);
       this.indexText('content', pageId, content);
+      console.log(`✅ Indexed content for ${pageId}`);
+
+      return true;
     } catch (error) {
-      console.error(`Error loading page content for ${pageId}:`, error);
+      console.error(`❌ Error loading page content for ${pageId}:`, error);
+      return false;
     }
   }
 

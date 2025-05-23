@@ -1,0 +1,826 @@
+[
+  {
+    "object": "user",
+    "id": "cdac17a8-d149-4360-ae9f-247f5a7b3423",
+    "name": "Lauren Sanders",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "lauren@innoleaps.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "4c1b8173-8ba9-4a35-85e4-82c15f0ad39f",
+    "name": "Adam Forbes",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ALm5wu2wVJ_S3cRsLb_Iv3RqGy34Fbbty6Ld502U5Y9r=s100",
+    "type": "person",
+    "person": {
+      "email": "adam.forbes@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1d51dbe4-0fbc-47c7-b953-f5af534e3a3f",
+    "name": "Sara Aramini",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ALm5wu1FBm5uN1zcTInmEHBzG9BIil50WZJ4ofbSKDF9=s100",
+    "type": "person",
+    "person": {
+      "email": "sara.aramini@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "2b923d75-baa4-417b-bc1b-848b00e48e84",
+    "name": "Vincenzo Rollo",
+    "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/52419a67-25f3-4f79-a079-d02ba44f4fa6/Vincenzo_Rollo.jpg",
+    "type": "person",
+    "person": {
+      "email": "vincenzo.rollo@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "2cd2ec5b-dc05-4b3e-b426-f76652242aeb",
+    "name": "Sabina Basariyeva",
+    "avatar_url": "https://lh3.googleusercontent.com/a/AEdFTp6-H7lJiEkVWyrGQQX9FYWz5hdsDCirWLj8GURd=s100",
+    "type": "person",
+    "person": {
+      "email": "sabina@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "31df8fb4-1e5b-4c91-8897-e11903e93b1b",
+    "name": "Rodrigo Aleman",
+    "avatar_url": "https://lh3.googleusercontent.com/a/AGNmyxYaeVX_f6xqRwzuXQMQrjOIhC6WvYM1QMDpDkm-=s100",
+    "type": "person",
+    "person": {
+      "email": "rodrigo.aleman@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "60dcebd7-95e5-4bc1-9feb-0985ae40bf7c",
+    "name": "Marc Jellema",
+    "avatar_url": "https://lh3.googleusercontent.com/a-/AOh14Ghw4GdAj_NuuGF2ou8ak3dm3UGvOHNhVfUrwLA9=s100",
+    "type": "person",
+    "person": {
+      "email": "marc.jellema@innoleaps.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "e1336b6e-5f93-4397-8392-519f8fac70ea",
+    "name": "Giulia Falcone",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "giulia.falcone@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "99cc142d-75e5-4efc-bf16-6eb30ee76534",
+    "name": "Tool Admin",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "tool_admin@innoleaps.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "f68dc03c-7a0f-4b15-b521-073c0285844b",
+    "name": "Marijke",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "mmbvoerman@gmail.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "07feefa8-784a-4fde-9ba4-4d8aa43a64c1",
+    "name": "Madison",
+    "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/efa6c44c-7066-429f-b427-2b5c23016b5a/Profile.png",
+    "type": "person",
+    "person": {
+      "email": "madison@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "58e6d12d-8762-4c5b-ac3d-1709ff82e303",
+    "name": "Raymond Rodriguez",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "raymond.rodriguez@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "2999458a-cf78-4a08-9af6-c1e435804ea1",
+    "name": "Richard Celm",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLiX_U-B8YfdpNfmvmdlYykuzLW6wpdS5iR5C06HisOlQ=s100",
+    "type": "person",
+    "person": {
+      "email": "rich@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "186b8751-23b6-4cae-874d-3bb67d11ff5f",
+    "name": "Hinon",
+    "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a3b50a6f-6be6-465b-8a71-5c0f46082fbb/Admin_Photo_Cropped.jpg",
+    "type": "person",
+    "person": {
+      "email": "hinon.chang@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "48b4b39e-6012-407e-becf-e51f891b7cad",
+    "name": "Julija Baranauskaitė",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "julija.baranauskaite@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "832ed172-db7b-4709-9588-3ccca78cd1c5",
+    "name": "Nazzareno Mengoni",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "nazzareno.mengoni@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "5dfa744b-7125-4576-882f-23f46a4a3349",
+    "name": "Ed",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "eddy@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "fe345b18-e901-4ae3-a474-673794d8e205",
+    "name": "Tim Poskitt",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "tim@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "61eb104f-6c00-4c20-9f42-965590430dfb",
+    "name": "Trevor",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "trevor@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "288cd1bd-8c70-4de6-9fce-1f56511ff8b4",
+    "name": "Mo",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "mohamad.aramesh@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "af9ba137-637f-47c9-86e9-ec388ecbd0a2",
+    "name": "Anna Barlow",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocL9GgAq4gpQtIJXbfrh_Iy3dhRdMOP3wu8oFJ_4ctVCk90=s100",
+    "type": "person",
+    "person": {
+      "email": "anna@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "0bf44a7a-c2fd-4f11-ae18-6deacb7bdde3",
+    "name": "Tom Woolley",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIjsaSsqjRz773nnl3rUMh23435JpRoFy3DNkmgTnDy8Q=s100",
+    "type": "person",
+    "person": {
+      "email": "tom.woolley@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "0a66c9a0-1653-4235-85c6-0d96bc927d50",
+    "name": "Andrea Ponton",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "accounts@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "04cd04ea-69a8-48da-97d5-2e14ac3f69a6",
+    "name": "Karolina Sawicka",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIHDRIyomlDoX8BXgejmnlhjY8bTRA2betBt4GqebF8=s100",
+    "type": "person",
+    "person": {
+      "email": "karolina.sawicka@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "34d4f42b-956f-4a57-9f39-d8f3ac1e4691",
+    "name": "Adrian Alexandru",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLO8lyDW0oy5GJZE9W7gO-rE0n8fzbBtAuQB282PPA3n8oi6g=s100",
+    "type": "person",
+    "person": {
+      "email": "adrian.alexandru@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "18f0c017-47b8-445b-aac8-7a1959da6b97",
+    "name": "Greenwave",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "greenwave@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "27ec070b-8ffa-4745-8b71-307a2a98dc00",
+    "name": "Anouc Linning",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "anouc.linning@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "faa05f49-7c6e-4668-a534-51aacd32ab9c",
+    "name": "Cassio Mariano",
+    "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/3478acc1-c7e8-4508-bbeb-7df9144a7233/image_6487327.jpg",
+    "type": "person",
+    "person": {
+      "email": "cassio.mariano@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "ac0e84a3-b4a7-46da-b642-f72487043216",
+    "name": "Lucas Bastos",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "lucas.bastos@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "100d872b-594c-8186-aa82-0002a3a62bb3",
+    "name": "Ovidiu Gherman",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocK7tAhEMe4lK4-S7VWkuSSKKfTC2ZxPmZMpPoW_2ffM8xpgoQ=s100",
+    "type": "person",
+    "person": {
+      "email": "ovidiu.gherman@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "7ce62206-73f2-4576-903e-a25ee93f9901",
+    "name": "Elizabeth Kleinveld",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "elizabeth.kleinveld@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "9664b8cf-e247-4350-9308-517e954d1028",
+    "name": "Giovanni Vaccari",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "giovanni@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "812d4b32-bcdc-4224-b805-f8a76695ea15",
+    "name": "Kauan von Novack",
+    "avatar_url": "https://lh3.googleusercontent.com/a-/AOh14GjJrAi5NdXn_8JqHOqIjL-HRDuKESV7a42V3J4E=s100",
+    "type": "person",
+    "person": {
+      "email": "kauan@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "5a0078a7-63e4-462d-8777-de495cc31643",
+    "name": "Joey Moreau",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "joey.moreau@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "66498d37-a4ef-4616-b83e-8cf83f6e4cbf",
+    "name": "Ana Beatriz Motta",
+    "avatar_url": "https://lh3.googleusercontent.com/a-/AOh14GjtxFJ2OMpD3cYe7NLp5firvQY-KA8jhpVcUiVr=s100",
+    "type": "person",
+    "person": {
+      "email": "ana.motta@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "984c07b1-c4ce-42cb-860d-21449f61f04f",
+    "name": "Tessa Landkroon",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "tessa.landkroon@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "ec7bd4e0-f460-4f8a-b799-b933632a717b",
+    "name": "Zahira",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "zahira@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "2b5d92c4-5b8c-4c4a-9b93-80d4187bfcb2",
+    "name": "Wilson Rainho",
+    "avatar_url": "https://lh3.googleusercontent.com/a/AATXAJxqpix2F6zHJR7CyabIRioI5dh3eMkfM0qAYqSG=s100",
+    "type": "person",
+    "person": {
+      "email": "wilson@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1463fac6-0787-432d-bdff-4058f8184bd6",
+    "name": "Maria Savonova",
+    "avatar_url": "https://lh3.googleusercontent.com/a-/AOh14Gi3_dfaK9ox22qOrFUo-vtuiT6evElI1SDiNwur=s100",
+    "type": "person",
+    "person": {
+      "email": "maria.savonova@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "73513b0e-151c-4f81-893f-879fc8eec691",
+    "name": "Kevin",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "kevin.vandersloot@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "3adabea4-671e-428d-b5b4-a855b58740f4",
+    "name": "Ricardo Costa",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "ricardo@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "8f1e59ef-c1e5-4c3f-b64c-00fd22920e57",
+    "name": "Matteo Levi",
+    "avatar_url": "https://lh3.googleusercontent.com/a/AAcHTtdLx_Kt4Etfzdx0FXZ7DlNgsdMekxvpuhPi-XkN5m3b6g=s100",
+    "type": "person",
+    "person": {
+      "email": "matteo.levi@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "13e141e8-8c6f-4035-9255-936aa4a80f10",
+    "name": "Elena Massucco",
+    "avatar_url": "https://lh3.googleusercontent.com/a-/AOh14GiszbTeadLaVh3ky2NoYyRqjgMP9njI3PTkz5F9=s100",
+    "type": "person",
+    "person": {
+      "email": "elena.massucco@innoleaps.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "5fcb57c2-69f7-4a45-8099-3d9dda44a1c5",
+    "name": "Alceo",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "alceo@innoleaps.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "46916739-2213-4db0-99be-cb4067493b9c",
+    "name": "Yosko Greve",
+    "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b7c53308-a7e2-4ac5-acf9-d277143ea728/130298074_2868181906744113_6179532503584888464_o.jpg",
+    "type": "person",
+    "person": {
+      "email": "yosko@innoleaps.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "d5b27eed-2f25-45af-94f2-ef6cf6da52e5",
+    "name": "Pedro Macedo",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "pedro.macedo@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "3850811d-41ba-4161-a764-22c280f8fe40",
+    "name": "DTT",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "davidett@innoleaps.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "2285941e-ee69-45a0-b354-164fcb4a4c90",
+    "name": "Cesare D'Ambrosi",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "cesare.dambrosi@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "4e9b3677-fd63-48c9-bcea-278f577cbbfa",
+    "name": "Julia Shoop",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "julia.shoop@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1fb80fe8-d453-4233-87e4-3db44f8a4fd5",
+    "name": "Lisa Tran",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "lisa@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "5607a525-aac4-4649-8544-2ecfe4f1c81e",
+    "name": "Neelay Satya",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "neelay.satya@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "50395eef-4c36-4d64-a0d9-3cca204b06f6",
+    "name": "Adrian Alexandru",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "adrian.alexandru@innoleaps.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "9fd1d00e-87a1-4518-b887-cf9274522159",
+    "name": "Arianna Maschietto",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "arianna.maschietto@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "b4bc491d-c9d1-478c-ba9f-73cb395179c8",
+    "name": "Billy",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "billy.schur@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "12cb1f56-8c96-40ac-9734-2a36e0703078",
+    "name": "Christine Kam",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "christine@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "fd8a2fcc-5ae6-4a9e-98be-cb0a4dc6d337",
+    "name": "Marc Jellema",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "marc.jellema@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "13bd872b-594c-81ab-8a6a-0002ab6a70df",
+    "name": "Haid",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "haidi.karapici@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "138d872b-594c-8171-90b0-000247f10f72",
+    "name": "Breno Silva",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLTWhFphw2IZCyk9Ei4_3QkkMqWcbeWsM36l8FzwWy9AibNKA=s100",
+    "type": "person",
+    "person": {
+      "email": "breno.silva@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "10cd872b-594c-81aa-be27-000255f725e9",
+    "name": "Francesco Cavallo",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "francesco.cavallo@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "14dd872b-594c-81e9-ac0d-0002f88e674a",
+    "name": "Fernanda Ribeiro Silveira",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "fernanda.silveira@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "15fd872b-594c-8117-9912-00023340ffc5",
+    "name": "Huong Pham",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "huong.pham@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "162d872b-594c-814c-9286-0002bf3092c5",
+    "name": "Yosko Greve",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLiOdoCmf2sl_nPAzeIySQ_RUOSd6bR-duJSB526WThv_9UoCw=s100",
+    "type": "person",
+    "person": {
+      "email": "yosko@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "15ed872b-594c-81df-b29e-0002f56fb88f",
+    "name": "Paul van Schie",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "paul@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "174d872b-594c-812d-a9bc-0002e91767c7",
+    "name": "Angelo Saji",
+    "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/276b0fcc-63b5-470c-a745-830826393d27/1659258195692.jpeg",
+    "type": "person",
+    "person": {
+      "email": "angelo.saji@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "179d872b-594c-8163-8e40-00027db6374f",
+    "name": "Howard",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "howard@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "17ad872b-594c-81c3-8129-0002d45fca20",
+    "name": "Monika Błaszczyk",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "monika.blaszczyk@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "fd9a13ea-b17e-46c0-8c50-2fad092ba56f",
+    "name": "Zoe Heed",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "zoe.heed@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "120d872b-594c-818b-a1e7-0002981297e2",
+    "name": "Berenice Di Matto",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocL5boSM3OfmJNsRu0EeSY4cGrDBERFlXn8TAhxA5GiUZbExmBA=s100",
+    "type": "person",
+    "person": {
+      "email": "berenice@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "185d872b-594c-81c9-b180-0002268aee99",
+    "name": "Max Bolland",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "max.bolland@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "152d872b-594c-81cd-8297-0002335711c3",
+    "name": "stuart@startupbootcamp.com.au",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "stuart@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "dfd4d672-6cd2-4b3b-9341-a29f2ecb9f0e",
+    "name": "Glenda",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "glenda.pizzi@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "19ed872b-594c-81ac-98a3-0002855dcc2a",
+    "name": "Umberto Botto Poala",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "umberto.bottopoala@startupbootcamp.org"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1a8d872b-594c-81e6-91ab-00029a9316ac",
+    "name": "Charlotte Finlay",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocJZhR-R-vwWT72sQo6V3PNbMF2_qVJIJhio-FA5yQvEqJwACw=s100",
+    "type": "person",
+    "person": {
+      "email": "charlotte@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1acd872b-594c-81ea-a235-00026ba2a5c1",
+    "name": "Lylian Preud'homme",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "lylian@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1b3d872b-594c-812e-8f16-0002842e7984",
+    "name": "Chi Nguyen",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIswQ1ryXcjPvRSh7QxMKNaIMeqbz3b27yNo5g7IRgsoh32DQ=s100",
+    "type": "person",
+    "person": {
+      "email": "chi.nguyen@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1bcd872b-594c-81bd-83f4-0002f625fab2",
+    "name": "Chamod Hewawaduge",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocL7-V20iRZNn1F25HdqUrEneEGOcp5Fk1wjNyG8XZbEGgt9vg=s100",
+    "type": "person",
+    "person": {
+      "email": "chamod.hewawaduge@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "0d960183-a9cb-4b9d-bd1f-56afed9c1544",
+    "name": "Augusto Maciel",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "augustomaciel.dm@gmail.com"
+    }
+  },
+  {
+    "object": "user",
+    "id": "137d872b-594c-815b-be75-00027fd5a267",
+    "name": "Star",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "strakbari@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1dfd872b-594c-81eb-b428-0002abc71c99",
+    "name": "Grant",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "grant@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1e7d872b-594c-81f3-8696-00028dcc111a",
+    "name": "Jag Martin",
+    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocLn81aaL8NgA-2HEnOS4nev3E6HpHnY1SV2ssDYp5KuDKBJjw=s100",
+    "type": "person",
+    "person": {
+      "email": "jag@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "1efd872b-594c-8164-afd6-0002dff323a4",
+    "name": "Thomas Wearne",
+    "avatar_url": null,
+    "type": "person",
+    "person": {
+      "email": "tom.wearne@startupbootcamp.com.au"
+    }
+  },
+  {
+    "object": "user",
+    "id": "705cf697-ed96-46d9-89e5-3addf76e92a4",
+    "name": "Startupbootcamp",
+    "avatar_url": null,
+    "type": "bot",
+    "bot": {
+      "owner": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "workspace_name": "Startupbootcamp Global"
+    }
+  }
+]

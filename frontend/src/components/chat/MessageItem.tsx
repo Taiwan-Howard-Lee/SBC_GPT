@@ -3,6 +3,9 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import rehypeSanitize from 'rehype-sanitize';
 import remarkGfm from 'remark-gfm';
+import { useSpeechSynthesis } from '../../hooks/useSpeechSynthesis';
+import { extractPlainTextFromMarkdown } from '../../utils/textUtils';
+import { useTTSContext } from '../../contexts/TTSContext';
 import './MessageItem.css';
 import './markdown.css';
 
@@ -24,6 +27,18 @@ const MessageItem: React.FC<MessageItemProps> = ({
   agentAvatar
 }) => {
   const formattedTime = timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  const { speechParams, isSupported: contextSupported } = useTTSContext();
+
+  // Extract plain text from markdown content for speech
+  const plainText = extractPlainTextFromMarkdown(content);
+
+  // Use our custom speech synthesis hook with parameters from context
+  // No auto-speaking - only manual
+  const { isSpeaking, isSupported, toggle } = useSpeechSynthesis({
+    text: plainText,
+    autoSpeak: false, // Disable auto-speaking completely
+    speechParams: speechParams
+  });
 
   return (
     <div className={`message-item ${type === 'user' ? 'message-user' : 'message-agent'}`}>
@@ -55,8 +70,23 @@ const MessageItem: React.FC<MessageItemProps> = ({
             </ReactMarkdown>
           </div>
         </div>
-        <div className="message-timestamp">
-          {formattedTime}
+
+        <div className="message-footer">
+          <div className="message-timestamp">
+            {formattedTime}
+          </div>
+
+          {/* Text-to-Speech button - only show if supported */}
+          {isSupported && (
+            <button
+              className={`tts-button ${isSpeaking ? 'speaking' : ''}`}
+              onClick={toggle}
+              title={isSpeaking ? "Stop speaking" : "Listen to this message"}
+              aria-label={isSpeaking ? "Stop speaking" : "Listen to this message"}
+            >
+              <i className={`fas ${isSpeaking ? 'fa-volume-up' : 'fa-volume-off'}`}></i>
+            </button>
+          )}
         </div>
 
         {type === 'agent' && (

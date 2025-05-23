@@ -2,15 +2,16 @@
  * Notion Agent
  *
  * This agent handles queries related to Notion content.
- * It uses the Notion cache to search and retrieve information,
- * and Gemini to make decisions about content processing.
+ * It uses a structured approach to search and retrieve information,
+ * with a two-stage retrieval process for better user experience.
  */
 const BaseAgent = require('./baseAgent');
 const notionApi = require('../integrations/notion/api');
 const notionUtils = require('../integrations/notion/utils');
 const notionCache = require('../integrations/notion/cache');
+const adaptiveStructure = require('../integrations/notion/adaptiveStructure');
+const twoStageRetrieval = require('../integrations/notion/twoStageRetrieval');
 const { processMessage } = require('../services/geminiService');
-const { genAI, modelName } = require('../config/gemini');
 
 class NotionAgent extends BaseAgent {
   constructor() {
@@ -32,31 +33,40 @@ class NotionAgent extends BaseAgent {
       console.log('No Notion database IDs configured. Will search all accessible content.');
     }
 
-    // Initialize the Notion cache
-    this.initializeCache();
+    // Initialize the Notion components
+    this.initializeComponents();
+
+    // Flag to track if we're in two-stage mode
+    this.twoStageMode = false;
+    this.pendingSources = [];
   }
 
   /**
-   * Initialize the Notion cache
+   * Initialize the Notion components
    */
-  async initializeCache() {
+  async initializeComponents() {
     if (this.isConfigured) {
       try {
-        // Check if cache is already initialized or being loaded
-        if (notionCache.isInitialized) {
-          console.log('Notion cache is already initialized');
-          return;
+        // Initialize the cache if needed
+        if (!notionCache.isInitialized && !notionCache.isLoading) {
+          console.log('Notion cache will be initialized by the server.');
         }
 
-        if (notionCache.isLoading) {
-          console.log('Notion cache is already being loaded, skipping agent initialization');
-          return;
+        // Initialize the adaptive structure
+        if (!adaptiveStructure.initialized) {
+          console.log('Initializing adaptive structure...');
+          await adaptiveStructure.initialize();
         }
 
-        // The server will handle cache initialization with a delay
-        console.log('Notion agent is ready. Cache will be initialized by the server.');
+        // Initialize the two-stage retrieval
+        if (!twoStageRetrieval.initialized) {
+          console.log('Initializing two-stage retrieval...');
+          await twoStageRetrieval.initialize();
+        }
+
+        console.log('Notion agent components initialized successfully.');
       } catch (error) {
-        console.error('Error checking Notion cache status:', error);
+        console.error('Error initializing Notion components:', error);
       }
     }
   }
@@ -64,17 +74,35 @@ class NotionAgent extends BaseAgent {
   /**
    * Check if this agent can handle a specific query
    * @param {string} query - The query from the central router
-   * @param {Object} context - Additional context
    * @returns {Promise<boolean>} - Whether this agent can handle the query
    */
-  async canHandle(query, context = {}) {
+  async canHandle(query) {
     if (!this.isConfigured || !this.isActive) {
       return false;
     }
 
+    // If we're in two-stage mode and this is a follow-up query for details,
+    // we should definitely handle it
+    if (this.twoStageMode) {
+      // Check if this is a request for details about a specific source
+      if (query.startsWith('get_details:') ||
+          query.toLowerCase().includes('tell me more about source') ||
+          query.toLowerCase().includes('more details about') ||
+          query.toLowerCase().includes('more information on')) {
+        return true;
+      }
+
+      // Check if any of our pending sources are mentioned
+      for (const source of this.pendingSources) {
+        if (query.toLowerCase().includes(source.title.toLowerCase())) {
+          return true;
+        }
+      }
+    }
+
     // This agent can handle queries related to Notion content
     // We'll use a simple keyword check for now
-    const notionKeywords = ['notion', 'document', 'page', 'database', 'knowledge base', 'kb', 'wiki'];
+    const notionKeywords = ['notion', 'document', 'page', 'database', 'knowledge base', 'kb', 'wiki', 'information', 'docs'];
     const queryLower = query.toLowerCase();
 
     // Check if the query contains any Notion-related keywords
@@ -91,10 +119,9 @@ class NotionAgent extends BaseAgent {
   /**
    * Process a query and return a response
    * @param {string} query - The query from the central router
-   * @param {Object} context - Additional context including the original user query
    * @returns {Promise<Object>} - The agent's response
    */
-  async processQuery(query, context = {}) {
+  async processQuery(query) {
     if (!this.isConfigured) {
       return {
         success: false,
@@ -105,101 +132,119 @@ class NotionAgent extends BaseAgent {
     try {
       console.log(`Notion agent processing query: "${query}"`);
 
-      // The query has already been refined by the central router
-      // We can use it directly or further refine it for Notion-specific search
+      // Check if we're in two-stage mode and this is a follow-up query
+      if (this.twoStageMode) {
+        let sourceId = null;
 
+        // Check for explicit get_details command
+        if (query.startsWith('get_details:')) {
+          sourceId = query.replace('get_details:', '').trim();
+        }
+        // Check for natural language requests for more details
+        else if (query.toLowerCase().includes('tell me more about source') ||
+                 query.toLowerCase().includes('more details about') ||
+                 query.toLowerCase().includes('more information on')) {
+
+          // Try to extract a source number (e.g., "Tell me more about Source 1")
+          const sourceNumberMatch = query.match(/source\s+(\d+)/i) ||
+                                   query.match(/(\d+)/);
+
+          if (sourceNumberMatch) {
+            const sourceIndex = parseInt(sourceNumberMatch[1], 10) - 1;
+            if (sourceIndex >= 0 && sourceIndex < this.pendingSources.length) {
+              sourceId = this.pendingSources[sourceIndex].id;
+            }
+          } else {
+            // Try to match by title
+            for (const source of this.pendingSources) {
+              if (query.toLowerCase().includes(source.title.toLowerCase())) {
+                sourceId = source.id;
+                break;
+              }
+            }
+          }
+        }
+
+        // Find the source in our pending sources
+        const source = this.pendingSources.find(s => s.id === sourceId);
+
+        if (!source) {
+          return {
+            success: false,
+            message: `I couldn't find the requested information. Please try asking your question again.`
+          };
+        }
+
+        // Get detailed content for this source
+        console.log(`Getting detailed content for source: ${source.title} (${sourceId})`);
+        const detailedContent = await twoStageRetrieval.getDetailedContent(sourceId, query);
+
+        // Format the response
+        const response = await this.formatDetailedResponse(detailedContent);
+
+        // Reset two-stage mode
+        this.twoStageMode = false;
+        this.pendingSources = [];
+
+        return {
+          success: true,
+          message: response,
+          data: {
+            content: detailedContent,
+            usedFullContent: true
+          }
+        };
+      }
+
+      // Normal query processing (first stage)
       // Step 1: Use LLM to extract search terms from the query
       const searchTerms = await this.extractSearchTerms(query);
       console.log(`Extracted search terms: "${searchTerms}"`);
 
-      // Step 2: Perform initial search to get titles only
-      const searchResults = await this.performSearch(searchTerms);
-      console.log(`Found ${searchResults.length} initial results in Notion`);
+      // Step 2: Make sure two-stage retrieval is initialized
+      if (!twoStageRetrieval.initialized) {
+        console.log('Two-stage retrieval not initialized, initializing now...');
+        await twoStageRetrieval.initialize();
+      }
 
-      if (searchResults.length === 0) {
+      // Find potential sources using two-stage retrieval
+      const potentialSources = await twoStageRetrieval.findPotentialSources(query);
+      console.log(`Found ${potentialSources.length} potential sources`);
+
+      if (potentialSources.length === 0) {
+        console.log(`No potential sources found for query: "${query}"`);
         return {
           success: false,
-          message: `I couldn't find any information about "${searchTerms}" in Notion.`
-        };
-      }
-
-      // Step 3: Use LLM to decide which result(s) to explore further
-      const relevantResults = await this.identifyRelevantResults(searchResults, query);
-      console.log(`Identified ${relevantResults.length} relevant results`);
-
-      if (relevantResults.length === 0) {
-        return {
-          success: false,
-          message: `I found some results for "${searchTerms}" in Notion, but none seem relevant to your query.`
-        };
-      }
-
-      // Step 4: Evaluate if the titles are sufficient to answer the query
-      const shouldRetrieveContent = await this.shouldRetrieveContent(relevantResults, query);
-
-      let contentData;
-      if (shouldRetrieveContent) {
-        // Step 5a: Retrieve full content for multiple relevant results
-        // Determine how many results to retrieve content for (at least 1, at most 3)
-        const numResultsToRetrieve = Math.min(relevantResults.length, 3);
-        console.log(`Retrieving content for ${numResultsToRetrieve} relevant results`);
-
-        // Retrieve content for the primary result
-        contentData = await this.retrieveContent(relevantResults[0], query);
-        console.log(`Retrieved full content for primary result: "${contentData.title}"`);
-
-        // If there are additional relevant results, retrieve their content too
-        if (numResultsToRetrieve > 1) {
-          const additionalContents = [];
-
-          // Retrieve content for additional results
-          for (let i = 1; i < numResultsToRetrieve; i++) {
-            try {
-              const additionalContent = await this.retrieveContent(relevantResults[i], query);
-              console.log(`Retrieved additional content for: "${additionalContent.title}"`);
-              additionalContents.push(additionalContent);
-            } catch (error) {
-              console.error(`Error retrieving additional content for result ${i}:`, error);
-            }
+          message: `I couldn't find any information about "${searchTerms}" in our knowledge base.`,
+          data: {
+            searchTerms,
+            query
           }
-
-          // Add additional content to the primary content data
-          if (additionalContents.length > 0) {
-            contentData.additionalContents = additionalContents;
-
-            // Append a summary of additional content to the main content
-            contentData.content += '\n\n--- Additional Related Content ---\n';
-            for (const additional of additionalContents) {
-              contentData.content += `\n\n## ${additional.title}\n${additional.content.substring(0, 500)}${additional.content.length > 500 ? '...' : ''}`;
-            }
-          }
-        }
-      } else {
-        // Step 5b: Use just the titles and basic info
-        contentData = {
-          id: relevantResults[0].id,
-          type: relevantResults[0].type,
-          title: relevantResults[0].title,
-          url: relevantResults[0].url,
-          content: `This is a ${relevantResults[0].type} titled "${relevantResults[0].title}".`
         };
-        console.log(`Using title-only information for "${contentData.title}"`);
       }
 
-      // Step 6: Format the response using LLM
-      const response = await this.formatResponse(query, contentData, relevantResults, shouldRetrieveContent);
+      // Save the potential sources for the second stage
+      this.twoStageMode = true;
+      this.pendingSources = potentialSources;
+
+      // Format the initial response with potential sources
+      const response = await this.formatInitialResponse(query, potentialSources);
 
       return {
         success: true,
         message: response,
         data: {
-          results: relevantResults,
-          content: contentData,
-          usedFullContent: shouldRetrieveContent
+          potentialSources,
+          twoStageMode: true
         }
       };
     } catch (error) {
       console.error('Error in Notion agent:', error);
+
+      // Reset two-stage mode on error
+      this.twoStageMode = false;
+      this.pendingSources = [];
+
       return {
         success: false,
         message: `Error processing your query: ${error.message}`
@@ -387,10 +432,9 @@ Which of these results are most relevant to the query? Return ONLY the numbers o
   /**
    * Retrieve content for a specific result
    * @param {Object} result - Search result
-   * @param {string} query - Original query
    * @returns {Promise<Object>} - Content data
    */
-  async retrieveContent(result, query) {
+  async retrieveContent(result) {
     try {
       // First try using the cache if it's initialized
       if (notionCache.isInitialized) {
@@ -413,11 +457,8 @@ Which of these results are most relevant to the query? Return ONLY the numbers o
 
       if (result.type === 'page') {
         // Get page content with deeper traversal
-        const pageStructure = await this.traversePageContent(result.id, 0, 5); // Increased max depth to 5 levels
-        contentData.structure = pageStructure;
-
-        // Extract all text content from the structure
-        contentData.content = this.extractContentFromStructure(pageStructure);
+        const blocks = await twoStageRetrieval.getPageBlocksRecursively(result.id, 3);
+        contentData.content = twoStageRetrieval.extractTextFromBlocks(blocks);
 
         // If the content is empty or very short, try to get more information from properties
         if (!contentData.content || contentData.content.length < 100) {
@@ -489,8 +530,8 @@ Which of these results are most relevant to the query? Return ONLY the numbers o
 
           try {
             // Get the page content for this database item with increased depth
-            const itemStructure = await this.traversePageContent(item.id, 0, 4); // Increased max depth to 4 for DB items
-            const itemContent = this.extractContentFromStructure(itemStructure);
+            const blocks = await twoStageRetrieval.getPageBlocksRecursively(item.id, 3);
+            const itemContent = twoStageRetrieval.extractTextFromBlocks(blocks);
 
             if (itemContent) {
               detailedItems.push({
@@ -679,40 +720,99 @@ Do these titles CLEARLY AND DEFINITELY contain the answer to the query without n
   }
 
   /**
-   * Format the final response using LLM
+   * Format the initial response with potential sources
    * @param {string} query - Original query
-   * @param {Object} contentData - Content data
-   * @param {Array} relevantResults - All relevant results
-   * @param {boolean} usedFullContent - Whether full content was retrieved
+   * @param {Array} potentialSources - Potential sources
    * @returns {Promise<string>} - Formatted response
    */
-  async formatResponse(query, contentData, relevantResults, usedFullContent) {
+  async formatInitialResponse(query, potentialSources) {
+    try {
+      // Prepare sources for the LLM
+      const formattedSources = potentialSources.map((source, index) => {
+        return `${index + 1}. ${source.title} (${source.path})\n   Preview: ${source.preview}`;
+      }).join('\n\n');
+
+      const prompt = [
+        {
+          role: 'system',
+          content: `You are a professional, efficient executive assistant named SBC Assistant working at SBC Australia, a global leading startup accelerator.
+
+          IDENTITY:
+          - You ARE an employee of SBC Australia
+          - You are speaking as a representative of SBC Australia
+          - You should use "we", "our", and "us" when referring to SBC Australia
+          - You have been with the company for several years and are knowledgeable about its operations
+          - You are proud to be part of the SBC Australia team
+
+          YOUR TASK:
+          You will be given a user query and a list of potential information sources from our knowledge base.
+          Your task is to present these sources to the user in a helpful way, explaining that they can ask for more details about any specific source.
+
+          FORMAT YOUR RESPONSE AS FOLLOWS:
+          1. Brief introduction acknowledging the query
+          2. Present the potential sources with their previews
+          3. Ask if the user would like more detailed information about any specific source
+
+          IMPORTANT INSTRUCTIONS:
+          - For each source, include a command the user can type to get more details
+          - The command should be in the format: "Tell me more about Source X" or similar
+          - Make it clear that the user needs to specify which source they want details about
+          - Be professional, helpful, and concise
+          - Do NOT make up information - stick to what's in the previews
+          - Do NOT claim to have detailed information yet - you're just showing potential sources`
+        },
+        {
+          role: 'user',
+          content: `Query: "${query}"
+
+Potential sources:
+${formattedSources}
+
+Please format a helpful response that presents these sources and explains how the user can get more detailed information.`
+        }
+      ];
+
+      const response = await processMessage(prompt);
+      return response.content;
+    } catch (error) {
+      console.error('Error formatting initial response:', error);
+
+      // Fallback to a simple response
+      const sourcesList = potentialSources.map((source, index) =>
+        `${index + 1}. ${source.title}`
+      ).join('\n');
+
+      return `I found some information that might help answer your question. Here are some potential sources:\n\n${sourcesList}\n\nLet me know which one you'd like to explore in more detail.`;
+    }
+  }
+
+  /**
+   * Format the detailed response for a specific source
+   * @param {Object} detailedContent - Detailed content
+   * @returns {Promise<string>} - Formatted response
+   */
+  async formatDetailedResponse(detailedContent) {
     try {
       // Prepare content for the LLM
-      let content = `Title: ${contentData.title}\n\n${contentData.content}`;
+      let content = `Title: ${detailedContent.title}\nPath: ${detailedContent.path}\nType: ${detailedContent.documentType}\n\n${detailedContent.content}`;
 
       // Limit content length to avoid token limits
       if (content.length > 4000) {
         content = content.substring(0, 4000) + '... (content truncated)';
       }
 
-      // Prepare other results
-      let otherResults = '';
-      if (relevantResults.length > 1) {
-        otherResults = 'Other relevant pages:\n' + relevantResults.slice(1, 4).map((result, index) => {
-          return `${index + 1}. ${result.title} (${result.type})`;
+      // Prepare related pages
+      let relatedPages = '';
+      if (detailedContent.relatedPages && detailedContent.relatedPages.length > 0) {
+        relatedPages = 'Related pages:\n' + detailedContent.relatedPages.map((page, index) => {
+          return `${index + 1}. ${page.title}`;
         }).join('\n');
       }
 
-      const systemPrompt = usedFullContent
-        ? `You are a professional, efficient executive assistant named SBC Assistant working at SBC Australia, a global leading startup accelerator.
-
-           IDENTITY:
-           - You ARE an employee of SBC Australia
-           - You are speaking as a representative of SBC Australia
-           - You should use "we", "our", and "us" when referring to SBC Australia
-           - You have been with the company for several years and are knowledgeable about its operations
-           - You are proud to be part of the SBC Australia team
+      const detailedPrompt = [
+        {
+          role: 'system',
+          content: `You are a professional, efficient executive assistant named SBC Assistant working at SBC Australia, a global leading startup accelerator.
 
            COMPANY INFORMATION:
            - SBC Australia is NOT the same as SBS (Special Broadcasting Service)
@@ -744,66 +844,25 @@ Do these titles CLEARLY AND DEFINITELY contain the answer to the query without n
            - Be direct and to the point
            - NEVER confuse SBC Australia with SBS (Special Broadcasting Service)
 
-           You will be given content from a Notion page and a user's query.
-           Extract the relevant information that directly answers the query.`
-        : `You are a professional, efficient executive assistant named SBC Assistant working at SBC Australia, a global leading startup accelerator.
-
-           IDENTITY:
-           - You ARE an employee of SBC Australia
-           - You are speaking as a representative of SBC Australia
-           - You should use "we", "our", and "us" when referring to SBC Australia
-           - You have been with the company for several years and are knowledgeable about its operations
-           - You are proud to be part of the SBC Australia team
-
-           COMPANY INFORMATION:
-           - SBC Australia is NOT the same as SBS (Special Broadcasting Service)
-           - SBC Australia is a global leading startup accelerator
-           - We help startups scale globally through mentorship, funding, and strategic connections
-           - If you receive information about SBS Australia (broadcasting), IGNORE it completely
-           - If asked about our vision and mission, our vision is to be the world's premier startup accelerator
-           - Our mission is to empower innovative startups to transform industries and create global impact
-
-           TONE AND STYLE:
-           - Professional and confident
-           - Clear and straightforward
-           - Concise without sacrificing clarity
-           - Focused on delivering accurate information
-
-           RESPONSE FORMAT:
-           - Begin with a direct statement about what documents exist
-           - Present document titles in a clean, organized manner
-           - Maintain a professional tone throughout
-           - Always respond as if you are part of SBC Australia ("we", "our", "us")
-
-           GUIDELINES:
-           - Never mention that you're processing information from Notion or any other source
-           - Present the information as if it's your own company knowledge
-           - Never use phrases like "Based on the information available" or "I can tell you that"
-           - Use simple, clear language
-           - Focus on accuracy and relevance
-           - Be direct and to the point
-           - NEVER confuse SBC Australia with SBS (Special Broadcasting Service)`;
-
-      const prompt = [
-        {
-          role: 'system',
-          content: systemPrompt
+           You will be given content from a document and related information.
+           Extract the relevant information that directly answers the user's query.`
         },
         {
           role: 'user',
-          content: `Query: "${query}"\n\n${usedFullContent ? 'Content' : 'Titles'} from Notion:\n${content}\n\n${otherResults}\n\nProvide a professional, clear response to the query. Be concise while ensuring the information is complete and accurate. Focus on delivering the most relevant information in a straightforward manner.`
+          content: `Content: ${content}\n\n${relatedPages}\n\nProvide a professional, clear response based on this information. Be concise while ensuring the information is complete and accurate. Focus on delivering the most relevant information in a straightforward manner.`
         }
       ];
 
-      const response = await processMessage(prompt);
+      const response = await processMessage(detailedPrompt);
       return response.content;
     } catch (error) {
-      console.error('Error formatting response:', error);
+      console.error('Error formatting detailed response:', error);
 
       // Fallback to a simple response
-      return `I found information about "${contentData.title}" in Notion, but encountered an error formatting the response. You can view the page directly at ${contentData.url}.`;
+      return `I found detailed information about "${detailedContent.title}", but encountered an error formatting the response. You can view the page directly at ${detailedContent.url}.`;
     }
   }
 }
 
+// Export the NotionAgent class
 module.exports = NotionAgent;
